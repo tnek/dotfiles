@@ -1,0 +1,72 @@
+sw_volume: 50
+audio_device_state:1:HDA Intel
+audio_device_state:1:my_fifo
+state: play
+current: 20
+time: 407
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: nan
+playlist_begin
+0:Crippled Black Phoenix/I, Vigilante/01.Troublemaker.mp3
+1:Crippled Black Phoenix/I, Vigilante/02.We Forgotten Who We Are.mp3
+2:Crippled Black Phoenix/I, Vigilante/03.Fantastic Justice.mp3
+3:Crippled Black Phoenix/I, Vigilante/04.Bastogne Blues.mp3
+4:Crippled Black Phoenix/I, Vigilante/05.Of A Lifetime.mp3
+5:Crippled Black Phoenix/I, Vigilante/06.Burning Bridges.mp3
+6:Explosions In The Sky/The Earth Is Not a Cold Dead Place/01 - First Breath After Coma.flac
+7:Explosions In The Sky/The Earth Is Not a Cold Dead Place/02 - The Only Moment We Were Alone.flac
+8:Explosions In The Sky/The Earth Is Not a Cold Dead Place/03 - Six Days at the Bottom of the Ocean.flac
+9:Explosions In The Sky/The Earth Is Not a Cold Dead Place/04 - Memorial.flac
+10:Explosions In The Sky/The Earth Is Not a Cold Dead Place/05 - Your Hand In Mine.flac
+11:king_crimson-in_the_court_of_the_crimson_king-1969/01-21st_century_schizoid_man.flac
+12:king_crimson-in_the_court_of_the_crimson_king-1969/02-i_talk_to_the_wind.flac
+13:king_crimson-in_the_court_of_the_crimson_king-1969/03-epitaph.flac
+14:king_crimson-in_the_court_of_the_crimson_king-1969/04-moonchild.flac
+15:king_crimson-in_the_court_of_the_crimson_king-1969/05-the_court_of_the_crimson_song.flac
+16:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/01. Red.flac
+17:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/02. Fallen Angel.flac
+18:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/03. One More Red Nightmare.flac
+19:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/04. Providence.flac
+20:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/05. Starless.flac
+21:Philip Wesley/Dark Night of the Soul [2008]/01 Tears of the East.flac
+22:Philip Wesley/Dark Night of the Soul [2008]/02 Racing Against the Sunset.flac
+23:Philip Wesley/Dark Night of the Soul [2008]/03 The Approaching Night.flac
+24:Philip Wesley/Dark Night of the Soul [2008]/04 Darkness Falls.flac
+25:Philip Wesley/Dark Night of the Soul [2008]/05 Dark Night of the Soul.flac
+26:Philip Wesley/Dark Night of the Soul [2008]/06 Soul's Lament.flac
+27:Philip Wesley/Dark Night of the Soul [2008]/07 Far and Away.flac
+28:Philip Wesley/Dark Night of the Soul [2008]/08 Lamentations of the Heart.flac
+29:Philip Wesley/Dark Night of the Soul [2008]/09 Light and Shadow.flac
+30:Philip Wesley/Dark Night of the Soul [2008]/10 Into the Light.flac
+31:Philip Wesley/Dark Night of the Soul [2008]/11 New Day.flac
+32:Philip Wesley/Dark Night of the Soul [2008]/12 Two Souls.flac
+33:Rise Against Discography/(2008) Appeal To Reason/01 Rise Against - Collapse (Post Amerika).flac
+34:Rise Against Discography/(2008) Appeal To Reason/02 Rise Against - Long Forgotten Sons.flac
+35:Rise Against Discography/(2008) Appeal To Reason/03 Rise Against - Re-Education (Through Labor).flac
+36:Rise Against Discography/(2008) Appeal To Reason/04 Rise Against - The Dirt Whispered.flac
+37:Rise Against Discography/(2008) Appeal To Reason/05 Rise Against - Kotov Syndrome.flac
+38:Rise Against Discography/(2008) Appeal To Reason/06 Rise Against - From Heads Unworthy.flac
+39:Rise Against Discography/(2008) Appeal To Reason/07 Rise Against - The Strength To Go On.flac
+40:Rise Against Discography/(2008) Appeal To Reason/08 Rise Against - Audience Of One.flac
+41:Rise Against Discography/(2008) Appeal To Reason/09 Rise Against - Entertainment.flac
+42:Rise Against Discography/(2008) Appeal To Reason/10 Rise Against - Hero Of War.flac
+43:Rise Against Discography/(2008) Appeal To Reason/11 Rise Against - Savior.flac
+44:Rise Against Discography/(2008) Appeal To Reason/12 Rise Against - Hairline Fracture.flac
+45:Rise Against Discography/(2008) Appeal To Reason/13 Rise Against - Whereabouts Unknown.flac
+46:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/01 Architects.flac
+47:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/02 Help is On the Way.flac
+48:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/03 Make It Stop (September's Children).flac
+49:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/04 Disparity By Design.flac
+50:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/05 Satellite.flac
+51:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/06 Midnight Hands.flac
+52:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/08 Broken Mirrors.flac
+53:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/09 Wait For Me.flac
+54:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/10 A Gentlemen's Coup.flac
+55:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/11 This is Letting Go.flac
+56:Rise Against/Rise Against - Endgame (2011) [FLAC] politux/12 Endgame.flac
+playlist_end
