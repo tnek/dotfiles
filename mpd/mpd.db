@@ -1,0 +1,5207 @@
+info_begin
+format: 1
+mpd_version: 0.16.7
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: 1980 - Alan Parsons Project - The Turn of a Friendly Card[2008 remaster]{flac}
+mtime: 1327439352
+begin: 1980 - Alan Parsons Project - The Turn of a Friendly Card[2008 remaster]{flac}
+song_begin: 01 May Be A Price To Pay.mp3
+Time: 300
+Artist: The Alan Parsons Project
+Title: May Be A Price To Pay
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 1
+mtime: 1327439062
+song_end
+song_begin: 02 Games People Play.mp3
+Time: 264
+Artist: The Alan Parsons Project
+Title: Games People Play
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 2
+mtime: 1327439351
+song_end
+song_begin: 03 Time.mp3
+Time: 316
+Artist: The Alan Parsons Project
+Title: Time
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 3
+mtime: 1327439197
+song_end
+song_begin: 04 I Don't Wanna Go Home.mp3
+Time: 292
+Artist: The Alan Parsons Project
+Title: I Don't Wanna Go Home
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 4
+mtime: 1327439332
+song_end
+song_begin: 05 The Gold Bug.mp3
+Time: 274
+Artist: The Alan Parsons Project
+Title: The Gold Bug
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 5
+mtime: 1327439343
+song_end
+song_begin: 06 The Turn Of A Friendly Card (Part One).mp3
+Time: 165
+Artist: The Alan Parsons Project
+Title: The Turn Of A Friendly Card
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 06
+mtime: 1327541673
+song_end
+song_begin: 07 Snake Eyes.mp3
+Time: 196
+Artist: The Alan Parsons Project
+Title: Snake Eyes
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 7
+mtime: 1327439044
+song_end
+song_begin: 08 The Ace Of Swords.mp3
+Time: 178
+Artist: The Alan Parsons Project
+Title: The Ace Of Swords
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 8
+mtime: 1327438992
+song_end
+song_begin: 09 Nothing Left To Lose.mp3
+Time: 248
+Artist: The Alan Parsons Project
+Title: Nothing Left To Lose
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 9
+mtime: 1327439291
+song_end
+song_begin: 10 The Turn Of A Friendly Card (Part Two).mp3
+Time: 202
+Artist: The Alan Parsons Project
+Title: The Turn Of A Friendly Card (Part two)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 10
+mtime: 1327439339
+song_end
+song_begin: 11 May Be A Price To Pay (Intro - Demo).mp3
+Time: 100
+Artist: The Alan Parsons Project
+Title: May Be A Price To Pay (Intro - demo)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 11
+mtime: 1327438973
+song_end
+song_begin: 12 Nothing Left To Lose (Basic Backing Track).mp3
+Time: 276
+Artist: The Alan Parsons Project
+Title: Nothing Left To Lose (Basic Backing track)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 12
+mtime: 1327439327
+song_end
+song_begin: 13 Nothing Left To Lose (Chris Rainbow Vocal Overdub Combilation).mp3
+Time: 123
+Artist: The Alan Parsons Project
+Title: Nothing Left To Lose (Chris Rainbow vocal, overdub compilation)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 13
+mtime: 1327373103
+song_end
+song_begin: 14 Nothing Left To Lose (Early Studio Version With Eric's Guide Vocal).mp3
+Time: 192
+Artist: The Alan Parsons Project
+Title: Nothing Left To Lose (Early Studio version with Eric's guide vocal)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 14
+mtime: 1327439148
+song_end
+song_begin: 15 Time (Early Studio Attempt).mp3
+Time: 283
+Artist: The Alan Parsons Project
+Title: Time (Early Studio Attempt)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 15
+mtime: 1327439325
+song_end
+song_begin: 16 Games People Play (Rough Mix).mp3
+Time: 273
+Artist: The Alan Parsons Project
+Title: Games People Play (Rough Mix)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 16
+mtime: 1327439083
+song_end
+song_begin: 17 The Gold Bug (Demo).mp3
+Time: 172
+Artist: The Alan Parsons Project
+Title: The Gold Bug (Demo)
+Album: The Turn Of A Friendly Card (Expanded)
+Track: 17
+mtime: 1327439172
+song_end
+end: 1980 - Alan Parsons Project - The Turn of a Friendly Card[2008 remaster]{flac}
+directory: Art Blakey's Big Band
+mtime: 1325706980
+begin: Art Blakey's Big Band
+song_begin: 01 Art Blakey - Midriff.mp3
+Time: 205
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: Midriff
+Album: Art Blakey's Big Band
+Track: 1/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706918
+song_end
+song_begin: 02 Art Blakey - Ain't Life Grand.mp3
+Time: 206
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: Ain't Life Grand
+Album: Art Blakey's Big Band
+Track: 2/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706938
+song_end
+song_begin: 03 Art Blakey - Tipin'.mp3
+Time: 425
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: Tipin'
+Album: Art Blakey's Big Band
+Track: 3/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706952
+song_end
+song_begin: 04 Art Blakey - Pristine.mp3
+Time: 342
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: Pristine
+Album: Art Blakey's Big Band
+Track: 4/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706958
+song_end
+song_begin: 05 Art Blakey - El Toro Valiente.mp3
+Time: 169
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: El Toro Valiente
+Album: Art Blakey's Big Band
+Track: 5/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706972
+song_end
+song_begin: 06 Art Blakey - The Kiss of No Return.mp3
+Time: 343
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: The Kiss of No Return
+Album: Art Blakey's Big Band
+Track: 6/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706980
+song_end
+song_begin: 07 Art Blakey - Late Date.mp3
+Time: 221
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: Late Date
+Album: Art Blakey's Big Band
+Track: 7/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706988
+song_end
+song_begin: 08 Art Blakey - The Outer World.mp3
+Time: 256
+Artist: Art Blakey
+AlbumArtist: Art Blakey
+Title: The Outer World
+Album: Art Blakey's Big Band
+Track: 8/15
+Date: 1957
+Genre: Jazz
+Disc: 1/1
+mtime: 1325706988
+song_end
+end: Art Blakey's Big Band
+directory: Coldplay
+mtime: 1329523106
+begin: Coldplay
+directory: Mylo Xyloto
+mtime: 1329523122
+begin: Coldplay/Mylo Xyloto
+song_begin: 01_-_Mylo_Xyloto.flac
+Time: 44
+Artist: Coldplay
+Title: Mylo Xyloto
+Album: Mylo Xyloto
+Date: 2011
+Track: 01
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518261
+song_end
+song_begin: 02_-_Hurts_Like_Heaven.flac
+Time: 243
+Artist: Coldplay
+Title: Hurts Like Heaven
+Album: Mylo Xyloto
+Date: 2011
+Track: 02
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518286
+song_end
+song_begin: 03_-_Paradise.flac
+Time: 278
+Artist: Coldplay
+Title: Paradise
+Album: Mylo Xyloto
+Date: 2011
+Track: 03
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518297
+song_end
+song_begin: 04_-_Charlie_Brown.flac
+Time: 286
+Artist: Coldplay
+Title: Charlie Brown
+Album: Mylo Xyloto
+Date: 2011
+Track: 04
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518293
+song_end
+song_begin: 05_-_Us_Against_The_World.flac
+Time: 240
+Artist: Coldplay
+Title: Us Against The World
+Album: Mylo Xyloto
+Date: 2011
+Track: 05
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518277
+song_end
+song_begin: 06_-_M.M.I.X..flac
+Time: 49
+Artist: Coldplay
+Title: M.M.I.X.
+Album: Mylo Xyloto
+Date: 2011
+Track: 06
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518265
+song_end
+song_begin: 07_-_Every_Teardrop_Is_A_Waterfall.flac
+Time: 241
+Artist: Coldplay
+Title: Every Teardrop Is A Waterfall
+Album: Mylo Xyloto
+Date: 2011
+Track: 07
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518281
+song_end
+song_begin: 08_-_Major_Minus.flac
+Time: 211
+Artist: Coldplay
+Title: Major Minus
+Album: Mylo Xyloto
+Date: 2011
+Track: 08
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518291
+song_end
+song_begin: 09_-_U.F.O..flac
+Time: 138
+Artist: Coldplay
+Title: U.F.O.
+Album: Mylo Xyloto
+Date: 2011
+Track: 09
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518283
+song_end
+song_begin: 10_-_Princess_Of_China_(feat._Rihanna).flac
+Time: 240
+Artist: Coldplay
+Title: Princess Of China (feat. Rihanna)
+Album: Mylo Xyloto
+Date: 2011
+Track: 10
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518289
+song_end
+song_begin: 11_-_Up_In_Flames.flac
+Time: 194
+Artist: Coldplay
+Title: Up In Flames
+Album: Mylo Xyloto
+Date: 2011
+Track: 11
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518283
+song_end
+song_begin: 12_-_A_Hopeful_Transmission.flac
+Time: 34
+Artist: Coldplay
+Title: A Hopeful Transmission
+Album: Mylo Xyloto
+Date: 2011
+Track: 12
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518252
+song_end
+song_begin: 13_-_Don't_Let_It_Break_Your_Heart.flac
+Time: 234
+Artist: Coldplay
+Title: Don't Let It Break Your Heart
+Album: Mylo Xyloto
+Date: 2011
+Track: 13
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518289
+song_end
+song_begin: 14_-_Up_With_The_Birds.flac
+Time: 228
+Artist: Coldplay
+Title: Up With The Birds
+Album: Mylo Xyloto
+Date: 2011
+Track: 14
+Genre: Pop
+AlbumArtist: Coldplay
+Disc: 1
+mtime: 1329518276
+song_end
+playlist_begin: Coldplay - Mylo Xyloto.m3u
+mtime: 1329517935
+playlist_end
+end: Coldplay/Mylo Xyloto
+end: Coldplay
+directory: Coldplay - A Rush of Blood to the Head
+mtime: 1330141843
+begin: Coldplay - A Rush of Blood to the Head
+song_begin: 01. Politik.flac
+Time: 319
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Politik
+Track: 1
+mtime: 1330141841
+song_end
+song_begin: 02. In My Place.flac
+Time: 229
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: In My Place
+Track: 2
+mtime: 1330141836
+song_end
+song_begin: 03 .Got Put A Smile Upon Your Face.flac
+Time: 298
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: God Put A Smile Upon Your Face
+Track: 3
+mtime: 1330141841
+song_end
+song_begin: 04. The Scientist.flac
+Time: 310
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: The Scientist
+Track: 4
+mtime: 1330141843
+song_end
+song_begin: 05. Clocks.flac
+Time: 308
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Clocks
+Track: 5
+mtime: 1330141840
+song_end
+song_begin: 06. Daylight.flac
+Time: 328
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Daylight
+Track: 6
+mtime: 1330141836
+song_end
+song_begin: 07. Green eyes.flac
+Time: 224
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Green eyes
+Track: 7
+mtime: 1330141839
+song_end
+song_begin: 08. Warnign Sign.flac
+Time: 332
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Warnign Sign
+Track: 8
+mtime: 1330141842
+song_end
+song_begin: 09. A Whisper.flac
+Time: 239
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: A Whisper
+Track: 9
+mtime: 1330141828
+song_end
+song_begin: 10. A Rush of Blood to the Head.flac
+Time: 352
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: A Rush of Blood to the Head
+Track: 10
+mtime: 1330141840
+song_end
+song_begin: 11. Amsterdam.flac
+Time: 320
+Album: A Rush of Blood to the Head
+Artist: Coldplay
+Genre: Alternative
+Title: Amsterdam
+Track: 11
+mtime: 1330141837
+song_end
+end: Coldplay - A Rush of Blood to the Head
+directory: Crippled Black Phoenix
+mtime: 1329523026
+begin: Crippled Black Phoenix
+directory: 200 Tons of Bad Luck
+mtime: 1327770277
+begin: Crippled Black Phoenix/200 Tons of Bad Luck
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 01 - Burnt Reynolds.mp3
+Time: 522
+Artist: Crippled Black Phoenix
+Title: Burnt Reynolds
+Album: 200 Tons of Bad Luck
+Track: 1/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770262
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 02 - Rise Up and Fight.mp3
+Time: 343
+Artist: Crippled Black Phoenix
+Title: Rise Up and Fight
+Album: 200 Tons of Bad Luck
+Track: 2/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770254
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 03 - Time of Ye Life-Born for Nothing-Paranoid Arm of Narcoleptic Empire.mp3
+Time: 1117
+Artist: Crippled Black Phoenix
+Title: Time of Ye Life/Born for Nothing/Paranoid Arm of Narcoleptic Empire
+Album: 200 Tons of Bad Luck
+Track: 3/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770277
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 04 - Wendigo.mp3
+Time: 230
+Artist: Crippled Black Phoenix
+Title: Wendigo
+Album: 200 Tons of Bad Luck
+Track: 4/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770254
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 05 - Littlestep.mp3
+Time: 356
+Artist: Crippled Black Phoenix
+Title: Littlestep
+Album: 200 Tons of Bad Luck
+Track: 5/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770257
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 06 - Crossing the Bar.mp3
+Time: 432
+Artist: Crippled Black Phoenix
+Title: Crossing the Bar
+Album: 200 Tons of Bad Luck
+Track: 6/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770259
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 07 - Whissendine.mp3
+Time: 298
+Artist: Crippled Black Phoenix
+Title: Whissendine
+Album: 200 Tons of Bad Luck
+Track: 7/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770259
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 08 - A Real Box of Cheer.mp3
+Time: 35
+Artist: Crippled Black Phoenix
+Title: A Real Box of Cheer
+Album: 200 Tons of Bad Luck
+Track: 8/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770211
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 09 - 444.mp3
+Time: 348
+Artist: Crippled Black Phoenix
+Title: 444
+Album: 200 Tons of Bad Luck
+Track: 9/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770259
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 10 - A Hymn for a Lost Soul.mp3
+Time: 145
+Artist: Crippled Black Phoenix
+Title: A Hymn for a Lost Soul
+Album: 200 Tons of Bad Luck
+Track: 10/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770226
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 11 - A Lack of Common Sense.mp3
+Time: 444
+Artist: Crippled Black Phoenix
+Title: A Lack of Common Sense
+Album: 200 Tons of Bad Luck
+Track: 11/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770256
+song_end
+song_begin: Crippled Black Phoenix - 200 Tons of Bad Luck - 12 - I am Free, Today I Perished.mp3
+Time: 363
+Artist: Crippled Black Phoenix
+Title: I am Free, Today I Perished
+Album: 200 Tons of Bad Luck
+Track: 12/12
+Date: 2009
+Genre: Post Rock
+mtime: 1327770275
+song_end
+playlist_begin: 200 Tons of Bad Luck.m3u
+mtime: 1327766852
+playlist_end
+end: Crippled Black Phoenix/200 Tons of Bad Luck
+directory: I, Vigilante
+mtime: 1327362296
+begin: Crippled Black Phoenix/I, Vigilante
+song_begin: 01.Troublemaker.mp3
+Time: 513
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: Troublemaker
+Album: I, Vigilante
+Track: 1
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362296
+song_end
+song_begin: 02.We Forgotten Who We Are.mp3
+Time: 647
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: We Forgotten Who We Are
+Album: I, Vigilante
+Track: 2
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362291
+song_end
+song_begin: 03.Fantastic Justice.mp3
+Time: 474
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: Fantastic Justice
+Album: I, Vigilante
+Track: 3
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362292
+song_end
+song_begin: 04.Bastogne Blues.mp3
+Time: 721
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: Bastogne Blues
+Album: I, Vigilante
+Track: 4
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362294
+song_end
+song_begin: 05.Of A Lifetime.mp3
+Time: 405
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: Of A Lifetime
+Album: I, Vigilante
+Track: 5
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362287
+song_end
+song_begin: 06.Burning Bridges.mp3
+Time: 151
+Artist: Crippled Black Phoenix
+AlbumArtist: Crippled Black Phoenix
+Title: Burning Bridges
+Album: I, Vigilante
+Track: 6
+Date: 2010-00-00
+Genre: Pop/Rock
+mtime: 1327362290
+song_end
+playlist_begin: m3u playlist.m3u
+mtime: 1327362104
+playlist_end
+end: Crippled Black Phoenix/I, Vigilante
+end: Crippled Black Phoenix
+directory: Devin Townsend
+mtime: 1329522658
+begin: Devin Townsend
+directory: Ghost
+mtime: 1327716415
+begin: Devin Townsend/Ghost
+song_begin: 1 - Devin Townsend Project - Fly.mp3
+Time: 256
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Fly
+Album: Ghost
+Track: 1
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716404
+song_end
+song_begin: 2 - Devin Townsend Project - Heart Baby.mp3
+Time: 357
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Heart Baby
+Album: Ghost
+Track: 2
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716412
+song_end
+song_begin: 3 - Devin Townsend Project - Feather.mp3
+Time: 692
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Feather
+Album: Ghost
+Track: 3
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716412
+song_end
+song_begin: 4 - Devin Townsend Project - Kawaii.mp3
+Time: 174
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Kawaii
+Album: Ghost
+Track: 4
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716407
+song_end
+song_begin: 5 - Devin Townsend Project - Ghost.mp3
+Time: 386
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Ghost
+Album: Ghost
+Track: 5
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716415
+song_end
+song_begin: 6 - Devin Townsend Project - Blackberry.mp3
+Time: 295
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Blackberry
+Album: Ghost
+Track: 6
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716415
+song_end
+song_begin: 7 - Devin Townsend Project - Monsoon.mp3
+Time: 279
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Monsoon
+Album: Ghost
+Track: 7
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716415
+song_end
+song_begin: 8 - Devin Townsend Project - Dark Matters.mp3
+Time: 119
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Dark Matters
+Album: Ghost
+Track: 8
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716414
+song_end
+song_begin: 9 - Devin Townsend Project - Texada.mp3
+Time: 573
+Artist: Devin Townsend Project
+Title: Texada
+Album: Ghost
+Track: 9
+Date: 2011
+Genre: Unknown
+mtime: 1327716410
+song_end
+song_begin: 10 - Devin Townsend Project - Seams.mp3
+Time: 246
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Seams
+Album: Ghost
+Track: 10
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716414
+song_end
+song_begin: 11 - Devin Townsend Project - Infinite Ocean.mp3
+Time: 483
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: Infinite Ocean
+Album: Ghost
+Track: 11
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716413
+song_end
+song_begin: 12 - Devin Townsend Project - As You Were.mp3
+Time: 527
+Artist: Devin Townsend Project
+AlbumArtist: Devin Townsend Project
+Title: As You Were
+Album: Ghost
+Track: 12
+Date: 2011
+Date: 2011
+Genre: Progressive Metal/Rock
+mtime: 1327716411
+song_end
+end: Devin Townsend/Ghost
+directory: Ki
+mtime: 1327770757
+begin: Devin Townsend/Ki
+song_begin: 01 - A Monday.mp3
+Time: 103
+Artist: Devin Townsend Project
+Title: A Monday
+Album: Ki
+Track: 01
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 02 - Coast.mp3
+Time: 276
+Artist: Devin Townsend Project
+Title: Coast
+Album: Ki
+Track: 02
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 03 - Disruptr.mp3
+Time: 349
+Artist: Devin Townsend Project
+Title: Disruptr
+Album: Ki
+Track: 03
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 04 - Gato.mp3
+Time: 323
+Artist: Devin Townsend Project
+Title: Gato
+Album: Ki
+Track: 04
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 05 - Terminal.mp3
+Time: 418
+Artist: Devin Townsend Project
+Title: Terminal
+Album: Ki
+Track: 05
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 06 - Heaven Send.mp3
+Time: 534
+Artist: Devin Townsend Project
+Title: Heaven Send
+Album: Ki
+Track: 06
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 07 - Ain't Never Gonna Win....mp3
+Time: 197
+Artist: Devin Townsend Project
+Title: Ain't Never Gonna Win...
+Album: Ki
+Track: 07
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 08 - Winter.mp3
+Time: 288
+Artist: Devin Townsend Project
+Title: Winter
+Album: Ki
+Track: 08
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 09 - Trainfire.mp3
+Time: 359
+Artist: Devin Townsend Project
+Title: Trainfire
+Album: Ki
+Track: 09
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 10 - Lady Helen.mp3
+Time: 365
+Artist: Devin Townsend Project
+Title: Lady Helen
+Album: Ki
+Track: 10
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 11 - Ki.mp3
+Time: 441
+Artist: Devin Townsend Project
+Title: Ki
+Album: Ki
+Track: 11
+Date: 2009
+Genre: Rock
+mtime: 1327771110
+song_end
+song_begin: 12 - Quiet Riot.mp3
+Time: 182
+Artist: Devin Townsend Project
+Title: Quiet Riot
+Album: Ki
+Track: 12
+Date: 2009
+Genre: Rock
+mtime: 1327771111
+song_end
+song_begin: 13 - Demon League.mp3
+Time: 175
+Artist: Devin Townsend Project
+Title: Demon League
+Album: Ki
+Track: 13
+Date: 2009
+Genre: Rock
+mtime: 1328975976
+song_end
+end: Devin Townsend/Ki
+end: Devin Townsend
+directory: Eagles
+mtime: 1330139116
+begin: Eagles
+directory: Eagles - Hotel California
+mtime: 1330139222
+begin: Eagles/Eagles - Hotel California
+song_begin: Eagles, The - Hotel California - 01. Hotel California.flac
+Time: 391
+Title: Hotel California
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 1
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519915
+song_end
+song_begin: Eagles, The - Hotel California - 02. New Kid in Town.flac
+Time: 304
+Title: New Kid in Town
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 2
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519908
+song_end
+song_begin: 03 - Life in the Fast Lane.flac
+Time: 287
+Title: Life in the Fast Lane
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 3
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519907
+song_end
+song_begin: 04 - Wasted Time.flac
+Time: 296
+Title: Wasted Time
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 4
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519875
+song_end
+song_begin: 05 - Wasted Time (Reprise).flac
+Time: 84
+Title: Wasted Time (Reprise)
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 5
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519880
+song_end
+song_begin: 06 - Victim of Love.flac
+Time: 251
+Title: Victim of Love
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 6
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519906
+song_end
+song_begin: 07 - Pretty Maids All in a Row.flac
+Time: 238
+Title: Pretty Maids All in a Row
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 7
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519880
+song_end
+song_begin: 08 - Try and Love Again.flac
+Time: 311
+Title: Try and Love Again
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 8
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519882
+song_end
+song_begin: 09 - The Last Resort.flac
+Time: 452
+Title: The Last Resort
+Artist: Eagles
+Album: Hotel California (MFSL 1-126)
+Genre: Rock
+Track: 9
+Date: 1976
+AlbumArtist: Eagles
+Disc: 1
+Disc: 1
+AlbumArtist: Eagles
+mtime: 1329519907
+song_end
+playlist_begin: Playlist.m3u
+mtime: 1329517904
+playlist_end
+end: Eagles/Eagles - Hotel California
+end: Eagles
+directory: Entertainment For The Braindead
+mtime: 1329522819
+begin: Entertainment For The Braindead
+directory: A Fire
+mtime: 1327358003
+begin: Entertainment For The Braindead/A Fire
+song_begin: Entertainment_for_the_Braindead_-_01_-_Sleep.mp3
+Time: 210
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Sleep.
+Album: hypersomnia
+Track: 01
+Genre: Lo-Fi Lullaby
+mtime: 1327358071
+song_end
+song_begin: Entertainment_for_the_Braindead_-_02_-_Home.mp3
+Time: 338
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Home.
+Album: hypersomnia
+Track: 02
+Genre: Lo-Fi Lullaby
+mtime: 1327358076
+song_end
+song_begin: Entertainment_for_the_Braindead_-_03_-_Cocoon.mp3
+Time: 271
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Cocoon.
+Album: hypersomnia
+Track: 03
+Genre: Lo-Fi Lullaby
+mtime: 1327358082
+song_end
+song_begin: Entertainment_for_the_Braindead_-_04_-_A_Fire.mp3
+Time: 213
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: A Fire.
+Album: hypersomnia
+Track: 04
+Genre: Lo-Fi Lullaby
+mtime: 1327358088
+song_end
+song_begin: Entertainment_for_the_Braindead_-_05_-_Clouds_And_Swallows.mp3
+Time: 288
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Clouds And Swallows.
+Album: hypersomnia
+Track: 05
+Genre: Lo-Fi Lullaby
+mtime: 1327358094
+song_end
+song_begin: Entertainment_for_the_Braindead_-_06_-_Ordinary_Sunday.mp3
+Time: 209
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Ordinary Sunday.
+Album: hypersomnia
+Track: 06
+Genre: Lo-Fi Lullaby
+mtime: 1327358099
+song_end
+song_begin: Entertainment_for_the_Braindead_-_07_-_HoldBreak.mp3
+Time: 316
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Hold/Break.
+Album: hypersomnia
+Track: 07
+Genre: Lo-Fi Lullaby
+mtime: 1327358105
+song_end
+song_begin: Entertainment_for_the_Braindead_-_08_-_Afternoon.mp3
+Time: 184
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Afternoon.
+Album: hypersomnia
+Track: 08
+Genre: Lo-Fi Lullaby
+mtime: 1327358110
+song_end
+song_begin: Entertainment_for_the_Braindead_-_09_-_Winter.mp3
+Time: 260
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Winter.
+Album: hypersomnia
+Track: 09
+Genre: Lo-Fi Lullaby
+mtime: 1327358115
+song_end
+song_begin: Entertainment_for_the_Braindead_-_10_-_Ashore.mp3
+Time: 219
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Ashore.
+Album: hypersomnia
+Track: 10
+Genre: Lo-Fi Lullaby
+mtime: 1327358120
+song_end
+song_begin: Entertainment_for_the_Braindead_-_11_-_Sleeper.mp3
+Time: 261
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: Sleeper.
+Album: hypersomnia
+Track: 11
+Genre: Lo-Fi Lullaby
+mtime: 1327358125
+song_end
+song_begin: Entertainment_for_the_Braindead_-_12_-_My_Pinions.mp3
+Time: 163
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: My Pinions.
+Album: hypersomnia
+Track: 12
+Genre: Lo-Fi Lullaby
+mtime: 1327358130
+song_end
+song_begin: Entertainment_for_the_Braindead_-_13_-_New_Years_Eve.mp3
+Time: 255
+Artist: Entertainment for the Braindead
+AlbumArtist: Entertainment for the Braindead
+Title: New Year's Eve.
+Album: hypersomnia
+Track: 13
+Genre: Lo-Fi Lullaby
+mtime: 1327358135
+song_end
+end: Entertainment For The Braindead/A Fire
+end: Entertainment For The Braindead
+directory: Explosions In The Sky
+mtime: 1329522313
+begin: Explosions In The Sky
+directory: The Earth Is Not a Cold Dead Place
+mtime: 1327359415
+begin: Explosions In The Sky/The Earth Is Not a Cold Dead Place
+song_begin: 01 - First Breath After Coma.flac
+Time: 574
+Title: First Breath After Coma
+Artist: Explosions in the Sky
+Track: 1
+Album: The Earth Is Not a Cold Dead Place
+Genre: Post-Rock
+mtime: 1327359404
+song_end
+song_begin: 02 - The Only Moment We Were Alone.flac
+Time: 615
+Title: The Only Moment We Were Alone
+Artist: Explosions in the Sky
+Track: 2
+Album: The Earth Is Not a Cold Dead Place
+Genre: Post-Rock
+mtime: 1327359401
+song_end
+song_begin: 03 - Six Days at the Bottom of the Ocean.flac
+Time: 524
+Title: Six Days at the Bottom of the Ocean
+Artist: Explosions in the Sky
+Track: 3
+Album: The Earth Is Not a Cold Dead Place
+Genre: Post-Rock
+mtime: 1327359414
+song_end
+song_begin: 04 - Memorial.flac
+Time: 531
+Title: Memorial
+Artist: Explosions in the Sky
+Track: 4
+Album: The Earth Is Not a Cold Dead Place
+Genre: Post-Rock
+mtime: 1327359412
+song_end
+song_begin: 05 - Your Hand In Mine.flac
+Time: 497
+Title: Your Hand In Mine
+Artist: Explosions in the Sky
+Track: 5
+Album: The Earth Is Not a Cold Dead Place
+Genre: Post-Rock
+mtime: 1327359378
+song_end
+end: Explosions In The Sky/The Earth Is Not a Cold Dead Place
+end: Explosions In The Sky
+directory: Foo Fighters
+mtime: 1329522882
+begin: Foo Fighters
+directory: Wasting Light
+mtime: 1328976288
+begin: Foo Fighters/Wasting Light
+song_begin: 01 - Foo Fighters - Bridge Burning.flac
+Time: 287
+Title: Bridge Burning
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 1
+mtime: 1328976258
+song_end
+song_begin: 02 - Foo Fighters - Rope.flac
+Time: 260
+Title: Rope
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 2
+mtime: 1328976276
+song_end
+song_begin: 03 - Foo Fighters - Dear Rosemary.flac
+Time: 267
+Title: Dear Rosemary
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 3
+mtime: 1328976259
+song_end
+song_begin: 04 - Foo Fighters - White Limo.flac
+Time: 203
+Title: White Limo
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 4
+mtime: 1328976260
+song_end
+song_begin: 05 - Foo Fighters - Arlandria.flac
+Time: 269
+Title: Arlandria
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 5
+mtime: 1328976267
+song_end
+song_begin: 06 - Foo Fighters - These Days.flac
+Time: 299
+Title: These Days
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 6
+mtime: 1328976265
+song_end
+song_begin: 07 - Foo Fighters - Back & Forth.flac
+Time: 233
+Title: Back & Forth
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 7
+mtime: 1328976288
+song_end
+song_begin: 08 - Foo Fighters - A Matter Of Time.flac
+Time: 277
+Title: A Matter Of Time
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 8
+mtime: 1328976262
+song_end
+song_begin: 09 - Foo Fighters - Miss The Misery.flac
+Time: 274
+Title: Miss The Misery
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 9
+mtime: 1328976259
+song_end
+song_begin: 10 - Foo Fighters - I Should Have Known.flac
+Time: 256
+Title: I Should Have Known
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 10
+mtime: 1328976257
+song_end
+song_begin: 11 - Foo Fighters - Walk.flac
+Time: 256
+Title: Walk
+Composer: Foo Fighters
+Artist: Foo Fighters
+AlbumArtist: Foo Fighters
+Album: Wasting Light
+Genre: General Alternative Rock
+Date: 2011
+Disc: 1/1
+Track: 11
+mtime: 1328976261
+song_end
+playlist_begin: Foo Fighters - Wasting Light.m3u
+mtime: 1328975954
+playlist_end
+end: Foo Fighters/Wasting Light
+end: Foo Fighters
+directory: God Is An Astronaut - All Is Violent, All Is Bright
+mtime: 1330261067
+begin: God Is An Astronaut - All Is Violent, All Is Bright
+song_begin: 01 - Fragile.flac
+Time: 275
+Artist: God Is An Astronaut
+Title: Fragile
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 01
+Genre: Rock
+mtime: 1327366002
+song_end
+song_begin: 02 - All Is Violent, All Is Bright.flac
+Time: 255
+Artist: God Is An Astronaut
+Title: All Is Violent, All Is Bright
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 02
+Genre: Rock
+mtime: 1327366001
+song_end
+song_begin: 03 - Forever Lost.flac
+Time: 383
+Artist: God Is An Astronaut
+Title: Forever Lost
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 03
+Genre: Rock
+mtime: 1327366052
+song_end
+song_begin: 04 - Fire Flies And Empty Skies.flac
+Time: 236
+Artist: God Is An Astronaut
+Title: Fire Flies And Empty Skies
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 04
+Genre: Rock
+mtime: 1327366007
+song_end
+song_begin: 05 - A Deafening Distance.flac
+Time: 230
+Artist: God Is An Astronaut
+Title: A Deafening Distance
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 05
+Genre: Rock
+mtime: 1327365970
+song_end
+song_begin: 06 - Infinite Horizons.flac
+Time: 149
+Artist: God Is An Astronaut
+Title: Infinite Horizons
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 06
+Genre: Rock
+mtime: 1327365578
+song_end
+song_begin: 07 - Suicide By Star.flac
+Time: 279
+Artist: God Is An Astronaut
+Title: Suicide By Star
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 07
+Genre: Rock
+mtime: 1327366041
+song_end
+song_begin: 08 - Remembrance Day.flac
+Time: 257
+Artist: God Is An Astronaut
+Title: Remembrance Day
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 08
+Genre: Rock
+mtime: 1327366037
+song_end
+song_begin: 09 - Dust And Echoes.flac
+Time: 254
+Artist: God Is An Astronaut
+Title: Dust And Echoes
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 09
+Genre: Rock
+mtime: 1327366055
+song_end
+song_begin: 10 - When Everything Dies.flac
+Time: 601
+Artist: God Is An Astronaut
+Title: When Everything Dies
+Album: All Is Violent, All Is Bright
+Date: 2005
+Track: 10
+Genre: Rock
+mtime: 1327366001
+song_end
+playlist_begin: God Is An Astronaut - All Is Violent, All Is Bright.m3u
+mtime: 1327363856
+playlist_end
+end: God Is An Astronaut - All Is Violent, All Is Bright
+directory: Godspeed You Black Emperor
+mtime: 1330139402
+begin: Godspeed You Black Emperor
+directory: Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas To Heaven (Vinyl) - [FLAC]
+mtime: 1330139437
+begin: Godspeed You Black Emperor/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas To Heaven (Vinyl) - [FLAC]
+song_begin: 01 - Storm.flac
+Time: 1353
+Artist: Godspeed You! Black Emperor
+Title: Storm
+Album: Lift Your Skinny Fists Like Antennas To Heaven
+Date: 2000
+Track: 1
+Disc: 1
+mtime: 1327721109
+song_end
+song_begin: 02 - Static.flac
+Time: 1356
+Artist: Godspeed You! Black Emperor
+Title: Static
+Album: Lift Your Skinny Fists Like Antennas To Heaven
+Date: 2000
+Track: 2
+Disc: 1
+mtime: 1327721108
+song_end
+song_begin: 03 - Sleep.flac
+Time: 1398
+Title: Sleep
+Artist: Godspeed You! Black Emperor
+Album: Lift Your Skinny Fists Like Antennas to Heaven
+Date: 2000
+Track: 3
+Disc: 1
+mtime: 1327721107
+song_end
+song_begin: 04 - Atennas To Heaven.flac
+Time: 1138
+Title: Antennas To Heaven
+Artist: Godspeed You! Black Emperor
+Album: Lift Your Skinny Fists Like Antennas to Heaven
+Date: 2000
+Track: 4
+Disc: 1
+mtime: 1327721108
+song_end
+end: Godspeed You Black Emperor/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas To Heaven (Vinyl) - [FLAC]
+end: Godspeed You Black Emperor
+directory: Gotye - Making Mirrors (2011) [FLAC] politux
+mtime: 1329529203
+begin: Gotye - Making Mirrors (2011) [FLAC] politux
+song_begin: 01 Making Mirrors.flac
+Time: 62
+Artist: Gotye
+Title: Making Mirrors
+Album: Making Mirrors
+Date: 2011
+Track: 01
+Genre: Instrumental Pop
+mtime: 1329529164
+song_end
+song_begin: 02 Easy Way Out.flac
+Time: 118
+Artist: Gotye
+Title: Easy Way Out
+Album: Making Mirrors
+Date: 2011
+Track: 02
+Genre: Instrumental Pop
+mtime: 1329529192
+song_end
+song_begin: 03 Somebody That I Used To Know.flac
+Time: 245
+Artist: Gotye
+Title: Somebody That I Used To Know
+Album: Making Mirrors
+Date: 2011
+Track: 03
+Genre: Instrumental Pop
+mtime: 1329529200
+song_end
+song_begin: 04 Eyes Wide Open.flac
+Time: 192
+Artist: Gotye
+Title: Eyes Wide Open
+Album: Making Mirrors
+Date: 2011
+Track: 04
+Genre: Instrumental Pop
+mtime: 1329529200
+song_end
+song_begin: 05 Smoke And Mirrors.flac
+Time: 314
+Artist: Gotye
+Title: Smoke And Mirrors
+Album: Making Mirrors
+Date: 2011
+Track: 05
+Genre: Instrumental Pop
+mtime: 1329529202
+song_end
+song_begin: 06 I Feel Better.flac
+Time: 199
+Artist: Gotye
+Title: I Feel Better
+Album: Making Mirrors
+Date: 2011
+Track: 06
+Genre: Instrumental Pop
+mtime: 1329529200
+song_end
+song_begin: 07 In Your Light.flac
+Time: 280
+Artist: Gotye
+Title: In Your Light
+Album: Making Mirrors
+Date: 2011
+Track: 07
+Genre: Instrumental Pop
+mtime: 1329529202
+song_end
+song_begin: 08 State Of The Art.flac
+Time: 323
+Artist: Gotye
+Title: State Of The Art
+Album: Making Mirrors
+Date: 2011
+Track: 08
+Genre: Instrumental Pop
+mtime: 1329529195
+song_end
+song_begin: 09 Don't Worry, We'll Be Watching You.flac
+Time: 199
+Artist: Gotye
+Title: Don't Worry, We'll Be Watching You
+Album: Making Mirrors
+Date: 2011
+Track: 09
+Genre: Instrumental Pop
+mtime: 1329529193
+song_end
+song_begin: 10 Giving Me A Chance.flac
+Time: 188
+Artist: Gotye
+Title: Giving Me A Chance
+Album: Making Mirrors
+Date: 2011
+Track: 10
+Genre: Instrumental Pop
+mtime: 1329529156
+song_end
+song_begin: 11 Save Me.flac
+Time: 234
+Artist: Gotye
+Title: Save Me
+Album: Making Mirrors
+Date: 2011
+Track: 11
+Genre: Instrumental Pop
+mtime: 1329529193
+song_end
+song_begin: 12 Bronte.flac
+Time: 199
+Artist: Gotye
+Title: Bronte
+Album: Making Mirrors
+Date: 2011
+Track: 12
+Genre: Instrumental Pop
+mtime: 1329529193
+song_end
+end: Gotye - Making Mirrors (2011) [FLAC] politux
+directory: Hrsta
+mtime: 1327767341
+begin: Hrsta
+directory: Stem Stem In Electro
+mtime: 1327768431
+begin: Hrsta/Stem Stem In Electro
+song_begin: 01 ... and We Climb.mp3
+Time: 389
+Artist: Hrsta
+Title: ... and We Climb
+Album: Stem Stem in Electro
+Track: 1/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: 3afbbb02-460d-43a7-8b7c-b8c970c9120d
+mtime: 1327768964
+song_end
+song_begin: 02 Blood on the Sun.mp3
+Time: 334
+Artist: Hrsta
+Title: Blood on the Sun
+Album: Stem Stem in Electro
+Track: 2/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: 1708dca1-1149-4cb6-9804-457dfbcb497a
+mtime: 1327768932
+song_end
+song_begin: 03 Une Infinitie De Trous En Forme D'homme.mp3
+Time: 227
+Artist: Hrsta
+Title: Une Infinitie De Trous En Forme D'homme
+Album: Stem Stem in Electro
+Track: 3/8
+Date: 2005
+Genre: Avantgarde
+mtime: 1327768973
+song_end
+song_begin: 04 Folkways Orange.mp3
+Time: 313
+Artist: Hrsta
+Title: Folkways Orange
+Album: Stem Stem in Electro
+Track: 4/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: f46f1925-5dcf-4218-84c1-41e5f36a0234
+mtime: 1327768389
+song_end
+song_begin: 05 Swallow's Tail.mp3
+Time: 477
+Artist: Hrsta
+Title: Swallow's Tail
+Album: Stem Stem in Electro
+Track: 5/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: 08d98111-1d78-4ec6-8485-9047ff1c6d1b
+mtime: 1327768419
+song_end
+song_begin: 06 Heaven Is Yours.mp3
+Time: 264
+Artist: Hrsta
+Title: Heaven Is Yours
+Album: Stem Stem in Electro
+Track: 6/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: 07c1f374-a61c-44b9-87dc-526f6c383d83
+mtime: 1327768426
+song_end
+song_begin: 07 Gently Gently.mp3
+Time: 179
+Artist: Hrsta
+Title: Gently Gently
+Album: Stem Stem in Electro
+Track: 7/8
+Date: 2005
+Genre: Avantgarde
+MUSICBRAINZ_ARTISTID: 39c1c3b0-e38d-4bce-9114-2c58588b253d
+MUSICBRAINZ_ALBUMID: 105422ca-90f3-46e9-b74a-f3ee0d1d5e35
+MUSICBRAINZ_TRACKID: 4d49be4e-7856-4170-a58b-f1f3953da50b
+mtime: 1327768420
+song_end
+song_begin: 08 Quelque Chose A Propos Des Raquetteurs.mp3
+Time: 402
+Artist: Hrsta
+Title: Quelque Chose A Propos Des Raquetteurs
+Album: Stem Stem in Electro
+Track: 8/8
+Date: 2005
+Genre: Avantgarde
+mtime: 1327768973
+song_end
+end: Hrsta/Stem Stem In Electro
+end: Hrsta
+directory: If These Trees Could Talk
+mtime: 1329522594
+begin: If These Trees Could Talk
+directory: Above The Earth, Below The Sky
+mtime: 1327720850
+begin: If These Trees Could Talk/Above The Earth, Below The Sky
+song_begin: 01 From Roots to Needles.mp3
+Time: 402
+Artist: If These Trees Could Talk
+Title: From Roots to Needles
+Album: Above The Earth, Below The Sky
+Track: 1
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720847
+song_end
+song_begin: 02 What's in the Ground Belongs to Y.mp3
+Time: 254
+Artist: If These Trees Could Talk
+Title: What's in the Ground Belongs to You
+Album: Above The Earth, Below The Sky
+Track: 2
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720843
+song_end
+song_begin: 03 Terra Incognita.mp3
+Time: 57
+Artist: If These Trees Could Talk
+Title: Terra Incognita
+Album: Above The Earth, Below The Sky
+Track: 3
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720686
+song_end
+song_begin: 04 Above the Earth.mp3
+Time: 139
+Artist: If These Trees Could Talk
+Title: Above the Earth
+Album: Above The Earth, Below The Sky
+Track: 4
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720843
+song_end
+song_begin: 05 Below the Sky.mp3
+Time: 441
+Artist: If These Trees Could Talk
+Title: Below the Sky
+Album: Above The Earth, Below The Sky
+Track: 5
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720847
+song_end
+song_begin: 06 The Sun is in the North.mp3
+Time: 345
+Artist: If These Trees Could Talk
+Title: The Sun is in the North
+Album: Above The Earth, Below The Sky
+Track: 6
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720839
+song_end
+song_begin: 07 Thirty-Six Silos.mp3
+Time: 280
+Artist: If These Trees Could Talk
+Title: Thirty-Six Silos
+Album: Above The Earth, Below The Sky
+Track: 7
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720845
+song_end
+song_begin: 08 The Flames of Herostratus.mp3
+Time: 334
+Artist: If These Trees Could Talk
+Title: The Flames of Herostratus
+Album: Above The Earth, Below The Sky
+Track: 8
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720848
+song_end
+song_begin: 09 Rebuilding the Temple of Artemis.mp3
+Time: 306
+Artist: If These Trees Could Talk
+Title: Rebuilding the Temple of Artemis
+Album: Above The Earth, Below The Sky
+Track: 9
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720837
+song_end
+song_begin: 10 Deus Ex Machina.mp3
+Time: 144
+Artist: If These Trees Could Talk
+Title: Deus Ex Machina
+Album: Above The Earth, Below The Sky
+Track: 10
+Date: 2009
+Genre: Post-Rock
+mtime: 1327720849
+song_end
+end: If These Trees Could Talk/Above The Earth, Below The Sky
+end: If These Trees Could Talk
+directory: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+mtime: 1330119078
+begin: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+song_begin: 01-jarabe_de_palo-dueno_de_mi_silencio-vpe.mp3
+Time: 262
+Artist: Jarabe De Palo
+Title: Dueño De Mi Silencio
+Album: Orquesta Reciclando
+Track: 1
+Date: 2009
+Genre: Pop
+mtime: 1330118765
+song_end
+song_begin: 02-jarabe_de_palo-la_flaca-vpe.mp3
+Time: 310
+Artist: Jarabe De Palo
+Title: La Flaca
+Album: Orquesta Reciclando
+Track: 2
+Date: 2009
+Genre: Pop
+mtime: 1330118776
+song_end
+song_begin: 03-jarabe_de_palo-el_lado_oscuro-vpe.mp3
+Time: 248
+Artist: Jarabe De Palo
+Title: El Lado Oscuro
+Album: Orquesta Reciclando
+Track: 3
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 04-jarabe_de_palo-el_bosque_de_palo_cantamananas-vpe.mp3
+Time: 226
+Artist: Jarabe De Palo
+Title: El Bosque De Palo Cantamañanas
+Album: Orquesta Reciclando
+Track: 4
+Date: 2009
+Genre: Pop
+mtime: 1330118769
+song_end
+song_begin: 05-jarabe_de_palo-grita-vpe.mp3
+Time: 356
+Artist: Jarabe De Palo
+Title: Grita
+Album: Orquesta Reciclando
+Track: 5
+Date: 2009
+Genre: Pop
+mtime: 1330118781
+song_end
+song_begin: 06-jarabe_de_palo-depende-vpe.mp3
+Time: 233
+Artist: Jarabe De Palo
+Title: Depende
+Album: Orquesta Reciclando
+Track: 6
+Date: 2009
+Genre: Pop
+mtime: 1330118781
+song_end
+song_begin: 07-jarabe_de_palo-agua-vpe.mp3
+Time: 255
+Artist: Jarabe De Palo
+Title: Agua
+Album: Orquesta Reciclando
+Track: 7
+Date: 2009
+Genre: Pop
+mtime: 1330118774
+song_end
+song_begin: 08-jarabe_de_palo-dos_dias_en_la_vida-vpe.mp3
+Time: 311
+Artist: Jarabe De Palo
+Title: Dos Días En La Vida
+Album: Orquesta Reciclando
+Track: 8
+Date: 2009
+Genre: Pop
+mtime: 1330118773
+song_end
+song_begin: 09-jarabe_de_palo-de_vuelta_y_vuelta-vpe.mp3
+Time: 260
+Artist: Jarabe De Palo
+Title: De Vuelta Y Vuelta
+Album: Orquesta Reciclando
+Track: 9
+Date: 2009
+Genre: Pop
+mtime: 1330118771
+song_end
+song_begin: 10-jarabe_de_palo-mama-vpe.mp3
+Time: 201
+Artist: Jarabe De Palo
+Title: Mamá
+Album: Orquesta Reciclando
+Track: 10
+Date: 2009
+Genre: Pop
+mtime: 1330118777
+song_end
+song_begin: 11-jarabe_de_palo-duerme_conmigo-vpe.mp3
+Time: 211
+Artist: Jarabe De Palo
+Title: Duerme Conmigo
+Album: Orquesta Reciclando
+Track: 11
+Date: 2009
+Genre: Pop
+mtime: 1330118779
+song_end
+song_begin: 12-jarabe_de_palo-bonito-vpe.mp3
+Time: 260
+Artist: Jarabe De Palo
+Title: Bonito
+Album: Orquesta Reciclando
+Track: 12
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 13-jarabe_de_palo-pura_sangre-vpe.mp3
+Time: 199
+Artist: Jarabe De Palo
+Title: Pura Sangre
+Album: Orquesta Reciclando
+Track: 13
+Date: 2009
+Genre: Pop
+mtime: 1330118769
+song_end
+song_begin: 14-jarabe_de_palo-dejame_vivir-vpe.mp3
+Time: 193
+Artist: Jarabe De Palo
+Title: Déjame Vivir
+Album: Orquesta Reciclando
+Track: 14
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 15-jarabe_de_palo-a_tu_lado-vpe.mp3
+Time: 209
+Artist: Jarabe De Palo
+Title: A Tu Lado
+Album: Orquesta Reciclando
+Track: 15
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 16-jarabe_de_palo-mucho_mas_mucho_mejor-vpe.mp3
+Time: 233
+Artist: Jarabe De Palo
+Title: Mucho Más, Mucho Mejor
+Album: Orquesta Reciclando
+Track: 16
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+end: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+directory: Kanye West
+mtime: 1330117927
+begin: Kanye West
+directory: Graduation
+mtime: 1330118275
+begin: Kanye West/Graduation
+song_begin: 01 - Good Morning.flac
+Time: 196
+Track: 1
+Title: Good Morning
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118256
+song_end
+song_begin: 02 - Champion.flac
+Time: 168
+Title: Champion
+Track: 2
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118253
+song_end
+song_begin: 03 - Stronger.flac
+Time: 312
+Title: Stronger
+Track: 3
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118259
+song_end
+song_begin: 04 - I Wonder.flac
+Time: 244
+Title: I Wonder
+Track: 4
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118261
+song_end
+song_begin: 05 - Good Life (feat. T-Pain).flac
+Time: 208
+Title: Good Life (Ft. T-Pain)
+Track: 5
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118262
+song_end
+song_begin: 06 - Can't Tell Me Nothing.flac
+Time: 272
+Title: Can't Tell Me Nothing
+Track: 6
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118260
+song_end
+song_begin: 07 - Barry Bonds (feat. Lil' Wayne).flac
+Time: 205
+Title: Barry Bonds (Ft. Lil Wayne)
+Track: 7
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118257
+song_end
+song_begin: 08 - Drunk And Hot Girls (feat. Mos Def).flac
+Time: 314
+Title: Drunk And Hot Girls (Ft. Mos Def)
+Track: 8
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118263
+song_end
+song_begin: 09 - Flashing Lights (feat. Dwele).flac
+Time: 238
+Title: Flashing Lights (Ft. Dwele)
+Track: 9
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118254
+song_end
+song_begin: 10 - Everything I Am.flac
+Time: 228
+Title: Everything I Am
+Track: 10
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118245
+song_end
+song_begin: 11 - The Glory.flac
+Time: 213
+Title: The Glory
+Track: 11
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118258
+song_end
+song_begin: 12 - Homecoming.flac
+Time: 204
+Title: Homecoming  (Ft. Chris Martin)
+Track: 12
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118260
+song_end
+song_begin: 13 - Big Brother.flac
+Time: 288
+Title: Big Brother
+Track: 13
+Album: Graduation
+Artist: Kanye West
+Genre: Hip-Hop
+Date: 2007
+mtime: 1330118275
+song_end
+playlist_begin: Kanye West - Graduation.m3u
+mtime: 1330117931
+playlist_end
+end: Kanye West/Graduation
+end: Kanye West
+directory: King Crimson - Red (40th anniversary) DVDA-RIP
+mtime: 1331385381
+begin: King Crimson - Red (40th anniversary) DVDA-RIP
+directory: 5.1 surround mix
+mtime: 1331386751
+begin: King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix
+song_begin: 01. Red.flac
+Time: 378
+Album: Red [surround mix]
+Artist: King Crimson
+Title: Red
+Date: 1974
+Track: 01
+mtime: 1331386751
+song_end
+song_begin: 02. Fallen Angel.flac
+Time: 362
+Album: Red [surround mix]
+Artist: King Crimson
+Title: Fallen Angel
+Date: 1974
+Track: 02
+mtime: 1331386734
+song_end
+song_begin: 03. One More Red Nightmare.flac
+Time: 431
+Album: Red [surround mix]
+Artist: King Crimson
+Title: One More Red Nightmare
+Date: 1974
+Track: 03
+mtime: 1331386745
+song_end
+song_begin: 04. Providence.flac
+Time: 489
+Album: Red [surround mix]
+Artist: King Crimson
+Title: Providence
+Date: 1974
+Track: 04
+mtime: 1331386744
+song_end
+song_begin: 05. Starless.flac
+Time: 745
+Album: Red [surround mix]
+Artist: King Crimson
+Title: Starless
+Date: 1974
+Track: 05
+mtime: 1331386747
+song_end
+end: King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix
+end: King Crimson - Red (40th anniversary) DVDA-RIP
+directory: Modest Mouse
+mtime: 1329522502
+begin: Modest Mouse
+directory: Modest Mouse - The Moon and Antarctica [FLAC] - Kitlope
+mtime: 1327717491
+begin: Modest Mouse/Modest Mouse - The Moon and Antarctica [FLAC] - Kitlope
+song_begin: 01-3rd Planet.flac
+Time: 239
+Title: 3rd Planet
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 1
+Genre: Indie
+Date: 2000
+mtime: 1327716941
+song_end
+song_begin: 02-Gravity Rides Everything.flac
+Time: 260
+Title: Gravity Rides Everything
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 2
+Genre: Indie
+Date: 2000
+mtime: 1327717484
+song_end
+song_begin: 03-Dark Center of The Universe.flac
+Time: 303
+Title: Dark Center of The Universe
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 3
+Genre: Indie
+Date: 2000
+mtime: 1327717477
+song_end
+song_begin: 04-Perfect Disguise.flac
+Time: 162
+Title: Perfect Disguise
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 4
+Genre: Indie
+Date: 2000
+mtime: 1327717489
+song_end
+song_begin: 05-Tiny Cities Made of Ashes.flac
+Time: 222
+Title: Tiny Cities Made of Ashes
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 5
+Genre: Indie
+Date: 2000
+mtime: 1327717484
+song_end
+song_begin: 06-A Different City.flac
+Time: 189
+Title: A Different City
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 6
+Genre: Indie
+Date: 2000
+mtime: 1327717480
+song_end
+song_begin: 07-The Cold Part.flac
+Time: 301
+Title: The Cold Part
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 7
+Genre: Indie
+Date: 2000
+mtime: 1327717489
+song_end
+song_begin: 08-Alone Down There.flac
+Time: 142
+Title: Alone Down There
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 8
+Genre: Indie
+Date: 2000
+mtime: 1327717480
+song_end
+song_begin: 09-The Stars Are Projectors.flac
+Time: 527
+Title: The Stars Are Projectors
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 9
+Genre: Indie
+Date: 2000
+mtime: 1327717487
+song_end
+song_begin: 10-Wild Packs of Family Dogs.flac
+Time: 106
+Title: Wild Packs of Family Dogs
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 10
+Genre: Indie
+Date: 2000
+mtime: 1327717465
+song_end
+song_begin: 11-Paper Thin Walls.flac
+Time: 182
+Title: Paper Thin Walls
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 11
+Genre: Indie
+Date: 2000
+mtime: 1327717491
+song_end
+song_begin: 12-I Came as A Rat.flac
+Time: 229
+Title: I Came as A Rat
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 12
+Genre: Indie
+Date: 2000
+mtime: 1327717481
+song_end
+song_begin: 13-Lives.flac
+Time: 199
+Title: Lives
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 13
+Genre: Indie
+Date: 2000
+mtime: 1327717490
+song_end
+song_begin: 14-Life Like Weeds.flac
+Time: 391
+Title: Life Like Weeds
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 14
+Genre: Indie
+Date: 2000
+mtime: 1327717488
+song_end
+song_begin: 15-What People Are Made Of.flac
+Time: 135
+Title: What People Are Made Of
+Artist: Modest Mouse
+Album: The Moon & Antarctica
+Track: 15
+Genre: Indie
+Date: 2000
+mtime: 1327717456
+song_end
+end: Modest Mouse/Modest Mouse - The Moon and Antarctica [FLAC] - Kitlope
+end: Modest Mouse
+directory: Mogwai
+mtime: 1329522904
+begin: Mogwai
+directory: Hardcore Will Never Die, But You Will
+mtime: 1327361244
+begin: Mogwai/Hardcore Will Never Die, But You Will
+song_begin: 01 White Noise.m4a
+Time: 303
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: White Noise
+Track: 1/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361241
+song_end
+song_begin: 02 Mexican Grand Prix.m4a
+Time: 317
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: Mexican Grand Prix
+Track: 2/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361236
+song_end
+song_begin: 03 Rano Pano.m4a
+Time: 314
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: Rano Pano
+Track: 3/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361236
+song_end
+song_begin: 04 Death Rays.m4a
+Time: 360
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: Death Rays
+Track: 4/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361244
+song_end
+song_begin: 05 San Pedro.m4a
+Time: 207
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: San Pedro
+Track: 5/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361240
+song_end
+song_begin: 06 Letters To The Metro.m4a
+Time: 280
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: Letters To The Metro
+Track: 6/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361242
+song_end
+song_begin: 07 George Square Thatcher Death Part.m4a
+Time: 239
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: George Square Thatcher Death Party
+Track: 7/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361217
+song_end
+song_begin: 08 How To Be A Werewolf.m4a
+Time: 382
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: How To Be A Werewolf
+Track: 8/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361243
+song_end
+song_begin: 09 Too Raging To Cheers.m4a
+Time: 269
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: Too Raging To Cheers
+Track: 9/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361212
+song_end
+song_begin: 10 You're Lionel Richie.m4a
+Time: 509
+Artist: Mogwai
+Album: Hardcore Will Never Die, But You Will
+Title: You're Lionel Richie
+Track: 10/10
+Genre: post-rock
+Date: 2011
+mtime: 1327361237
+song_end
+end: Mogwai/Hardcore Will Never Die, But You Will
+end: Mogwai
+directory: Muse - The Resistance  2009  FLAC
+mtime: 1329530327
+begin: Muse - The Resistance  2009  FLAC
+song_begin: 01 Uprising.flac
+Time: 303
+Artist: Muse
+Title: Uprising
+Album: The resistance
+Date: 2009
+Track: 01
+Genre: Rock
+mtime: 1329530326
+song_end
+song_begin: 02 resistance.flac
+Time: 347
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Resistance
+Track: 2
+mtime: 1329531799
+song_end
+song_begin: 03 undisclosed desires.flac
+Time: 237
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Undisclosed Desires
+Track: 3
+mtime: 1329531809
+song_end
+song_begin: 04 united states of eurasia.flac
+Time: 348
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: United States of Eurasia
+Track: 4
+mtime: 1329531819
+song_end
+song_begin: 05 guiding light.flac
+Time: 254
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Guiding Light
+Track: 5
+mtime: 1329531826
+song_end
+song_begin: 06 unnatural selection.flac
+Time: 415
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Unnatrual Selection
+Track: 6
+mtime: 1329531846
+song_end
+song_begin: 07 mk ultra.flac
+Time: 247
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: MK Ultra
+Track: 7
+mtime: 1329531851
+song_end
+song_begin: 08 i belong to you.flac
+Time: 339
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: I Belong to You
+Track: 8
+mtime: 1329531883
+song_end
+song_begin: 09 exogenesis symphony part 1.flac
+Time: 259
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Exogensis Symphony Part 1 (Overture)
+Track: 9
+mtime: 1329531912
+song_end
+song_begin: 10 exogenesis symphony part 2.flac
+Time: 237
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Exogensis Symphony Part 2 (Cross-Pollination)
+Track: 10
+mtime: 1329531928
+song_end
+song_begin: 11 exogenesis symphony part 3.flac
+Time: 278
+Album: The resistance
+Artist: Muse
+Date: 2009
+Genre: Rock
+Title: Exogenesis Symphony Part 3 (Redemption)
+Track: 11
+mtime: 1329531947
+song_end
+playlist_begin: Muse - The resistance.m3u
+mtime: 1329529863
+playlist_end
+end: Muse - The Resistance  2009  FLAC
+directory: Neutral Milk Hotel
+mtime: 1329522978
+begin: Neutral Milk Hotel
+directory: In the Aeroplane Over the Sea
+mtime: 1327363017
+begin: Neutral Milk Hotel/In the Aeroplane Over the Sea
+song_begin: 01 - King Of Carrot Flowers, Pt. 1.flac
+Time: 121
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: King Of Carrot Flowers, Pt. 1
+Track: 01
+mtime: 1327362825
+song_end
+song_begin: 02 - King Of Carrot Flowers, Pts. 2 & 3.flac
+Time: 187
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: King Of Carrot Flowers, Pts. 2 & 3
+Track: 02
+mtime: 1327363016
+song_end
+song_begin: 03 - In The Aeroplane Over The Sea.flac
+Time: 203
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: In The Aeroplane Over The Sea
+Track: 03
+mtime: 1327362889
+song_end
+song_begin: 04 - Two-Headed Boy, Pt. 1.flac
+Time: 267
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Two-Headed Boy, Pt. 1
+Track: 04
+mtime: 1327363011
+song_end
+song_begin: 05 - Fool.flac
+Time: 114
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Fool
+Track: 05
+mtime: 1327363014
+song_end
+song_begin: 06 - Holland, 1945.flac
+Time: 193
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Holland, 1945
+Track: 06
+mtime: 1327362880
+song_end
+song_begin: 07 - Communist Daughter.flac
+Time: 118
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Communist Daughter
+Track: 07
+mtime: 1327363001
+song_end
+song_begin: 08 - Oh Comely.flac
+Time: 499
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Oh Comely
+Track: 08
+mtime: 1327362883
+song_end
+song_begin: 09 - Ghost.flac
+Time: 249
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Ghost
+Track: 09
+mtime: 1327363012
+song_end
+song_begin: 10 - Untitled.flac
+Time: 137
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Untitled
+Track: 10
+mtime: 1327363012
+song_end
+song_begin: 11 - Two-Headed Boy, Pt. 2.flac
+Time: 314
+Album: In The Aeroplane Over The Sea
+Artist: Neutral Milk Hotel
+Date: 1998
+Genre: Folk
+Title: Two-Headed Boy, Pt. 2
+Track: 11
+mtime: 1327363009
+song_end
+end: Neutral Milk Hotel/In the Aeroplane Over the Sea
+end: Neutral Milk Hotel
+directory: OK Go
+mtime: 1329522924
+begin: OK Go
+directory: Of the Blue Colour of the Sky
+mtime: 1328483864
+begin: OK Go/Of the Blue Colour of the Sky
+song_begin: 1 - WTF.flac
+Time: 205
+Title: WTF?
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 01
+Genre: Alternative Rock
+mtime: 1328483859
+song_end
+song_begin: 2 - This Too Shall Pass.flac
+Time: 189
+Title: This Too Shall Pass
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 02
+Genre: Alternative Rock
+mtime: 1328483861
+song_end
+song_begin: 3 - All is Not Lost.flac
+Time: 164
+Title: All is Not Lost
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 03
+Genre: Alternative Rock
+mtime: 1328483819
+song_end
+song_begin: 4 - Needing-Getting.flac
+Time: 314
+Title: Needing\/Getting
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 04
+Genre: Alternative Rock
+mtime: 1328483810
+song_end
+song_begin: 5 - Skyscrapers.flac
+Time: 279
+Title: Skyscrapers
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 05
+Genre: Alternative Rock
+mtime: 1328483814
+song_end
+song_begin: 6 - White Knuckles.flac
+Time: 199
+Title: White Knuckles
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 06
+Genre: Alternative Rock
+mtime: 1328483804
+song_end
+song_begin: 7 - I Want You so Bad I Can't Breathe.flac
+Time: 203
+Title: I Want You so Bad I Can't Breathe
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 07
+Genre: Alternative Rock
+mtime: 1328483814
+song_end
+song_begin: 8 - End Love.flac
+Time: 246
+Title: End Love
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 08
+Genre: Alternative Rock
+mtime: 1328483862
+song_end
+song_begin: 9 - Before the Earth was Round.flac
+Time: 250
+Title: Before the Earth was Round
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 09
+Genre: Alternative Rock
+mtime: 1328483801
+song_end
+song_begin: 10 - Last Leaf.flac
+Time: 154
+Title: Last Leaf
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 10
+Genre: Alternative Rock
+mtime: 1328483811
+song_end
+song_begin: 11 - Back From Kathmandu.flac
+Time: 253
+Title: Back From Kathmandu
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 11
+Genre: Alternative Rock
+mtime: 1328483807
+song_end
+song_begin: 12 - While You Were Asleep.flac
+Time: 265
+Title: While You Were Asleep
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 12
+Genre: Alternative Rock
+mtime: 1328483798
+song_end
+song_begin: 13 - In the Glass.flac
+Time: 364
+Title: In the Glass
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 13
+Genre: Alternative Rock
+mtime: 1328483823
+song_end
+song_begin: 14 - Bonus Track- Luisiana Land.flac
+Time: 220
+Title: Bonus Track: Luisiana Land
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 14
+Genre: Alternative Rock
+mtime: 1328483809
+song_end
+song_begin: 15 - Bonus Track- This Too Shall Pass (Passion Pit Sunday Hangover Remix).flac
+Time: 271
+Title: Bonus Track: This Too Shall Pass (Passion Pit Sunday Hangover Remix)
+Artist: OK Go
+Album: Of the Blue Colour of the Sky
+Date: 2010
+Track: 15
+Genre: Alternative Rock
+mtime: 1328483863
+song_end
+end: OK Go/Of the Blue Colour of the Sky
+end: OK Go
+directory: Phantogram
+mtime: 1329522544
+begin: Phantogram
+directory: Phantogram - Mouthful of Diamonds
+mtime: 1327716283
+begin: Phantogram/Phantogram - Mouthful of Diamonds
+song_begin: 1-Mouthful_Of_Diamonds.flac
+Time: 254
+Title: Mouthful Of Diamonds
+Artist: Phantogram
+Track: 1
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362904
+song_end
+song_begin: 2-When_Im_Small.flac
+Time: 250
+Title: When Im Small
+Artist: Phantogram
+Track: 2
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362892
+song_end
+song_begin: 3-Turn_It_Off.flac
+Time: 242
+Title: Turn It Off
+Artist: Phantogram
+Track: 3
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362926
+song_end
+song_begin: 4-Running_From_The_Cops.flac
+Time: 238
+Title: Running From The Cops
+Artist: Phantogram
+Track: 4
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362920
+song_end
+song_begin: 5-All_Dried_Up.flac
+Time: 227
+Title: All Dried Up
+Artist: Phantogram
+Track: 5
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362862
+song_end
+song_begin: 6-As_Far_As_I_Can_See.flac
+Time: 210
+Title: As Far As I Can See
+Artist: Phantogram
+Track: 6
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362900
+song_end
+song_begin: 7-You_Are_The_Ocean_And_Im_Good_At_Drowning.flac
+Time: 350
+Title: You Are The Ocean And Im Good At Drowning
+Artist: Phantogram
+Track: 7
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362874
+song_end
+song_begin: 8-Bloody_Palms.flac
+Time: 212
+Title: Bloody Palms
+Artist: Phantogram
+Track: 8
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362886
+song_end
+song_begin: 9-Futuristic_Casket.flac
+Time: 218
+Title: Futuristic Casket
+Artist: Phantogram
+Track: 9
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362868
+song_end
+song_begin: 10-Let_Me_Go.flac
+Time: 266
+Title: Let Me Go
+Artist: Phantogram
+Track: 10
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362912
+song_end
+song_begin: 11-10000_Claps.flac
+Time: 210
+Title: 10000 Claps
+Artist: Phantogram
+Track: 11
+Album: Eyelid Movies
+Genre: Electronic
+Date: 2009
+mtime: 1248362856
+song_end
+end: Phantogram/Phantogram - Mouthful of Diamonds
+end: Phantogram
+directory: Philip Wesley
+mtime: 1329522235
+begin: Philip Wesley
+directory: Dark Night of the Soul [2008]
+mtime: 1327362654
+begin: Philip Wesley/Dark Night of the Soul [2008]
+song_begin: 01 Tears of the East.flac
+Time: 349
+Artist: Philip Wesley
+Title: Tears of the East
+Album: Dark Night of the Soul
+Date: 2008
+Track: 01
+Genre: Solo Piano
+mtime: 1327362623
+song_end
+song_begin: 02 Racing Against the Sunset.flac
+Time: 293
+Artist: Philip Wesley
+Title: Racing Against the Sunset
+Album: Dark Night of the Soul
+Date: 2008
+Track: 02
+Genre: Solo Piano
+mtime: 1327362623
+song_end
+song_begin: 03 The Approaching Night.flac
+Time: 400
+Artist: Philip Wesley
+Title: The Approaching Night
+Album: Dark Night of the Soul
+Date: 2008
+Track: 03
+Genre: Solo Piano
+mtime: 1327362620
+song_end
+song_begin: 04 Darkness Falls.flac
+Time: 282
+Artist: Philip Wesley
+Title: Darkness Falls
+Album: Dark Night of the Soul
+Date: 2008
+Track: 04
+Genre: Solo Piano
+mtime: 1327362595
+song_end
+song_begin: 05 Dark Night of the Soul.flac
+Time: 431
+Artist: Philip Wesley
+Title: Dark Night of the Soul
+Album: Dark Night of the Soul
+Date: 2008
+Track: 05
+Genre: Solo Piano
+mtime: 1327362622
+song_end
+song_begin: 06 Soul's Lament.flac
+Time: 346
+Artist: Philip Wesley
+Title: Soul's Lament
+Album: Dark Night of the Soul
+Date: 2008
+Track: 06
+Genre: Solo Piano
+mtime: 1327362618
+song_end
+song_begin: 07 Far and Away.flac
+Time: 552
+Artist: Philip Wesley
+Title: Far and Away
+Album: Dark Night of the Soul
+Date: 2008
+Track: 07
+Genre: Solo Piano
+mtime: 1327362615
+song_end
+song_begin: 08 Lamentations of the Heart.flac
+Time: 249
+Artist: Philip Wesley
+Title: Lamentations of the Heart
+Album: Dark Night of the Soul
+Date: 2008
+Track: 08
+Genre: Solo Piano
+mtime: 1327362615
+song_end
+song_begin: 09 Light and Shadow.flac
+Time: 347
+Artist: Philip Wesley
+Title: Light and Shadow
+Album: Dark Night of the Soul
+Date: 2008
+Track: 09
+Genre: Solo Piano
+mtime: 1327362615
+song_end
+song_begin: 10 Into the Light.flac
+Time: 388
+Artist: Philip Wesley
+Title: Into the Light
+Album: Dark Night of the Soul
+Date: 2008
+Track: 10
+Genre: Solo Piano
+mtime: 1327362593
+song_end
+song_begin: 11 New Day.flac
+Time: 226
+Artist: Philip Wesley
+Title: New Day
+Album: Dark Night of the Soul
+Date: 2008
+Track: 11
+Genre: Solo Piano
+mtime: 1327362624
+song_end
+song_begin: 12 Two Souls.flac
+Time: 365
+Artist: Philip Wesley
+Title: Two Souls
+Album: Dark Night of the Soul
+Date: 2008
+Track: 12
+Genre: Solo Piano
+mtime: 1327362654
+song_end
+end: Philip Wesley/Dark Night of the Soul [2008]
+end: Philip Wesley
+directory: Pink Floyd
+mtime: 1329522937
+begin: Pink Floyd
+directory: The Dark Side of the Moon
+mtime: 1328829087
+begin: Pink Floyd/The Dark Side of the Moon
+song_begin: 01.Speak To MeBreathe.flac
+Time: 241
+Title: Speak To Me/Breathe
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters Nick Mason Richard Wright David Gilmour
+Track: 1
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829080
+song_end
+song_begin: 02.On The Run.flac
+Time: 213
+Title: On The Run
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters David Gilmour
+Track: 2
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829080
+song_end
+song_begin: 03.Time.flac
+Time: 427
+Title: Time
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters Nick Mason Richard Wright David Gilmour
+Track: 3
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829085
+song_end
+song_begin: 04.The Great Gig In The Sky.flac
+Time: 285
+Title: The Great Gig In The Sky
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Richard Wright
+Track: 4
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829085
+song_end
+song_begin: 05.Money.flac
+Time: 392
+Title: Money
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters
+Track: 5
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829086
+song_end
+song_begin: 06.Us And Them.flac
+Time: 461
+Title: Us And Them
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters Richard Wright
+Track: 6
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829081
+song_end
+song_begin: 07.Any Colour You Like.flac
+Time: 206
+Title: Any Colour You Like
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Nick Mason Richard Wright David Gilmour
+Track: 7
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829076
+song_end
+song_begin: 08.Brain Damage.flac
+Time: 231
+Title: Brain Damage
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters
+Track: 8
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829081
+song_end
+song_begin: 09.Eclipse.flac
+Time: 125
+Title: Eclipse
+Artist: Pink Floyd
+Album: The Dark Side Of The Moon
+Date: 1992
+Genre: Rock
+Composer: Roger Waters
+Track: 9
+Disc: 1
+AlbumArtist: Pink Floyd
+AlbumArtist: Pink Floyd
+mtime: 1328829080
+song_end
+playlist_begin: playlist.m3u
+mtime: 1328828931
+playlist_end
+end: Pink Floyd/The Dark Side of the Moon
+end: Pink Floyd
+directory: Radiohead - Boxset (2007) [FLAC]
+mtime: 1329950885
+begin: Radiohead - Boxset (2007) [FLAC]
+directory: Radiohead - 1995 - The Bends
+mtime: 1329950904
+begin: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1995 - The Bends
+playlist_begin: Radiohead - The Bends.m3u
+mtime: 1329950887
+playlist_end
+end: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1995 - The Bends
+directory: Radiohead - 1997 - OK Computer
+mtime: 1329951993
+begin: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1997 - OK Computer
+song_begin: 01 - Airbag.flac
+Time: 285
+Artist: Radiohead
+Title: Airbag
+Album: OK Computer
+Date: 1997
+Track: 01
+Genre: Unknown
+mtime: 1329951943
+song_end
+song_begin: 02 - Paranoid Android.flac
+Time: 384
+Artist: Radiohead
+Title: Paranoid Android
+Album: OK Computer
+Date: 1997
+Track: 02
+Genre: Unknown
+mtime: 1329951974
+song_end
+song_begin: 03 - Subterranean Homesick Alien.flac
+Time: 268
+Artist: Radiohead
+Title: Subterranean Homesick Alien
+Album: OK Computer
+Date: 1997
+Track: 03
+Genre: Unknown
+mtime: 1329951970
+song_end
+song_begin: 04 - Exit Music (for a Film).flac
+Time: 265
+Artist: Radiohead
+Title: Exit Music (for a Film)
+Album: OK Computer
+Date: 1997
+Track: 04
+Genre: Unknown
+mtime: 1329951911
+song_end
+song_begin: 05 - Let Down.flac
+Time: 300
+Artist: Radiohead
+Title: Let Down
+Album: OK Computer
+Date: 1997
+Track: 05
+Genre: Unknown
+mtime: 1329951968
+song_end
+song_begin: 06 - Karma Police.flac
+Time: 262
+Artist: Radiohead
+Title: Karma Police
+Album: OK Computer
+Date: 1997
+Track: 06
+Genre: Unknown
+mtime: 1329951969
+song_end
+song_begin: 07 - Fitter Happier.flac
+Time: 118
+Artist: Radiohead
+Title: Fitter Happier
+Album: OK Computer
+Date: 1997
+Track: 07
+Genre: Unknown
+mtime: 1329951967
+song_end
+song_begin: 08 - Electioneering.flac
+Time: 231
+Artist: Radiohead
+Title: Electioneering
+Album: OK Computer
+Date: 1997
+Track: 08
+Genre: Unknown
+mtime: 1329951976
+song_end
+song_begin: 09 - Climbing Up the Walls.flac
+Time: 286
+Artist: Radiohead
+Title: Climbing Up the Walls
+Album: OK Computer
+Date: 1997
+Track: 09
+Genre: Unknown
+mtime: 1329951751
+song_end
+song_begin: 10 - No Surprises.flac
+Time: 229
+Artist: Radiohead
+Title: No Surprises
+Album: OK Computer
+Date: 1997
+Track: 10
+Genre: Unknown
+mtime: 1329951965
+song_end
+song_begin: 11 - Lucky.flac
+Time: 260
+Artist: Radiohead
+Title: Lucky
+Album: OK Computer
+Date: 1997
+Track: 11
+Genre: Unknown
+mtime: 1329951993
+song_end
+song_begin: 12 - The Tourist.flac
+Time: 327
+Artist: Radiohead
+Title: The Tourist
+Album: OK Computer
+Date: 1997
+Track: 12
+Genre: Unknown
+mtime: 1329951875
+song_end
+playlist_begin: Radiohead - OK Computer.m3u
+mtime: 1329950869
+playlist_end
+end: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1997 - OK Computer
+end: Radiohead - Boxset (2007) [FLAC]
+directory: Rise Against
+mtime: 1329522435
+begin: Rise Against
+directory: Rise Against - Endgame (2011) [FLAC] politux
+mtime: 1327372306
+begin: Rise Against/Rise Against - Endgame (2011) [FLAC] politux
+song_begin: 01 Architects.flac
+Time: 223
+Title: Architects
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 1
+Disc: 1
+mtime: 1327372266
+song_end
+song_begin: 02 Help is On the Way.flac
+Time: 238
+Title: Help is On the Way
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 2
+Disc: 1
+mtime: 1327372303
+song_end
+song_begin: 03 Make It Stop (September's Children).flac
+Time: 235
+Title: Make It Stop (September's Children)
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 3
+Disc: 1
+mtime: 1327372303
+song_end
+song_begin: 04 Disparity By Design.flac
+Time: 229
+Title: Disparity By Design
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 4
+Disc: 1
+mtime: 1327372245
+song_end
+song_begin: 05 Satellite.flac
+Time: 239
+Title: Satellite
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 5
+Disc: 1
+mtime: 1327372249
+song_end
+song_begin: 06 Midnight Hands.flac
+Time: 258
+Title: Midnight Hands
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 6
+Disc: 1
+mtime: 1327372302
+song_end
+song_begin: 08 Broken Mirrors.flac
+Time: 235
+Title: Broken Mirrors
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 8
+Disc: 1
+mtime: 1327372299
+song_end
+song_begin: 09 Wait For Me.flac
+Time: 220
+Title: Wait For Me
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 9
+Disc: 1
+mtime: 1327372305
+song_end
+song_begin: 10 A Gentlemen's Coup.flac
+Time: 227
+Title: A Gentlemen's Coup
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 10
+Disc: 1
+mtime: 1327372245
+song_end
+song_begin: 11 This is Letting Go.flac
+Time: 222
+Title: This is Letting Go
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 11
+Disc: 1
+mtime: 1327372302
+song_end
+song_begin: 12 Endgame.flac
+Time: 205
+Title: Endgame
+Date: 2011
+Album: Endgame
+Genre: Rock
+Artist: Rise Against
+AlbumArtist: Rise Against
+Track: 12
+Disc: 1
+mtime: 1327372306
+song_end
+end: Rise Against/Rise Against - Endgame (2011) [FLAC] politux
+end: Rise Against
+directory: Rise Against Discography
+mtime: 1329686275
+begin: Rise Against Discography
+directory: (2008) Appeal To Reason
+mtime: 1329686636
+begin: Rise Against Discography/(2008) Appeal To Reason
+song_begin: 01 Rise Against - Collapse (Post Amerika).flac
+Time: 199
+Title: Collapse (Post Amerika)
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 1
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686636
+song_end
+song_begin: 02 Rise Against - Long Forgotten Sons.flac
+Time: 242
+Title: Long Forgotten Sons
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 2
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686626
+song_end
+song_begin: 03 Rise Against - Re-Education (Through Labor).flac
+Time: 223
+Title: Re-Education (Through Labor)
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 3
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686631
+song_end
+song_begin: 04 Rise Against - The Dirt Whispered.flac
+Time: 190
+Title: The Dirt Whispered
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 4
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686586
+song_end
+song_begin: 05 Rise Against - Kotov Syndrome.flac
+Time: 185
+Title: Kotov Syndrome
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 5
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686618
+song_end
+song_begin: 06 Rise Against - From Heads Unworthy.flac
+Time: 223
+Title: From Heads Unworthy
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 6
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686626
+song_end
+song_begin: 07 Rise Against - The Strength To Go On.flac
+Time: 208
+Title: The Strength To Go On
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 7
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686633
+song_end
+song_begin: 08 Rise Against - Audience Of One.flac
+Time: 246
+Title: Audience Of One
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 8
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686634
+song_end
+song_begin: 09 Rise Against - Entertainment.flac
+Time: 215
+Title: Entertainment
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 9
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686594
+song_end
+song_begin: 10 Rise Against - Hero Of War.flac
+Time: 254
+Title: Hero Of War
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 10
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686630
+song_end
+song_begin: 11 Rise Against - Savior.flac
+Time: 243
+Title: Savior
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 11
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686579
+song_end
+song_begin: 12 Rise Against - Hairline Fracture.flac
+Time: 243
+Title: Hairline Fracture
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 12
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686608
+song_end
+song_begin: 13 Rise Against - Whereabouts Unknown.flac
+Time: 243
+Title: Whereabouts Unknown
+Artist: Rise Against
+Album: Appeal To Reason
+Genre: Melodic Hardcore
+Track: 13
+Date: 2008
+AlbumArtist: Rise Against
+mtime: 1329686631
+song_end
+end: Rise Against Discography/(2008) Appeal To Reason
+end: Rise Against Discography
+directory: Saintly Rows - Asthenia [FLAC]
+mtime: 1329662717
+begin: Saintly Rows - Asthenia [FLAC]
+song_begin: Saintly Rows - Asthenia - 01 Sueños.flac
+Time: 350
+Title: Sueños
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 1
+mtime: 1329662712
+song_end
+song_begin: Saintly Rows - Asthenia - 02 Luna Del Oro.flac
+Time: 255
+Title: Luna Del Oro
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 2
+mtime: 1329662712
+song_end
+song_begin: Saintly Rows - Asthenia - 03 Resolution.flac
+Time: 266
+Title: Resolution
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 3
+mtime: 1329662706
+song_end
+song_begin: Saintly Rows - Asthenia - 04 The Northern Road.flac
+Time: 272
+Title: The Northern Road
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 4
+mtime: 1329662716
+song_end
+song_begin: Saintly Rows - Asthenia - 05 I Can See My House From Here.flac
+Time: 285
+Title: I Can See My House From Here
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 5
+mtime: 1329662710
+song_end
+song_begin: Saintly Rows - Asthenia - 06 Temper.flac
+Time: 241
+Title: Temper
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 6
+mtime: 1329662704
+song_end
+song_begin: Saintly Rows - Asthenia - 07 Verde.flac
+Time: 241
+Title: Verde
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 7
+mtime: 1329662711
+song_end
+song_begin: Saintly Rows - Asthenia - 08 While You Were Sleeping.flac
+Time: 292
+Title: While You Were Sleeping
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 8
+mtime: 1329662711
+song_end
+song_begin: Saintly Rows - Asthenia - 09 Sharks and Guns.flac
+Time: 243
+Title: Sharks and Guns
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 9
+mtime: 1329662712
+song_end
+song_begin: Saintly Rows - Asthenia - 10 I Thought Hurricane Season Was Over.flac
+Time: 368
+Title: I Thought Hurricane Season Was Over
+Artist: Saintly Rows
+Date: 2011
+Album: Asthenia
+Track: 10
+mtime: 1329662714
+song_end
+end: Saintly Rows - Asthenia [FLAC]
+directory: Shinedown
+mtime: 1329522944
+begin: Shinedown
+directory: Sound of Madness
+mtime: 1327440153
+begin: Shinedown/Sound of Madness
+song_begin: 01 - Shinedown - Devour.flac
+Time: 230
+Artist: Shinedown
+Album: Sound of madness
+Track: 01
+Title: Devour
+Date: 2008
+Genre: Metal
+mtime: 1327440122
+song_end
+song_begin: 02 - Shinedown - Sound of Madness (mixed by Doug McKean).flac
+Time: 234
+Artist: Shinedown
+Album: Sound of madness
+Track: 02
+Title: Sound of Madness (mixed by Doug McKean)
+Date: 2008
+Genre: Metal
+mtime: 1327439994
+song_end
+song_begin: 03 - Shinedown - Second Chance.flac
+Time: 221
+Artist: Shinedown
+Album: Sound of madness
+Track: 03
+Title: Second Chance
+Date: 2008
+Genre: Metal
+mtime: 1327440098
+song_end
+song_begin: 04 - Shinedown - Cry For Help.flac
+Time: 201
+Artist: Shinedown
+Album: Sound of madness
+Track: 04
+Title: Cry For Help
+Date: 2008
+Genre: Metal
+mtime: 1327440087
+song_end
+song_begin: 05 - Shinedown - The Crow and the Butterfly.flac
+Time: 254
+Artist: Shinedown
+Album: Sound of madness
+Track: 05
+Title: The Crow and the Butterfly
+Date: 2008
+Genre: Metal
+mtime: 1327440149
+song_end
+song_begin: 06 - Shinedown - If You Only Knew.flac
+Time: 227
+Artist: Shinedown
+Album: Sound of madness
+Track: 06
+Title: If You Only Knew
+Date: 2008
+Genre: Metal
+mtime: 1327440131
+song_end
+song_begin: 07 - Shinedown - Sin With A Grin.flac
+Time: 241
+Artist: Shinedown
+Album: Sound of madness
+Track: 07
+Title: Sin With A Grin
+Date: 2008
+Genre: Metal
+mtime: 1327440146
+song_end
+song_begin: 08 - Shinedown - What A Shame.flac
+Time: 259
+Artist: Shinedown
+Album: Sound of madness
+Track: 08
+Title: What A Shame
+Date: 2008
+Genre: Metal
+mtime: 1327440153
+song_end
+song_begin: 09 - Shinedown - Cyanide Sweet Tooth Suicide.flac
+Time: 192
+Artist: Shinedown
+Album: Sound of madness
+Track: 09
+Title: Cyanide Sweet Tooth Suicide
+Date: 2008
+Genre: Metal
+mtime: 1327440150
+song_end
+song_begin: 10 - Shinedown - Breaking Inside.flac
+Time: 232
+Artist: Shinedown
+Album: Sound of madness
+Track: 10
+Title: Breaking Inside
+Date: 2008
+Genre: Metal
+mtime: 1327440152
+song_end
+song_begin: 11 - Shinedown - Call Me.flac
+Time: 222
+Artist: Shinedown
+Album: Sound of madness
+Track: 11
+Title: Call Me
+Date: 2008
+Genre: Metal
+mtime: 1327440103
+song_end
+end: Shinedown/Sound of Madness
+end: Shinedown
+directory: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
+mtime: 1327441503
+begin: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
+song_begin: 01. Sirius.flac
+Time: 114
+Track: 1
+Title: Sirius
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441178
+song_end
+song_begin: 02. Eye in the sky.flac
+Time: 277
+Track: 2
+Title: Eye in the sky
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327440546
+song_end
+song_begin: 03. Children of the moon.flac
+Time: 292
+Track: 3
+Title: Children of the moon
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441439
+song_end
+song_begin: 04. Gemini.flac
+Time: 132
+Track: 4
+Title: Gemini
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441489
+song_end
+song_begin: 05. Silence and I.flac
+Time: 444
+Track: 5
+Title: Silence and I
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441503
+song_end
+song_begin: 06. You´re gonna get your fingers burned.flac
+Time: 264
+Track: 6
+Title: You´re gonna get your fingers burned
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441500
+song_end
+song_begin: 07. Psychobabble.flac
+Time: 292
+Track: 7
+Title: Psychobabble
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441487
+song_end
+song_begin: 08. Mammagamma.flac
+Time: 216
+Track: 8
+Title: Mammagamma
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441482
+song_end
+song_begin: 09. Step by step.flac
+Time: 235
+Track: 9
+Title: Step by step
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441496
+song_end
+song_begin: 10. Old and wise.flac
+Time: 295
+Track: 10
+Title: Old and wise
+Artist: The Alan Parsons Project
+AlbumArtist: The Alan Parsons Project
+Album: Eye In The Sky
+Date: 1983
+Genre: Rock
+mtime: 1327441450
+song_end
+end: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
+directory: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+mtime: 1329687250
+begin: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+song_begin: 01.Surfin' Safari.flac
+Time: 126
+Title: Surfin' Safari
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 1
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 02.Surfin' U.S.A..flac
+Time: 149
+Title: Surfin' U.S.A.
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Chuck Berry
+Track: 2
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 03.Surfer Girl.flac
+Time: 148
+Title: Surfer Girl
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson
+Track: 3
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687185
+song_end
+song_begin: 04.Little Deuce Coupe.flac
+Time: 100
+Title: Little Deuce Coupe
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Roger "Hot Dog Rog" Christian
+Track: 4
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687250
+song_end
+song_begin: 05.Be True To Your School.flac
+Time: 127
+Title: Be True To Your School
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 5
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 06.Fun, Fun, Fun.flac
+Time: 124
+Title: Fun, Fun, Fun
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 6
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687201
+song_end
+song_begin: 07.I Get Around.flac
+Time: 135
+Title: I Get Around
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 7
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687198
+song_end
+song_begin: 08.Shut Down.flac
+Time: 112
+Title: Shut Down
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Roger "Hot Dog Rog" Christian
+Track: 8
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 09.Dance, Dance, Dance.flac
+Time: 121
+Title: Dance, Dance, Dance
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Carl Wilson
+Track: 9
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687189
+song_end
+song_begin: 10.Do You Wanna Dance.flac
+Time: 139
+Title: Do You Wanna Dance
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Bobby Freeman
+Track: 10
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 11.Help Me, Rhonda.flac
+Time: 190
+Title: Help Me, Rhonda
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 11
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687179
+song_end
+song_begin: 12.California Girls.flac
+Time: 158
+Title: California Girls
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 12
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687198
+song_end
+song_begin: 13.Barbara Ann.flac
+Time: 140
+Title: Barbara Ann
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Fred Fassert
+Track: 13
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+song_begin: 14.Sloop John B.flac
+Time: 179
+Title: Sloop John B
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Traditional
+Track: 14
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 15.Wouldn't It Be Nice.flac
+Time: 145
+Title: Wouldn't It Be Nice
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Tony Asher
+Track: 15
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687204
+song_end
+song_begin: 16.Good Vibrations.flac
+Time: 218
+Title: Good Vibrations
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 16
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687199
+song_end
+song_begin: 17.409.flac
+Time: 121
+Title: 409
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love Gary Usher
+Track: 17
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687163
+song_end
+song_begin: 18.God Only Knows.flac
+Time: 172
+Title: God Only Knows
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Tony Asher
+Track: 18
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+song_begin: 19.Catch A Wave.flac
+Time: 129
+Title: Catch A Wave
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson
+Track: 19
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 20.Kokomo.flac
+Time: 217
+Title: Kokomo
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Mike Love Scott Mckenzie Terry Melcher John Phillips
+Track: 20
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+playlist_begin: playlist.m3u
+mtime: 1329686958
+playlist_end
+end: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+directory: Train of Thought
+mtime: 1329686879
+begin: Train of Thought
+song_begin: Train of Thought 01 As I Am Metal 320kbps Dream Theater.mp3
+Time: 467
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: As I Am
+Album: Train of Thought
+Track: 1
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686874
+song_end
+song_begin: Train of Thought 02 This Dying Soul Metal 320kbps Dream Theater.mp3
+Time: 687
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: This Dying Soul
+Album: Train of Thought
+Track: 2
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686878
+song_end
+song_begin: Train of Thought 03 Endless Sacrifice Metal 320kbps Dream Theater.mp3
+Time: 684
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: Endless Sacrifice
+Album: Train of Thought
+Track: 3
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686841
+song_end
+song_begin: Train of Thought 04 Honor Thy Father Metal 320kbps Dream Theater.mp3
+Time: 614
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: Honor Thy Father
+Album: Train of Thought
+Track: 4
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686872
+song_end
+song_begin: Train of Thought 05 Vacant Metal 320kbps Dream Theater.mp3
+Time: 177
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: Vacant
+Album: Train of Thought
+Track: 5
+Date: 2003
+Genre: Metal
+Composer: James LaBrie/Jordan Rudess/Myung
+mtime: 1329686828
+song_end
+song_begin: Train of Thought 06 Stream of Consciousness [Instrumental] Metal 320kbps Dream Theater.mp3
+Time: 676
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: Stream of Consciousness [Instrumental]
+Album: Train of Thought
+Track: 6
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686869
+song_end
+song_begin: Train of Thought 07 In the Name of God Metal 320kbps Dream Theater.mp3
+Time: 856
+Artist: Dream Theater
+AlbumArtist: Dream Theater
+Title: In the Name of God
+Album: Train of Thought
+Track: 7
+Date: 2003
+Genre: Metal
+Composer: John Petrucci/Jordan Rudess/Mike Portnoy/Myung
+mtime: 1329686832
+song_end
+end: Train of Thought
+directory: Two Door Cinema Club
+mtime: 1329522960
+begin: Two Door Cinema Club
+directory: Tourist History
+mtime: 1327364040
+begin: Two Door Cinema Club/Tourist History
+song_begin: 01 Cigarettes In The Theatre.mp3
+Time: 214
+Artist: Two Door Cinema Club
+Title: Cigarettes in the Theatre
+Album: Tourist History [Promo]
+Track: 1/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364027
+song_end
+song_begin: 02 Come Back Home.mp3
+Time: 204
+Artist: Two Door Cinema Club
+Title: Come Back Home
+Album: Tourist History [Promo]
+Track: 2/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364033
+song_end
+song_begin: 03 Do You Want It All.mp3
+Time: 209
+Artist: Two Door Cinema Club
+Title: Do You Want It All
+Album: Tourist History [Promo]
+Track: 3/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364029
+song_end
+song_begin: 04 This Is The Life.mp3
+Time: 211
+Artist: Two Door Cinema Club
+Title: This is the Life
+Album: Tourist History [Promo]
+Track: 4/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364029
+song_end
+song_begin: 05 Something Good Can Work.mp3
+Time: 164
+Artist: Two Door Cinema Club
+Title: Something Good Can Work
+Album: Tourist History [Promo]
+Track: 5/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364031
+song_end
+song_begin: 06 I Can Talk.mp3
+Time: 177
+Artist: Two Door Cinema Club
+Title: I Can Talk
+Album: Tourist History [Promo]
+Track: 6/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364040
+song_end
+song_begin: 07 Undercover Martyn.mp3
+Time: 168
+Artist: Two Door Cinema Club
+Title: Undercover Martyn
+Album: Tourist History [Promo]
+Track: 7/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364029
+song_end
+song_begin: 08 What You Know.mp3
+Time: 191
+Artist: Two Door Cinema Club
+Title: What You Know
+Album: Tourist History [Promo]
+Track: 8/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364028
+song_end
+song_begin: 09 Eat That Up, It's Good For You.mp3
+Time: 226
+Artist: Two Door Cinema Club
+Title: Eat That up, It's Good for You
+Album: Tourist History [Promo]
+Track: 9/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364031
+song_end
+song_begin: 10 You're Not Stubborn.mp3
+Time: 191
+Artist: Two Door Cinema Club
+Title: You're Not Stubborn
+Album: Tourist History [Promo]
+Track: 10/10
+Date: 2010
+Genre: Indie, Electronic
+Disc: 1/1
+mtime: 1327364025
+song_end
+end: Two Door Cinema Club/Tourist History
+end: Two Door Cinema Club
+directory: Uniform Motion
+mtime: 1329522953
+begin: Uniform Motion
+directory: One Frame per Second
+mtime: 1327363006
+begin: Uniform Motion/One Frame per Second
+song_begin: Uniform Motion - One Frame Per Second (2011) - 01 The Victory Of Buckets And Doors.flac
+Time: 196
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: The Victory Of Buckets And Doors
+Track: 1
+mtime: 1328994093
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 02 Our Hearts Have Been Misplaced In A Secret Location.flac
+Time: 258
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: Our Hearts Have Been Misplaced In A Secret Location
+Track: 2
+mtime: 1328994093
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 03 I Was Crushed By A Forty-Foot Man.flac
+Time: 208
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: I Was Crushed By A Forty-Foot Man
+Track: 3
+mtime: 1328994093
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 04 There Is No Way There Is No Way.flac
+Time: 212
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: There Is No Way There Is No Way
+Track: 4
+mtime: 1328994093
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 05 Fools, Don't Listen To A Word I Say.flac
+Time: 210
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: Fools, Don't Listen To A Word I Say
+Track: 5
+mtime: 1328994093
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 06 The Rats Dress Nice.flac
+Time: 212
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: The Rats Dress Nice
+Track: 6
+mtime: 1328994094
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 07 We're Hauling Land Through The Air.flac
+Time: 277
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: We're Hauling Land Through The Air
+Track: 7
+mtime: 1328994094
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 08 I Will Put My Life On Tape.flac
+Time: 262
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: I Will Put My Life On Tape
+Track: 8
+mtime: 1328994094
+song_end
+song_begin: Uniform Motion - One Frame Per Second (2011) - 09 An Island.flac
+Time: 188
+Album: One Frame Per Second
+Artist: Uniform Motion
+Date: 2011
+Title: An Island
+Track: 9
+mtime: 1328994094
+song_end
+end: Uniform Motion/One Frame per Second
+end: Uniform Motion
+directory: Wishbone Ash - Wishbone Ash [FLAC]
+mtime: 1329788439
+begin: Wishbone Ash - Wishbone Ash [FLAC]
+song_begin: Wishbone Ash - 01 -  Blind Eye.flac
+Time: 226
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Blind Eye
+Track: 1
+mtime: 1329788422
+song_end
+song_begin: Wishbone Ash - 02 -  Lady Whiskey.flac
+Time: 373
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Lady Whiskey
+Track: 2
+mtime: 1329788431
+song_end
+song_begin: Wishbone Ash - 03 -  Errors Of My Ways.flac
+Time: 418
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Errors Of My Ways
+Track: 3
+mtime: 1329788433
+song_end
+song_begin: Wishbone Ash - 04 -  Queen Of Torture.flac
+Time: 206
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Queen Of Torture
+Track: 4
+mtime: 1329788429
+song_end
+song_begin: Wishbone Ash - 05 -  Handy.flac
+Time: 696
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Handy
+Track: 5
+mtime: 1329788439
+song_end
+song_begin: Wishbone Ash - 06 -  Phoenix.flac
+Time: 628
+Album: Wishbone Ash
+Artist: Wishbone Ash
+Date: 1970
+Disc: 1
+Genre: Rock
+Title: Phoenix
+Track: 6
+mtime: 1329788417
+song_end
+end: Wishbone Ash - Wishbone Ash [FLAC]
+directory: bryyn
+mtime: 1329523036
+begin: bryyn
+directory: House Plants
+mtime: 1327369454
+begin: bryyn/House Plants
+song_begin: 01 What I Hope.mp3
+Time: 228
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: What I Hope
+Album: House Plants
+Track: 1/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496368
+song_end
+song_begin: 02 Quiet 1.mp3
+Time: 206
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Quiet
+Album: House Plants
+Track: 2/13
+Date: 2010
+Genre: Indie / Space out
+Composer: Bryn Martin
+mtime: 1298496378
+song_end
+song_begin: 03 It's Not Working (I Don't Know Wh 1.mp3
+Time: 201
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: It's Not Working (I Don't Know Why)
+Album: House Plants
+Track: 3/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496388
+song_end
+song_begin: 04 So Well 1.mp3
+Time: 192
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: So Well
+Album: House Plants
+Track: 4/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496398
+song_end
+song_begin: 05 Fractals 1.mp3
+Time: 212
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Fractals
+Album: House Plants
+Track: 5/13
+Date: 2010
+Genre: Indie / Rock
+Composer: Bryn Martin
+mtime: 1298496408
+song_end
+song_begin: 06 For Me 1.mp3
+Time: 229
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: For Me
+Album: House Plants
+Track: 6/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496418
+song_end
+song_begin: 07 Alibi 1.mp3
+Time: 161
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Alibi
+Album: House Plants
+Track: 7/13
+Date: 2010
+Genre: Indie / Hip-hop
+Composer: Bryn Martin
+mtime: 1298496422
+song_end
+song_begin: 08 Paper Thin 1.mp3
+Time: 194
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Paper Thin
+Album: House Plants
+Track: 8/13
+Date: 2010
+Genre: Indie / Acoustic
+Composer: Bryn Martin
+mtime: 1298496426
+song_end
+song_begin: 09 Rounder Than An Orange Peel 1.mp3
+Time: 216
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Rounder Than An Orange Peel
+Album: House Plants
+Track: 9/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496438
+song_end
+song_begin: 10 Into the Ark 1.mp3
+Time: 204
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Into the Ark
+Album: House Plants
+Track: 10/13
+Date: 2010
+Genre: Indie / Electronic
+Composer: Bryn Martin
+mtime: 1298496448
+song_end
+song_begin: 11 Bee Hee 1.mp3
+Time: 227
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Bee Hee
+Album: House Plants
+Track: 11/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496460
+song_end
+song_begin: 12 Galapagos Island (Reprise) 1.mp3
+Time: 234
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Galapagos Island (Reprise)
+Album: House Plants
+Track: 12/13
+Date: 2010
+Genre: Indie
+Composer: Bryn Martin
+mtime: 1298496472
+song_end
+song_begin: 13 Giraffe 1.mp3
+Time: 190
+Artist: Bryyn
+AlbumArtist: Bryn Martin
+Title: Giraffe
+Album: House Plants
+Track: 13/13
+Date: 2010
+Genre: Indie / Acoustic
+Composer: Bryn Martin
+mtime: 1298496482
+song_end
+end: bryyn/House Plants
+end: bryyn
+directory: fun. - Some Nights (2012) [FLAC] politux
+mtime: 1329667449
+begin: fun. - Some Nights (2012) [FLAC] politux
+song_begin: 01 Some Nights Intro.flac
+Time: 138
+Title: Some Nights Intro
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 1
+Disc: 1
+Date: 2012
+mtime: 1329667439
+song_end
+song_begin: 02 Some Nights.flac
+Time: 278
+Title: Some Nights
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 2
+Disc: 1
+Date: 2012
+mtime: 1329667448
+song_end
+song_begin: 03 We Are Young (Feat. Janelle Monáe).flac
+Time: 251
+Title: We Are Young (Feat. Janelle Monáe)
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 3
+Disc: 1
+Date: 2012
+mtime: 1329667441
+song_end
+song_begin: 04 Carry On.flac
+Time: 281
+Title: Carry On
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 4
+Disc: 1
+Date: 2012
+mtime: 1329667446
+song_end
+song_begin: 05 It Gets Better.flac
+Time: 217
+Title: It Gets Better
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 5
+Disc: 1
+Date: 2012
+mtime: 1329667445
+song_end
+song_begin: 06 Why Am I The One.flac
+Time: 287
+Title: Why Am I The One
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 6
+Disc: 1
+Date: 2012
+mtime: 1329667443
+song_end
+song_begin: 07 All Alone.flac
+Time: 186
+Title: All Alone
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 7
+Disc: 1
+Date: 2012
+mtime: 1329667439
+song_end
+song_begin: 08 All Alright.flac
+Time: 240
+Title: All Alright
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 8
+Disc: 1
+Date: 2012
+mtime: 1329667447
+song_end
+song_begin: 09 One Foot.flac
+Time: 212
+Title: One Foot
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 9
+Disc: 1
+Date: 2012
+mtime: 1329667442
+song_end
+song_begin: 10 Stars.flac
+Time: 415
+Title: Stars
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 10
+Disc: 1
+Date: 2012
+mtime: 1329667444
+song_end
+song_begin: 11 Out On The Town (Bonus Track).flac
+Time: 262
+Title: Out On The Town (Bonus Track)
+Artist: fun.
+Album: Some Nights
+Genre: Indie Rock
+Track: 11
+Disc: 1
+Date: 2012
+mtime: 1329667445
+song_end
+end: fun. - Some Nights (2012) [FLAC] politux
+directory: imnaha - days drag on [FLAC]
+mtime: 1329662629
+begin: imnaha - days drag on [FLAC]
+song_begin: imnaha - days drag on - 01 just what i want.flac
+Time: 364
+Title: just what i want
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 1
+mtime: 1329662624
+song_end
+song_begin: imnaha - days drag on - 02 let it go.flac
+Time: 205
+Title: let it go
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 2
+mtime: 1329662628
+song_end
+song_begin: imnaha - days drag on - 03 rollin' in.flac
+Time: 304
+Title: rollin' in
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 3
+mtime: 1329662625
+song_end
+song_begin: imnaha - days drag on - 04 maintain a little.flac
+Time: 381
+Title: maintain a little
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 4
+mtime: 1329662628
+song_end
+end: imnaha - days drag on [FLAC]
+directory: king_crimson-in_the_court_of_the_crimson_king-1969
+mtime: 1330041740
+begin: king_crimson-in_the_court_of_the_crimson_king-1969
+song_begin: 01-21st_century_schizoid_man.flac
+Time: 444
+Title: 21st Century Schizoid Man (Including Mirrors)
+Artist: King Crimson
+Album: In The Court Of The Crimson King (2 - Original Master Edition 2004)
+Date: 1969
+Genre: Rock
+Track: 1
+Disc: 2/4
+AlbumArtist: King Crimson
+mtime: 1330041737
+song_end
+song_begin: 02-i_talk_to_the_wind.flac
+Time: 365
+Title: I Talk To The Wind
+Artist: King Crimson
+Album: In The Court Of The Crimson King (2 - Original Master Edition 2004)
+Date: 1969
+Genre: Rock
+Track: 2
+Disc: 2/4
+AlbumArtist: King Crimson
+mtime: 1330041735
+song_end
+song_begin: 03-epitaph.flac
+Time: 528
+Title: Epitaph (Including March For No Reason/Tomorrow And Tomorrow)
+Artist: King Crimson
+Album: In The Court Of The Crimson King (2 - Original Master Edition 2004)
+Date: 1969
+Genre: Rock
+Track: 3
+Disc: 2/4
+AlbumArtist: King Crimson
+mtime: 1330041738
+song_end
+song_begin: 04-moonchild.flac
+Time: 542
+Title: Moonchild (Including The Dream/The Illusion)
+Artist: King Crimson
+Album: In The Court Of The Crimson King (2 - Original Master Edition 2004)
+Date: 1969
+Genre: Rock
+Track: 4
+Disc: 2/4
+AlbumArtist: King Crimson
+mtime: 1330041740
+song_end
+song_begin: 05-the_court_of_the_crimson_song.flac
+Time: 562
+Title: The Court Of The Crimson Song (Including The Return Of The Fire Witch/The Dance Of The Puppets)
+Artist: King Crimson
+Album: In The Court Of The Crimson King (2 - Original Master Edition 2004)
+Date: 1969
+Genre: Rock
+Track: 5
+Disc: 2/4
+AlbumArtist: King Crimson
+mtime: 1330041738
+song_end
+end: king_crimson-in_the_court_of_the_crimson_king-1969
