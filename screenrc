@@ -1,0 +1,19 @@
+startup_message off
+altscreen on
+shell zsh
+autodetach on
+vbell off
+
+# Starting Screen on Window 1
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
+
+term screen-256color
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+# Pretty status bar or something like that
+hardstatus off
+#hardstatus alwayslastline
+hardstatus alwayslastline "%{= d}%{b}screen %{w}%{b}>> %{w}${USER}%{w}@%{w}%H: %L>%1`%? %?%{.g}%u%? %-18=%?%{m} %{w}%-=%{w}%-w%{b}%n %t%{w}%+w %{w}|%C"
