@@ -1,6 +1,14 @@
 HISTFILE=~/.histfile
+<<<<<<< HEAD
 HISTSIZE=1000
 SAVEHIST=1
+=======
+HISTSIZE=1
+SAVEHIST=0
+
+#Remining me to do stuff
+task
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 
 # Options {{{
 setopt appendhistory 
@@ -13,9 +21,16 @@ setopt noclobber
 zstyle :compinstall filename '/home/tnek/.zshrc'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
+<<<<<<< HEAD
 bindkey -v
 export EDITOR='vim'
 export BROWSER='firefox'
+=======
+
+bindkey -v
+export EDITOR='vim'
+export BROWSER='chromium'
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 
 # Keybindings {{{
 bindkey "\e[1~" beginning-of-line # Home
@@ -45,6 +60,7 @@ bindkey "^[[B" history-search-forward
 # }}}
 
 # Aliases
+<<<<<<< HEAD
 alias alsi='alsi -a'
 alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
 alias dir="ls -lAhF"
@@ -60,6 +76,23 @@ alias reboot='sudo reboot'
 alias halt='sudo halt'
 alias hamachi='sudo hamachi'
 alias 'rc.d'='sudo rc.d'
+=======
+alias backup='cp ~/.Xdefaults ~/bin/Dropbox/Dotfiles/Xdefaults ; cp ~/.xinitrc ~/bin/Dropbox/Dotfiles/xinitrc ; cp -r ~/.irssi/* ~/bin/Dropbox/Dotfiles/irssi ; cp ~/.config/awesome/rc.lua ~/bin/Dropbox/Dotfiles/awesome/rc.lua ; cp ~/.zshrc ~/bin/Dropbox/Dotfiles/zshrc ; cp -r ~/.config/awesome/themes/* ~/bin/Dropbox/Dotfiles/awesome/ ; cp ~/.vimrc ~/bin/Dropbox/Dotfiles/vimrc ; cp -r ~/.ncmpcpp ~/bin/Dropbox/Dotfiles/ncmpcpp ; cp -r ~/.mpd/* ~/bin/Dropbox/Dotfiles/ncmpcpp/mpd ; cp -r ~/.config/luakit ~/bin/Dropbox/Dotfiles/luakit ; cp -r ~/.config/wmfs ~/bin/Dropbox/Dotfiles ; cp -r ~/.config/xfce4 ~/bin/Dropbox/Dotfiles/xfce4 ; cp -r ~/.config/xfce4-session ~/bin/Dropbox/Dotfiles/xfce4-session ; cp -r ~/.config/dwm ~/bin/Dropbox/Dotfiles/dwm'
+alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
+alias alsi='alsi -a'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias dir="ls -lAhF"
+alias update='yaourt -Syua'
+alias dashify='ssh erkin@dashify.me'
+alias unmute='xset b 50 250 50'
+alias histclear='rm ~/.local/share/luakit/history.db'
+
+# Shutdown
+alias shutdown='sudo shutdown'
+alias reboot='sudo reboot'
+alias halt='sudo halt'
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 
 # Verbose Commands
 alias mkdir='mkdir -p -v'
@@ -67,6 +100,10 @@ alias rm='rm -I'
 alias mv='mv -v'
 alias cp='cp -v'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 autoload -Uz compinit
 compinit
 PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
@@ -101,7 +138,10 @@ extr(){
             *.rar)          unrar $1      ;;
             *.zip)          unzip $1      ;;
             *.Z)            uncompress $1 ;;
+<<<<<<< HEAD
             *.7z)           7z e $1       ;;
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
             *)              echo "'$1' cannot be extracted via extr()" ;;
         esac
     else
@@ -112,5 +152,8 @@ extr(){
 # Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d

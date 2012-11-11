@@ -4,7 +4,10 @@
 *foreground: #c6a57b
 *background: #151515
 
+<<<<<<< HEAD
 ! Pastel
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 !black
 *color0:     #101010
 *color8:     #404040
@@ -34,10 +37,15 @@
 ! u r x v t
 URxvt*geometry:         80x21
 URxvt*font:             xft:ubuntu mono:size=8:antialias=true
+<<<<<<< HEAD
+=======
+URxvt*urlLauncher:      chromium
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 URxvt*scrollBar:        false
 URxvt*scrollBar_right:  true
 URxvt*scrollColor:      #000000
 URxvt*transparent:      false
+<<<<<<< HEAD
 URxvt*shading:          40
 URxvt.depth:            0
 URxvt.urgentOnBell:     true
@@ -51,3 +59,11 @@ URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg:    7
 URxvt.tabbed.tab-bg:    4
+=======
+URxvt*shading:          35
+URxvt.depth:            0
+URxvt.urgentOnBell:     true
+!------------------------------------------------------------------------------
+! X c u r s o r
+Xcursor.theme: XcursorHuman
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
