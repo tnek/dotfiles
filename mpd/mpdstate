@@ -1,0 +1,25 @@
+sw_volume: 60
+audio_device_state:1:HDA Intel
+audio_device_state:1:my_fifo
+state: play
+current: 5
+time: 187
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: nan
+playlist_begin
+0:king_crimson-in_the_court_of_the_crimson_king-1969/01-21st_century_schizoid_man.flac
+1:king_crimson-in_the_court_of_the_crimson_king-1969/02-i_talk_to_the_wind.flac
+2:king_crimson-in_the_court_of_the_crimson_king-1969/03-epitaph.flac
+3:king_crimson-in_the_court_of_the_crimson_king-1969/04-moonchild.flac
+4:king_crimson-in_the_court_of_the_crimson_king-1969/05-the_court_of_the_crimson_song.flac
+5:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/01. Red.flac
+6:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/02. Fallen Angel.flac
+7:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/03. One More Red Nightmare.flac
+8:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/04. Providence.flac
+9:King Crimson - Red (40th anniversary) DVDA-RIP/5.1 surround mix/05. Starless.flac
+playlist_end
