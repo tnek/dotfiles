@@ -1,0 +1,118 @@
+# $Id: PKGBUILD 60970 2011-12-19 21:33:58Z spupykin $
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: Dag Odenhall <dag.odenhall@gmail.com>
+# Contributor: Grigorios Bouzakis <grbzks@gmail.com>
+
+pkgname=dwm
+pkgver=6.0
+pkgrel=1
+pkgdesc="A dynamic window manager for X"
+url="http://dwm.suckless.org"
+arch=('i686' 'x86_64')
+license=('MIT')
+options=(zipman)
+depends=('libx11' 'libxinerama')
+install=dwm.install
+source=(http://dl.suckless.org/dwm/dwm-$pkgver.tar.gz
+	config.h
+	dwm.desktop)
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '2453e037f46449774ec8afab49b4f1a2'
+         '939f403a71b6e85261d09fc3412269ee')
+
+build() {
+  cd $srcdir/$pkgname-$pkgver
+  cp $srcdir/config.h config.h
+  sed -i 's/CPPFLAGS =/CPPFLAGS +=/g' config.mk
+  sed -i 's/^CFLAGS = -g/#CFLAGS += -g/g' config.mk
+  sed -i 's/^#CFLAGS = -std/CFLAGS += -std/g' config.mk
+  sed -i 's/^LDFLAGS = -g/#LDFLAGS += -g/g' config.mk
+  sed -i 's/^#LDFLAGS = -s/LDFLAGS += -s/g' config.mk
+  make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
+}
+
+package() {
+  cd $srcdir/$pkgname-$pkgver
+  make PREFIX=/usr DESTDIR=$pkgdir install
+  install -m644 -D LICENSE $pkgdir/usr/share/licenses/$pkgname/LICENSE
+  install -m644 -D README $pkgdir/usr/share/doc/$pkgname/README
+  install -m644 -D $srcdir/dwm.desktop $pkgdir/usr/share/xsessions/dwm.desktop
+}
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '33f8b8bcb7ee02a4f451dd91f987bb08'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'ebd538975ad039d64a0477142cd690a1'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '0f9c3d2d664d96eb3509d9667d7c0093'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '095e4467f0f122473547f3dda47a5794'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '360949a212377b85420569a5a38f5ec5'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '360949a212377b85420569a5a38f5ec5'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'ac611b0dd803c2f21d80397d2cb660e9'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'db73fcf479c2ebf065a3e9d654b18c70'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'bfb9b45df33dfae942a6582aca107269'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '8f85072485e22e092ab99b414685a5ff'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '8f85072485e22e092ab99b414685a5ff'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '8f85072485e22e092ab99b414685a5ff'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '789d448e3071f4a097fc43431f4515fb'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '1a89f60800ac8a1edede9df70ad99526'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'be4ff6dffa3ab86251f829a7bde06f91'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '48629ed358ae7139ba89e44bcfd6e515'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'be4ff6dffa3ab86251f829a7bde06f91'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'be4ff6dffa3ab86251f829a7bde06f91'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'e074bf9cbf66ca4217e2d17f0e7fd644'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '1abee69368235530287aab6b8d610a77'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'd39adeab61d13ea884b79d5de430ec6a'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         'e074bf9cbf66ca4217e2d17f0e7fd644'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '9b7401366239b750fd8b825d930e3af4'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '9b7401366239b750fd8b825d930e3af4'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '53c27c018322af89c8e8a4e114b80082'
+         '939f403a71b6e85261d09fc3412269ee')
+md5sums=('8bb00d4142259beb11e13473b81c0857'
+         '317e1a84e4eff2cb2362371963116c63'
+         '939f403a71b6e85261d09fc3412269ee')
