@@ -6989,6 +6989,7 @@ Apr 06 20:41 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1
 Apr 06 20:41 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Apr 06 20:42 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Apr 06 20:42 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
+<<<<<<< HEAD
 Apr 06 20:42 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Apr 06 20:42 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Apr 06 20:42 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
@@ -24282,3 +24283,5 @@ Nov 11 17:32 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1
 Nov 11 17:32 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Nov 11 17:32 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
 Nov 11 17:32 : output: "my_fifo" [fifo] failed to filter: Conversion from 6 to 1 channels is not implemented
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d

@@ -1,5 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
+<<<<<<< HEAD
 static const char font[]            = "-artwiz-cure-medium-r-normal--8-110-75-75-p-90-iso8859-1";
 static const char normbordercolor[] = "#050505";
 static const char normbgcolor[]     = "#161616";
@@ -7,13 +8,27 @@ static const char normfgcolor[]     = "#a2a2a2";
 static const char selbordercolor[]  = "#0e2a3f";
 static const char selbgcolor[]      = "#080808";
 static const char selfgcolor[]      = "#3da4f4";
+=======
+//static const char font[]            = "-artwiz-cure-medium-r-normal--12-110-75-75-p-90-iso8859-1";
+static const char font[]            = "-*-ubuntu-mono-regular-r-normal-*-8-*-*-*-*-*-*-*";
+static const char normbordercolor[] = "#000000";
+static const char normbgcolor[]     = "#151515";
+static const char normfgcolor[]     = "#777777";
+static const char selbordercolor[]  = "#A9A9A9";
+static const char selbgcolor[]      = "#151515";
+static const char selfgcolor[]      = "#EEEEEE";
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 static const unsigned int borderpx  = 1;        
 static const unsigned int snap      = 32;       
 static const Bool showbar           = True;     
 static const Bool topbar            = True;    
 
 
+<<<<<<< HEAD
 static const char *tags[] = { "Work", "Web", "Term", "Vbox", "Misc" };
+=======
+static const char *tags[] = { "Main", "Web", "Term", "Other" };
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
@@ -25,7 +40,10 @@ static const float mfact      = 0.55; /* factor of master area size [0.05..0.95]
 static const int nmaster      = 1;    /* number of clients in master area */
 static const Bool resizehints = False; /* True means respect size hints in tiled resizals */
 #include "/home/tnek/.config/dwm/gaplessgrid.c"
+<<<<<<< HEAD
 #include "/home/tnek/.config/dwm/push.c"
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
@@ -55,8 +73,11 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+<<<<<<< HEAD
 	{ MODKEY|ShiftMask,             XK_j,      pushdown,       {0} },
 	{ MODKEY|ShiftMask,             XK_k,      pushup,         {0} },
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },

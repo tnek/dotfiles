@@ -1,6 +1,10 @@
 info_begin
 format: 1
+<<<<<<< HEAD
 mpd_version: 0.17.1
+=======
+mpd_version: 0.16.7
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -160,6 +164,7 @@ Track: 17
 mtime: 1327439172
 song_end
 end: 1980 - Alan Parsons Project - The Turn of a Friendly Card[2008 remaster]{flac}
+<<<<<<< HEAD
 directory: A Moment of Stillness (EP)
 mtime: 1343748104
 begin: A Moment of Stillness (EP)
@@ -204,6 +209,8 @@ Track: 5
 mtime: 1343747872
 song_end
 end: A Moment of Stillness (EP)
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Art Blakey's Big Band
 mtime: 1325706980
 begin: Art Blakey's Big Band
@@ -304,6 +311,7 @@ Disc: 1/1
 mtime: 1325706988
 song_end
 end: Art Blakey's Big Band
+<<<<<<< HEAD
 directory: Camel - Mirage (1974)
 mtime: 1334800434
 begin: Camel - Mirage (1974)
@@ -368,6 +376,8 @@ Composer: Andy Latimer/Andy Ward/Doug Ferguson/Pete Bardens
 mtime: 1334800433
 song_end
 end: Camel - Mirage (1974)
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Coldplay
 mtime: 1329523106
 begin: Coldplay
@@ -1138,6 +1148,7 @@ mtime: 1328975976
 song_end
 end: Devin Townsend/Ki
 end: Devin Townsend
+<<<<<<< HEAD
 directory: Devin Townsend Project - Deconstruction (2011) [V0]
 mtime: 1340635562
 begin: Devin Townsend Project - Deconstruction (2011) [V0]
@@ -1250,6 +1261,8 @@ Disc: 1/1
 mtime: 1340635557
 song_end
 end: Devin Townsend Project - Deconstruction (2011) [V0]
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Eagles
 mtime: 1330139116
 begin: Eagles
@@ -1578,6 +1591,7 @@ mtime: 1327359378
 song_end
 end: Explosions In The Sky/The Earth Is Not a Cold Dead Place
 end: Explosions In The Sky
+<<<<<<< HEAD
 directory: Explosions in the Sky - 2011 - Take Care, Take Care, Take Care [V0 - CD]
 mtime: 1340499822
 begin: Explosions in the Sky - 2011 - Take Care, Take Care, Take Care [V0 - CD]
@@ -1738,6 +1752,8 @@ Track: 9
 mtime: 1343748099
 song_end
 end: Far from Refuge (Japanese Release)
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Foo Fighters
 mtime: 1329522882
 begin: Foo Fighters
@@ -1998,6 +2014,7 @@ song_end
 playlist_begin: God Is An Astronaut - All Is Violent, All Is Bright.m3u
 mtime: 1327363856
 playlist_end
+<<<<<<< HEAD
 playlist_begin: All Is Violent, All Is Bright.CUE
 mtime: 1327363856
 playlist_end
@@ -2096,6 +2113,9 @@ Date: 2008
 mtime: 1343748103
 song_end
 end: God Is an Astronaut
+=======
+end: God Is An Astronaut - All Is Violent, All Is Bright
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Godspeed You Black Emperor
 mtime: 1330139402
 begin: Godspeed You Black Emperor
@@ -2144,6 +2164,7 @@ mtime: 1327721108
 song_end
 end: Godspeed You Black Emperor/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas To Heaven (Vinyl) - [FLAC]
 end: Godspeed You Black Emperor
+<<<<<<< HEAD
 directory: Godspeed You Black Emperor! - Slow Riot for New Zero Kanada
 mtime: 1346451739
 begin: Godspeed You Black Emperor! - Slow Riot for New Zero Kanada
@@ -2193,6 +2214,8 @@ playlist_begin: FA (Infinity).m3u
 mtime: 1347576384
 playlist_end
 end: Godspeed You! Black Emperor -  faoo [Vinyl] [FLAC]
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Gotye - Making Mirrors (2011) [FLAC] politux
 mtime: 1329529203
 begin: Gotye - Making Mirrors (2011) [FLAC] politux
@@ -2531,6 +2554,7 @@ mtime: 1327720849
 song_end
 end: If These Trees Could Talk/Above The Earth, Below The Sky
 end: If These Trees Could Talk
+<<<<<<< HEAD
 directory: Kansas - Leftoverture
 mtime: 1339885662
 begin: Kansas - Leftoverture
@@ -2626,6 +2650,172 @@ playlist_begin: 00 - 1976 - Kansas - Leftoverture.m3u
 mtime: 1339885590
 playlist_end
 end: Kansas - Leftoverture
+=======
+directory: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+mtime: 1330119078
+begin: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+song_begin: 01-jarabe_de_palo-dueno_de_mi_silencio-vpe.mp3
+Time: 262
+Artist: Jarabe De Palo
+Title: Dueño De Mi Silencio
+Album: Orquesta Reciclando
+Track: 1
+Date: 2009
+Genre: Pop
+mtime: 1330118765
+song_end
+song_begin: 02-jarabe_de_palo-la_flaca-vpe.mp3
+Time: 310
+Artist: Jarabe De Palo
+Title: La Flaca
+Album: Orquesta Reciclando
+Track: 2
+Date: 2009
+Genre: Pop
+mtime: 1330118776
+song_end
+song_begin: 03-jarabe_de_palo-el_lado_oscuro-vpe.mp3
+Time: 248
+Artist: Jarabe De Palo
+Title: El Lado Oscuro
+Album: Orquesta Reciclando
+Track: 3
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 04-jarabe_de_palo-el_bosque_de_palo_cantamananas-vpe.mp3
+Time: 226
+Artist: Jarabe De Palo
+Title: El Bosque De Palo Cantamañanas
+Album: Orquesta Reciclando
+Track: 4
+Date: 2009
+Genre: Pop
+mtime: 1330118769
+song_end
+song_begin: 05-jarabe_de_palo-grita-vpe.mp3
+Time: 356
+Artist: Jarabe De Palo
+Title: Grita
+Album: Orquesta Reciclando
+Track: 5
+Date: 2009
+Genre: Pop
+mtime: 1330118781
+song_end
+song_begin: 06-jarabe_de_palo-depende-vpe.mp3
+Time: 233
+Artist: Jarabe De Palo
+Title: Depende
+Album: Orquesta Reciclando
+Track: 6
+Date: 2009
+Genre: Pop
+mtime: 1330118781
+song_end
+song_begin: 07-jarabe_de_palo-agua-vpe.mp3
+Time: 255
+Artist: Jarabe De Palo
+Title: Agua
+Album: Orquesta Reciclando
+Track: 7
+Date: 2009
+Genre: Pop
+mtime: 1330118774
+song_end
+song_begin: 08-jarabe_de_palo-dos_dias_en_la_vida-vpe.mp3
+Time: 311
+Artist: Jarabe De Palo
+Title: Dos Días En La Vida
+Album: Orquesta Reciclando
+Track: 8
+Date: 2009
+Genre: Pop
+mtime: 1330118773
+song_end
+song_begin: 09-jarabe_de_palo-de_vuelta_y_vuelta-vpe.mp3
+Time: 260
+Artist: Jarabe De Palo
+Title: De Vuelta Y Vuelta
+Album: Orquesta Reciclando
+Track: 9
+Date: 2009
+Genre: Pop
+mtime: 1330118771
+song_end
+song_begin: 10-jarabe_de_palo-mama-vpe.mp3
+Time: 201
+Artist: Jarabe De Palo
+Title: Mamá
+Album: Orquesta Reciclando
+Track: 10
+Date: 2009
+Genre: Pop
+mtime: 1330118777
+song_end
+song_begin: 11-jarabe_de_palo-duerme_conmigo-vpe.mp3
+Time: 211
+Artist: Jarabe De Palo
+Title: Duerme Conmigo
+Album: Orquesta Reciclando
+Track: 11
+Date: 2009
+Genre: Pop
+mtime: 1330118779
+song_end
+song_begin: 12-jarabe_de_palo-bonito-vpe.mp3
+Time: 260
+Artist: Jarabe De Palo
+Title: Bonito
+Album: Orquesta Reciclando
+Track: 12
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 13-jarabe_de_palo-pura_sangre-vpe.mp3
+Time: 199
+Artist: Jarabe De Palo
+Title: Pura Sangre
+Album: Orquesta Reciclando
+Track: 13
+Date: 2009
+Genre: Pop
+mtime: 1330118769
+song_end
+song_begin: 14-jarabe_de_palo-dejame_vivir-vpe.mp3
+Time: 193
+Artist: Jarabe De Palo
+Title: Déjame Vivir
+Album: Orquesta Reciclando
+Track: 14
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 15-jarabe_de_palo-a_tu_lado-vpe.mp3
+Time: 209
+Artist: Jarabe De Palo
+Title: A Tu Lado
+Album: Orquesta Reciclando
+Track: 15
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+song_begin: 16-jarabe_de_palo-mucho_mas_mucho_mejor-vpe.mp3
+Time: 233
+Artist: Jarabe De Palo
+Title: Mucho Más, Mucho Mejor
+Album: Orquesta Reciclando
+Track: 16
+Date: 2009
+Genre: Pop
+mtime: 1330118780
+song_end
+end: Jarabe De Palo - Orquesta Reciclando MP3 V0 VBR
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Kanye West
 mtime: 1330117927
 begin: Kanye West
@@ -2765,9 +2955,12 @@ song_end
 playlist_begin: Kanye West - Graduation.m3u
 mtime: 1330117931
 playlist_end
+<<<<<<< HEAD
 playlist_begin: Graduation.CUE
 mtime: 1330117931
 playlist_end
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 end: Kanye West/Graduation
 end: Kanye West
 directory: King Crimson - Red (40th anniversary) DVDA-RIP
@@ -3089,6 +3282,7 @@ mtime: 1327361237
 song_end
 end: Mogwai/Hardcore Will Never Die, But You Will
 end: Mogwai
+<<<<<<< HEAD
 directory: Mogwai - The Hawk Is Howling [mp3-192-2008]
 mtime: 1342467706
 begin: Mogwai - The Hawk Is Howling [mp3-192-2008]
@@ -3193,6 +3387,8 @@ Genre: Indie
 mtime: 1342467706
 song_end
 end: Mogwai - The Hawk Is Howling [mp3-192-2008]
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Muse - The Resistance  2009  FLAC
 mtime: 1329530327
 begin: Muse - The Resistance  2009  FLAC
@@ -3309,6 +3505,7 @@ song_end
 playlist_begin: Muse - The resistance.m3u
 mtime: 1329529863
 playlist_end
+<<<<<<< HEAD
 playlist_begin: The resistance.cue
 mtime: 1329529863
 playlist_end
@@ -3589,6 +3786,9 @@ mtime: 1334801341
 song_end
 end: My Bloody Valentine - Loveless [Remastered] 2CD (2008) [FLAC] vtwin88cube/Disc 2 New Version Remastered From Analog Tapes
 end: My Bloody Valentine - Loveless [Remastered] 2CD (2008) [FLAC] vtwin88cube
+=======
+end: Muse - The Resistance  2009  FLAC
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Neutral Milk Hotel
 mtime: 1329522978
 begin: Neutral Milk Hotel
@@ -3705,9 +3905,12 @@ Title: Two-Headed Boy, Pt. 2
 Track: 11
 mtime: 1327363009
 song_end
+<<<<<<< HEAD
 playlist_begin: 00-In The Aeroplane Over The Sea.cue
 mtime: 1327362567
 playlist_end
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 end: Neutral Milk Hotel/In the Aeroplane Over the Sea
 end: Neutral Milk Hotel
 directory: OK Go
@@ -4112,9 +4315,12 @@ Track: 12
 Genre: Solo Piano
 mtime: 1327362654
 song_end
+<<<<<<< HEAD
 playlist_begin: Dark Night of the Soul.cue
 mtime: 1327362339
 playlist_end
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 end: Philip Wesley/Dark Night of the Soul [2008]
 end: Philip Wesley
 directory: Pink Floyd
@@ -4263,9 +4469,12 @@ begin: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1995 - The Bends
 playlist_begin: Radiohead - The Bends.m3u
 mtime: 1329950887
 playlist_end
+<<<<<<< HEAD
 playlist_begin: The Bends.cue
 mtime: 1329950887
 playlist_end
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 end: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1995 - The Bends
 directory: Radiohead - 1997 - OK Computer
 mtime: 1329951993
@@ -4393,9 +4602,12 @@ song_end
 playlist_begin: Radiohead - OK Computer.m3u
 mtime: 1329950869
 playlist_end
+<<<<<<< HEAD
 playlist_begin: OK Computer.cue
 mtime: 1329950869
 playlist_end
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 end: Radiohead - Boxset (2007) [FLAC]/Radiohead - 1997 - OK Computer
 end: Radiohead - Boxset (2007) [FLAC]
 directory: Rise Against
@@ -4901,6 +5113,7 @@ mtime: 1327440103
 song_end
 end: Shinedown/Sound of Madness
 end: Shinedown
+<<<<<<< HEAD
 directory: Tallahassee
 mtime: 1335032169
 begin: Tallahassee
@@ -5087,6 +5300,8 @@ Disc: 1/1
 mtime: 1265034164
 song_end
 end: Tallahassee
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
 mtime: 1327441503
 begin: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
@@ -5201,6 +5416,7 @@ Genre: Rock
 mtime: 1327441450
 song_end
 end: The Alan Parsons Project - Eye In The Sky(1981 - FLACLOG CUE)
+<<<<<<< HEAD
 directory: The End of the Beginning
 mtime: 1343748103
 begin: The End of the Beginning
@@ -5293,6 +5509,295 @@ Track: 11
 mtime: 1343747990
 song_end
 end: The End of the Beginning
+=======
+directory: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+mtime: 1329687250
+begin: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+song_begin: 01.Surfin' Safari.flac
+Time: 126
+Title: Surfin' Safari
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 1
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 02.Surfin' U.S.A..flac
+Time: 149
+Title: Surfin' U.S.A.
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Chuck Berry
+Track: 2
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 03.Surfer Girl.flac
+Time: 148
+Title: Surfer Girl
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson
+Track: 3
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687185
+song_end
+song_begin: 04.Little Deuce Coupe.flac
+Time: 100
+Title: Little Deuce Coupe
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Roger "Hot Dog Rog" Christian
+Track: 4
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687250
+song_end
+song_begin: 05.Be True To Your School.flac
+Time: 127
+Title: Be True To Your School
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 5
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 06.Fun, Fun, Fun.flac
+Time: 124
+Title: Fun, Fun, Fun
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 6
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687201
+song_end
+song_begin: 07.I Get Around.flac
+Time: 135
+Title: I Get Around
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 7
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687198
+song_end
+song_begin: 08.Shut Down.flac
+Time: 112
+Title: Shut Down
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Roger "Hot Dog Rog" Christian
+Track: 8
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 09.Dance, Dance, Dance.flac
+Time: 121
+Title: Dance, Dance, Dance
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Carl Wilson
+Track: 9
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687189
+song_end
+song_begin: 10.Do You Wanna Dance.flac
+Time: 139
+Title: Do You Wanna Dance
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Bobby Freeman
+Track: 10
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 11.Help Me, Rhonda.flac
+Time: 190
+Title: Help Me, Rhonda
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 11
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687179
+song_end
+song_begin: 12.California Girls.flac
+Time: 158
+Title: California Girls
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 12
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687198
+song_end
+song_begin: 13.Barbara Ann.flac
+Time: 140
+Title: Barbara Ann
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Fred Fassert
+Track: 13
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+song_begin: 14.Sloop John B.flac
+Time: 179
+Title: Sloop John B
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Traditional
+Track: 14
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687195
+song_end
+song_begin: 15.Wouldn't It Be Nice.flac
+Time: 145
+Title: Wouldn't It Be Nice
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Tony Asher
+Track: 15
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687204
+song_end
+song_begin: 16.Good Vibrations.flac
+Time: 218
+Title: Good Vibrations
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love
+Track: 16
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687199
+song_end
+song_begin: 17.409.flac
+Time: 121
+Title: 409
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Mike Love Gary Usher
+Track: 17
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687163
+song_end
+song_begin: 18.God Only Knows.flac
+Time: 172
+Title: God Only Knows
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson Tony Asher
+Track: 18
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+song_begin: 19.Catch A Wave.flac
+Time: 129
+Title: Catch A Wave
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Brian Wilson
+Track: 19
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687194
+song_end
+song_begin: 20.Kokomo.flac
+Time: 217
+Title: Kokomo
+Artist: The Beach Boys
+Album: Greatest Hits 20 Good Vibrations
+Date: 1999
+Genre: Rock
+Composer: Mike Love Scott Mckenzie Terry Melcher John Phillips
+Track: 20
+Disc: 1
+AlbumArtist: The Beach Boys
+AlbumArtist: The Beach Boys
+mtime: 1329687193
+song_end
+playlist_begin: playlist.m3u
+mtime: 1329686958
+playlist_end
+end: The Beach Boys - Greatest Hits 20 Good Vibrations (1999) [CD Rip] [FLAC] vtwin88cube
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Train of Thought
 mtime: 1329686879
 begin: Train of Thought
@@ -5588,6 +6093,7 @@ mtime: 1328994094
 song_end
 end: Uniform Motion/One Frame per Second
 end: Uniform Motion
+<<<<<<< HEAD
 directory: Vexare - The Clockmaker
 mtime: 1345122303
 begin: Vexare - The Clockmaker
@@ -5714,6 +6220,8 @@ Genre: Rock
 mtime: 1333906958
 song_end
 end: Wishbone Ash - Argus (1972) {Original} [VBR HQ mp3s]
+=======
+>>>>>>> 5a13e3befd0e109c1b69441ddf748712b976091d
 directory: Wishbone Ash - Wishbone Ash [FLAC]
 mtime: 1329788439
 begin: Wishbone Ash - Wishbone Ash [FLAC]
