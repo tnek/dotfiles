@@ -13,7 +13,7 @@ static const Bool showbar           = True;
 static const Bool topbar            = True;    
 
 
-static const char *tags[] = { "Work", "Web", "Term", "Vbox", "Misc" };
+static const char *tags[] = { "Work", "Web", "Term", "Misc" };
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
