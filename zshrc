@@ -45,6 +45,7 @@ bindkey "^[[B" history-search-forward
 # }}}
 
 # Aliases
+alias ed="perl -e 'while (1) {<>;print \"?\n\";}'"
 alias alsi='alsi -a'
 alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
 alias dir="ls -lAhF"

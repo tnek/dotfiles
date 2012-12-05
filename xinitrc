@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ##Set the wallpaper
-feh --bg-scale /home/tnek/pic/wallpapers/Anime/SAO/fort.jpg
+feh --bg-scale /home/tnek/pic/wallpapers/Anime/SAO/standing.jpg
 #xsetroot -bg \#151515 -mod 3 3
 
 mpd &
