@@ -2,23 +2,37 @@
 " properly set to work with the Vim-related packages.
 runtime! archlinux.vim
 
-" Appearance stuff {{{
-colorscheme jellybeans
-set gfn=inconsolata
-" }}}
-
 " General Settings {{{
+call pathogen#infect()
 syntax on
 filetype on
 filetype plugin indent on 
 set encoding=utf-8
+set nocompatible
+set mouse=a
+set hidden
 " }}}
+
+" Appearance Settings {{{
+colorscheme jellybeans
+set gfn=inconsolata
+set number          " Line numbers
+set cursorline      " Highlights cursor line
+set scrolloff=2     " Keep (at least) 2 scroll lines above/below cursor
+set colorcolumn=80  " Vertical line at 80th column
+set visualbell      " Visual bell instead of beeping when something is wrong
+" }}}
+
+" Plugins Settings {{{
+" Nerdtree
+map <F3> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" }}}
+
 " Other settings {{{
-set number
-set modeline
-set modelines=5
-set shortmess+=I
-set textwidth=75
+set shortmess+=I    " No startup message
+set nolazyredraw    " turn off lazy redraw
+set spelllang=en
 " }}}
 
 "" Code Folding - press 'za' to open/close {{{
@@ -26,29 +40,28 @@ set foldmethod=indent
 set foldlevel=99
 " }}}
 
-" Tabs Settings {{{
-set expandtab
-set tabstop=8
-set softtabstop=4
-set shiftwidth=4
+" Code Formatting {{{
+set textwidth=75   " Following PEP, max line width is 75
+set expandtab      " Tab -> Space
+set tabstop=4      " Tabs count for 4 columns
+set softtabstop=4  " Tab == 4 spaces
+set shiftwidth=4   " 4 Columns with reindent options
 set autoindent
-" }}}
-
-" improves redrawing for newer computers {{{
-set nolazyredraw        " turn off lazy redraw
-set nohlsearch          " highlight no search results
-set spelllang=en        " set spelling lang
+set smartindent
 " }}}
 
 " Searching and history {{{
-set incsearch         " increment search
-set ignorecase        " case-insensitive search;
-set nobackup          " don't create backup files
-set noswapfile        " don't create swap file
-set history=50        " keep 50 lines of command line history
+set hlsearch
+set incsearch     " increment search
+set ignorecase    " case-insensitive search;
+set smartcase     " search becomes case sensitive if caps used
+set nobackup      " don't create backup files
+set noswapfile    " don't create swap file
+set history=50    " keep 50 lines of command line history
 " }}}
 
-" Gvim stuff {{{
+" Gvim Settings {{{
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
+" }}}
