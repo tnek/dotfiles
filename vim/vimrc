@@ -4,12 +4,13 @@ runtime! archlinux.vim
 
 " Appearance stuff {{{
 colorscheme jellybeans
-set gfn=ubuntumono
+set gfn=inconsolata
 " }}}
 
 " General Settings {{{
 syntax on
-filetype plugin indent on
+filetype on
+filetype plugin indent on 
 set encoding=utf-8
 " }}}
 " Other settings {{{
@@ -17,8 +18,15 @@ set number
 set modeline
 set modelines=5
 set shortmess+=I
+set textwidth=75
+" }}}
 
-" Tabs {{{
+"" Code Folding - press 'za' to open/close {{{
+set foldmethod=indent
+set foldlevel=99
+" }}}
+
+" Tabs Settings {{{
 set expandtab
 set tabstop=8
 set softtabstop=4
@@ -29,7 +37,7 @@ set autoindent
 " improves redrawing for newer computers {{{
 set nolazyredraw        " turn off lazy redraw
 set nohlsearch          " highlight no search results
-set spelllang=en     " set spelling lang
+set spelllang=en        " set spelling lang
 " }}}
 
 " Searching and history {{{
