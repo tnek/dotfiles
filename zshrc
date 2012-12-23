@@ -15,7 +15,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 bindkey -v
 export EDITOR='vim'
-export BROWSER='firefox'
+export BROWSER='chromium'
 
 # Keybindings {{{
 bindkey "\e[1~" beginning-of-line # Home
@@ -112,6 +112,3 @@ extr(){
 
 # Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls }
-
-
-
