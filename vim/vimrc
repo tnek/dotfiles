@@ -9,6 +9,7 @@ runtime! archlinux.vim
   Bundle 'gmarik/vundle'
   Bundle 'Townk/vim-autoclose'
   Bundle 'scrooloose/nerdtree'
+  Bundle 'kevinw/pyflakes-vim'
   " vim-scripts Repos
   Bundle 'jellybeans.vim'
 
@@ -19,6 +20,7 @@ runtime! archlinux.vim
 
 " General Settings {{{
   syntax on
+  filetype on
   filetype plugin indent on 
   set encoding=utf-8
   set nocompatible
@@ -31,55 +33,57 @@ runtime! archlinux.vim
   set background=dark
   colorscheme jellybeans
   set gfn=inconsolata
-  set number                    " Line numbers
-  set cursorline                " Highlights cursor line
-  set scrolloff=2               " Keep 2 scroll lines above/below cursor
+  set number                     " Line numbers
+  set cursorline                 " Highlights cursor line
+  set scrolloff=2                " Keep 2 scroll lines above/below cursor
   highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-  match OverLength /\%81v.\+/
+  match OverLength /\%81v.\+/    " Highlight text exceeding 80 character limit
 " }}}
 
 " Gvim Settings {{{
-  set guicursor+=a:blinkon0     " Cursor doesn't blink
-  set guioptions-=m             " Remove menu bar
-  set guioptions-=T             " Remove toolbar
-  set guioptions-=r             " Remove right-hand scroll bar
+  if has('gui_running')
+    set guicursor+=a:blinkon0    " Cursor doesn't blink
+    set guioptions-=m            " Remove menu bar
+    set guioptions-=T            " Remove toolbar
+    set guioptions-=r            " Remove right-hand scroll bar
+  endif
 " }}}
   
 " Bell {{{
-  set noerrorbells              " Disable annoying beeps
-  set visualbell                " Visual bell instead of beeping
+  set noerrorbells               " Disable annoying beeps
+  set visualbell                 " Visual bell instead of beeping
 " }}}
  
 "" Code Folding {{{
-  set foldenable                " Enable code folding
-  set foldmethod=manual         " But do it manually
+  set foldenable                 " Enable code folding
+  set foldmethod=manual          " But do it manually
   set foldlevel=99
 " }}}
   
 " Tab Settings {{{
-  set expandtab                 " Tab -> Space
-  set tabstop=4                 " Tabs count for 4 columns
-  set softtabstop=4             " Tab == 4 spaces
-  set shiftwidth=4              " 4 Columns with reindent options
-  set backspace=indent,eol,start" Smart backspace 
-  set autoindent                " Ignore case
-  set smartindent               " Except with capitals
-  set pastetoggle=<F2>          " Disabling autoindent while pasting
+  set expandtab                  " Tab -> Space
+  set tabstop=4                  " Tabs count for 4 columns
+  set softtabstop=4              " Tab == 4 spaces
+  set shiftwidth=4               " 4 Columns with reindent options
+  set backspace=indent,eol,start " Smart backspace 
+  set autoindent                 " Ignore case
+  set smartindent                " Except with capitals
+  set pastetoggle=<F2>           " Disabling autoindent while pasting
 " }}}
   
 " Searching and History Settings {{{
   set nohlsearch
-  set incsearch                 " Increment search
-  set ignorecase                " Case-insensitive search;
-  set smartcase                 " Search becomes case sensitive if caps used
-  set nobackup                  " Don't keep backups
-  set noswapfile                " Don't create a swap file
-  set history=50                " Keep 50 lines of command line history
+  set incsearch                  " Increment search
+  set ignorecase                 " Case-insensitive search;
+  set smartcase                  " Search becomes case sensitive if caps used
+  set nobackup                   " Don't keep backups
+  set noswapfile                 " Don't create a swap file
+  set history=50                 " Keep 50 lines of command line history
 " }}}
 "
  " Other settings {{{
-  set shortmess+=I              " No startup message
-  set nolazyredraw              " Turn off lazy redraw
-  set spelllang=en              " Set default language to English 
-  set textwidth=80              " Max line width is 80
+  set shortmess+=I               " No startup message
+  set nolazyredraw               " Turn off lazy redraw
+  set spelllang=en               " Set default language to English 
+  set textwidth=80               " Max line width is 80
 " }}}
