@@ -9,13 +9,18 @@ runtime! archlinux.vim
   Bundle 'gmarik/vundle'
   Bundle 'Townk/vim-autoclose'
   Bundle 'scrooloose/nerdtree'
-  Bundle 'kevinw/pyflakes-vim'
+  Bundle 'scrooloose/syntastic'
+  Bundle 'ervandew/supertab'
   " vim-scripts Repos
   Bundle 'jellybeans.vim'
 
 " Nerdtree
   map <F3> :NERDTreeToggle<CR>
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" Supertab
+  au FileType python set omnifunc=pythoncomplete#Complete
+  let g:SuperTabDefaultCompletionType = "context"
+  set completeopt=menuone,longest,preview
 " }}}
 
 " General Settings {{{
