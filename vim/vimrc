@@ -17,6 +17,7 @@ runtime! archlinux.vim
 " Nerdtree
   map <F3> :NERDTreeToggle<CR>
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 " Supertab
   au FileType python set omnifunc=pythoncomplete#Complete
   let g:SuperTabDefaultCompletionType = "context"
@@ -28,10 +29,10 @@ runtime! archlinux.vim
   filetype on
   filetype plugin indent on 
   set encoding=utf-8
-  set nocompatible
-  set mouse=a
-  set hidden
-  set ruler
+  set nocompatible               " Be iMproved
+  set mouse=a                    " Enable mouse
+  set hidden                     " Quick buffer switching
+  set ruler                      " Show cursor position
 " }}}
   
 " Appearance Settings {{{
@@ -61,8 +62,7 @@ runtime! archlinux.vim
  
 "" Code Folding {{{
   set foldenable                 " Enable code folding
-  set foldmethod=manual          " But do it manually
-  set foldlevel=99
+  set foldmethod=marker
 " }}}
   
 " Tab Settings {{{
