@@ -62,7 +62,7 @@ runtime! archlinux.vim
  
 "" Code Folding {{{
   set foldenable                 " Enable code folding
-  set foldmethod=marker
+  set foldmethod=manual          " But do it manually
 " }}}
   
 " Tab Settings {{{
