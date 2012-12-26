@@ -44,22 +44,21 @@ bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
 # }}}
 
-# Aliases
+# Aliases {{{
 alias ed="perl -e 'while (1) {<>;print \"?\n\";}'"
 alias alsi='alsi -a'
 alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
 alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
 
-#alias bar='bar --color=auto'
+# !! --color=auto
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# alias foo='sudo foo'
+# Sudo !!
 alias shutdown='sudo shutdown'
 alias reboot='sudo reboot'
 alias halt='sudo halt'
-alias hamachi='sudo hamachi'
 alias 'rc.d'='sudo rc.d'
 
 # Verbose Commands
@@ -67,6 +66,7 @@ alias mkdir='mkdir -p -v'
 alias rm='rm -I'
 alias mv='mv -v'
 alias cp='cp -v'
+# }}}
 
 autoload -Uz compinit
 compinit
