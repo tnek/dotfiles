@@ -1,6 +1,5 @@
 !------------------------------------------------------------------------------
 ! c o l o r - s e t t i n g s
-
 *foreground: #c6a57b
 *background: #151515
 
@@ -33,7 +32,7 @@
 !------------------------------------------------------------------------------
 ! u r x v t
 URxvt*geometry:         80x21
-URxvt*font:             xft:ubuntu mono:size=8:antialias=true
+URxvt*font:             xft:inconsolata:size=9:antialias=true
 URxvt*scrollBar:        false
 URxvt*scrollBar_right:  true
 URxvt*scrollColor:      #000000

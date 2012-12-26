@@ -1,6 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
-static const char font[]            = "-artwiz-cure-medium-r-normal--8-110-75-75-p-90-iso8859-1";
+//static const char font[]            = "-artwiz-cure-medium-r-normal--8-110-75-75-p-90-iso8859-1";
+static const char font[]            = "-*-inconsolata-*-*-*-*-9-*-*-*-*-*-*-*";
 static const char normbordercolor[] = "#050505";
 static const char normbgcolor[]     = "#161616";
 static const char normfgcolor[]     = "#a2a2a2";
@@ -29,7 +30,7 @@ static const Bool resizehints = False; /* True means respect size hints in tiled
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-        { "[T]",     gaplessgrid },
+    { "[T]",     gaplessgrid },
 	{ "[F]",  NULL },    /* no layout function means floating behavior */
 	{ "[M]",       monocle },
 };
