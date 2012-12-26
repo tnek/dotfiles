@@ -1,20 +1,20 @@
 #!/bin/sh
 
 ##Set the wallpaper
-feh --bg-scale /home/tnek/pic/wallpapers/Anime/SAO/standing.jpg
+feh --bg-scale /home/tnek/pic/wallpapers/Aurora/dark.jpg
 #xsetroot -bg \#151515 -mod 3 3
 
 mpd &
 xflux -z 20874
 autocutsel &
-#transmission-qt &
+transmission-qt &
 
 #if [ $? -ne 0 ]; then
 #  mpdscribble &
 #fi
 
 
-##DWM Statusbar shit
+#: DWM Statusbar shit
 # MPD Widget
 getMpd() {
    if [ "`mpc | grep playing | awk '{ print $2 }' | wc -l`" != 1 ]; then
@@ -33,21 +33,24 @@ getMpd() {
 }
 
 
-# Piping status to statusbar
+#: Piping status to statusbar
 while true; do
     xsetroot -name  "| $(getMpd) | $(date +"%a, %b %d %r |")"
    sleep 1s    # Update time every second
 done &
 
-# Urxvt Daemon
+#: Urxvt Daemon
 urxvtd -o -q -f &
 
-##Other shit
-# System beep
+#: Misc shit
+
+# System beep - Disabled
 #xset b 50 250 50
 xset -b
+
 # Mouse
 xset +dpms
+
 # Setting cursor theme
 #xsetroot -cursor_name left_ptr
 
@@ -65,6 +68,6 @@ dwm)
 	exec ck-launch-session dbus-launch dwm
 	;;
 *)
-	exec ck-launch-session $DEFAULT_SESSION
+	exec ck-launch-session dbus-launch $DEFAULT_SESSION
 	;;
 esac
