@@ -42,12 +42,15 @@ runtime! archlinux.vim
   set number                     " Line numbers
   set cursorline                 " Highlights cursor line
   set scrolloff=2                " Keep 2 scroll lines above/below cursor
+  set fillchars=vert:\           " Remove ugly | in seperators
   highlight OverLength ctermbg=red ctermfg=white guibg=#592929
   match OverLength /\%81v.\+/    " Highlight text exceeding 80 character limit
 " }}}
 
 " Gvim Settings {{{
   if has('gui_running')
+    map <S-Insert> <MiddleMouse>
+    map! <S-Insert> <MiddleMouse>
     set guicursor+=a:blinkon0    " Cursor doesn't blink
     set guioptions-=m            " Remove menu bar
     set guioptions-=T            " Remove toolbar
@@ -92,3 +95,7 @@ runtime! archlinux.vim
   set spelllang=en               " Set default language to English 
   set textwidth=80               " Max line width is 80
 " }}}
+
+" Suffixes that get lower priority when doing tab completion for filenames.
+" These are files we are not likely to want to edit or read.
+set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
