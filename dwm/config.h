@@ -1,20 +1,20 @@
 /* See LICENSE file for copyright and license details. */
-
-//static const char font[]            = "-artwiz-cure-medium-r-normal--8-110-75-75-p-90-iso8859-1";
-static const char font[]            = "-*-inconsolata-*-*-*-*-9-*-*-*-*-*-*-*";
-static const char normbordercolor[] = "#050505";
+static const char font[]            = "-*-arial-medium-r-*-*-11-*-*-*-*-*-*-uni";
 static const char normbgcolor[]     = "#161616";
 static const char normfgcolor[]     = "#a2a2a2";
-static const char selbordercolor[]  = "#0e2a3f";
 static const char selbgcolor[]      = "#080808";
-static const char selfgcolor[]      = "#3da4f4";
+static const char selfgcolor[]      = "#a2a2a2";
+//static const char selfgcolor[]      = "#3da4f4";
+static const char normbordercolor[] = "#050505";
+static const char selbordercolor[]  = "#a2a2a2";
+//static const char selbordercolor[]  = "#0e2a3f";
 static const unsigned int borderpx  = 1;        
 static const unsigned int snap      = 32;       
-static const Bool showbar           = True;     
+static const Bool showbar           = False;     
 static const Bool topbar            = True;    
 
 
-static const char *tags[] = { "Work", "Web", "Term", "Misc" };
+static const char *tags[] = { "1", "2", "3", "4", "5" };
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
