@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ##Set the wallpaper
-feh --bg-scale /home/tnek/pic/wallpapers/Aurora/dark.jpg
-#xsetroot -bg \#151515 -mod 3 3
+#feh --bg-scale /home/tnek/pic/wallpapers/Aurora/dark.jpg
+xsetroot -bg \#151515 -mod 3 3
 
 mpd &
 xflux -z 20874
