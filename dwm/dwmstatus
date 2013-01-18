@@ -14,7 +14,7 @@ getMpd() {
         fi
     fi
 }
-# Mail Widget
+#: Mail Widget
 #getMail() {
 #    mail_count=`curl -s https://usrname:password@mail.google.com/mail/feed/atom | sed -n '/^<fullcount>\([0-9]*\)<\/fullcount>$/s//\1/p'`
 #                echo -ne "$mail_count Unread"
