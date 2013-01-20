@@ -38,6 +38,7 @@ runtime! archlinux.vim
 " Appearance Settings {{{
   set background=dark
   colorscheme jellybeans
+  "colorscheme desert
   set gfn=inconsolata
   set number                     " Line numbers
   set cursorline                 " Highlights cursor line
