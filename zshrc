@@ -50,6 +50,7 @@ alias alsi='alsi -a'
 alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
 alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
+alias ':q'='exit'
 
 # !! --color=auto
 alias ls='ls --color=auto'
