@@ -1,19 +1,19 @@
 #: MPD Widget
-getMpd() {
-    if [ "`mpc | grep playing | awk '{ print $2 }' | wc -l`" != 1 ]; then
-        echo -ne "Music Paused"
-    else
-        if [ `mpc | grep playing | awk '{ print $4 }' | sed 's/.\(.*\)/\1/' | sed 's/\(.*\)../\1/'` = 100 ]; then
-            echo -ne "`mpc | head -n 1 |cut -c 1-200`"
-            mpc_time="`mpc | grep playing | awk '{ print $3 }'`"
-            echo -ne " \x06[$mpc_time]"
-        else
-            echo -ne "`mpc | head -n 1 |cut -c 1-200`"
-            mpc_time="`mpc | grep playing | awk '{ print $3 }'`"
-            echo -ne " [$mpc_time]"
-        fi
-    fi
-}
+#getMpd() {
+#    if [ "`mpc | grep playing | awk '{ print $2 }' | wc -l`" != 1 ]; then
+#        echo -ne "Music Paused"
+#    else
+#        if [ `mpc | grep playing | awk '{ print $4 }' | sed 's/.\(.*\)/\1/' | sed 's/\(.*\)../\1/'` = 100 ]; then
+#            echo -ne "`mpc | head -n 1 |cut -c 1-200`"
+#            mpc_time="`mpc | grep playing | awk '{ print $3 }'`"
+#            echo -ne " \x06[$mpc_time]"
+#        else
+#            echo -ne "`mpc | head -n 1 |cut -c 1-200`"
+#            mpc_time="`mpc | grep playing | awk '{ print $3 }'`"
+#            echo -ne " [$mpc_time]"
+#        fi
+#    fi
+#}
 #: Mail Widget
 #getMail() {
 #    mail_count=`curl -s https://usrname:password@mail.google.com/mail/feed/atom | sed -n '/^<fullcount>\([0-9]*\)<\/fullcount>$/s//\1/p'`
@@ -22,7 +22,7 @@ getMpd() {
 
 #: Piping status to statusbar
 while true; do
-    xsetroot -name  "| $(getMpd) | $(date +"%a %b %d %r |")"
+    xsetroot -name  "| $(date +"%a %b %d %r |")"
     sleep 1s    # Update time every second
 done &
 

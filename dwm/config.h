@@ -7,17 +7,19 @@ static const char normbgcolor[]     = "#161616";
 static const char normfgcolor[]     = "#a2a2a2";
 static const char selbgcolor[]      = "#080808";
 static const char selfgcolor[]      = "#a2a2a2";
-//static const char selfgcolor[]      = "#3da4f4";
+/* static const char selfgcolor[]      = "#3da4f4"; */
 static const char normbordercolor[] = "#050505";
 static const char selbordercolor[]  = "#a2a2a2";
-//static const char selbordercolor[]  = "#0e2a3f";
+/* static const char selbordercolor[]  = "#0e2a3f"; */
 static const unsigned int borderpx  = 1;        
 static const unsigned int snap      = 32;       
 static const Bool showbar           = False;     
 static const Bool topbar            = True;    
+static const unsigned int systrayspacing = 2;  /* systray spacing */
+static const Bool showsystray       = True;  /* False means no systray */
 
 
-static const char *tags[] = { "1", "2", "3", "4", "5" };
+static const char *tags[] = { "-", "-", "-", "-", "-" };
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
