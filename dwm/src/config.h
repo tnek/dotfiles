@@ -1,0 +1,1 @@
+/home/tnek/.config/dwm/config.h
