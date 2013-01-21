@@ -15,7 +15,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 bindkey -v
 export EDITOR='vim'
-export BROWSER='chromium'
+export BROWSER='firefox'
 
 # Keybindings {{{
 bindkey "\e[1~" beginning-of-line # Home
@@ -47,7 +47,6 @@ bindkey "^[[B" history-search-forward
 # Aliases {{{
 alias ed="perl -e 'while (1) {<>;print \"?\n\";}'"
 alias alsi='alsi -a'
-alias cdwm='cd ~/.config/dwm && makepkg -g >> PKGBUILD && makepkg -eif'
 alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
 alias ':q'='exit'
@@ -73,7 +72,7 @@ autoload -Uz compinit
 compinit
 PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
 
-##Coloring man pages
+# Coloring man pages
 man() {
 	env \
 		LESS_TERMCAP_mb=$(printf "\e[1;37m") \
@@ -109,6 +108,13 @@ extr(){
     else
         echo "'$1' is not a valid file"
     fi
+}
+
+# Recompiling dwm
+cdwm() {
+    cd ~/.config/dwm 
+    makepkg -g >> PKGBUILD 
+    makepkg -eif
 }
 
 # Automatically doing 'ls' after a cd
