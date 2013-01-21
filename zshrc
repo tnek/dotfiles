@@ -45,7 +45,6 @@ bindkey "^[[B" history-search-forward
 # }}}
 
 # Aliases {{{
-alias ed="perl -e 'while (1) {<>;print \"?\n\";}'"
 alias alsi='alsi -a'
 alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
@@ -112,10 +111,15 @@ extr(){
 
 # Recompiling dwm
 cdwm() {
+    (
     cd ~/.config/dwm 
     makepkg -g >> PKGBUILD 
-    makepkg -eif
+    makepkg -eif --noconfirm
+    )
 }
+
+# Best text editor is best
+ed(){ while true; do; read; echo "?"; done }
 
 # Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls }
