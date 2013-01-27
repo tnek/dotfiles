@@ -118,6 +118,14 @@ cdwm() {
     )
 }
 
+# Clock on top right
+clock() {
+    while true; do
+        echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"
+        sleep 1
+    done &
+}
+
 # Best text editor is best
 ed(){ while true; do; read; echo "?"; done }
 
