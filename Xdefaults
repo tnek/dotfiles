@@ -38,7 +38,6 @@ URxvt*scrollBar_right:  true
 URxvt*scrollColor:      #000000
 URxvt*transparent:      false
 URxvt*shading:          40
-URxvt.depth:            0
 URxvt.urgentOnBell:     true
 URxvt*urlLauncher:      /usr/bin/firefox
 URxvt.matcher.button:   1
