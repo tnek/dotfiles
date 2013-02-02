@@ -29,7 +29,7 @@ runtime! archlinux.vim
   filetype on
   filetype plugin indent on 
   set encoding=utf-8
-  set nocompatible               " Be iMproved
+  set nocompatible               " Be improved
   set mouse=a                    " Enable mouse
   set hidden                     " Quick buffer switching
   set ruler                      " Show cursor position
@@ -90,11 +90,10 @@ runtime! archlinux.vim
   set history=50                 " Keep 50 lines of command line history
 " }}}
 "
- " Other settings {{{
+" Other settings {{{
   set shortmess+=I               " No startup message
   set nolazyredraw               " Turn off lazy redraw
   set spelllang=en               " Set default language to English 
-  set textwidth=80               " Max line width is 80
 " }}}
 
 " Suffixes that get lower priority when doing tab completion for filenames.
