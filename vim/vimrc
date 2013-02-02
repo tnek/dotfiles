@@ -44,7 +44,7 @@ runtime! archlinux.vim
   set cursorline                 " Highlights cursor line
   set scrolloff=2                " Keep 2 scroll lines above/below cursor
   set fillchars=vert:\           " Remove ugly | in seperators
-  highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+  highlight OverLength ctermbg=darkgray ctermfg=black
   match OverLength /\%81v.\+/    " Highlight text exceeding 80 character limit
 " }}}
 
