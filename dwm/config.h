@@ -13,7 +13,7 @@ static const Bool topbar                 = True;
 static const unsigned int systrayspacing = 2;
 static const Bool showsystray            = True;
 
-static const char *tags[] = { "", "", "", "", "" };
+static const char *tags[] = { "Work", "Web", "Term", "Code", "Misc" };
 
 static const Rule rules[] = {
 	/* class       instance   title       tags mask     isfloating   monitor */
