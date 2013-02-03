@@ -15,4 +15,4 @@ while true; do
     xsetroot -name  "| $(date +"%a, %b %d %r |")"
     sleep 1s    # Update time every second
 done &
-exec ck-launch-session dbus-launch dwm
+exec dbus-launch dwm
