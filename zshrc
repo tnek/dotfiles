@@ -58,6 +58,7 @@ alias grep='grep --color=auto'
 alias shutdown='sudo shutdown'
 alias reboot='sudo reboot'
 alias halt='sudo halt'
+alias modprobe='sudo modprobe'
 alias 'rc.d'='sudo rc.d'
 
 # Verbose Commands
