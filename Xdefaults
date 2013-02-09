@@ -1,4 +1,4 @@
-!------------------------------------------------------------------------------
+!---------------------------------------------------------------------------
 ! c o l o r - s e t t i n g s
 *foreground: #c6a57b
 *background: #151515
@@ -29,15 +29,9 @@
 *color7:     #dddddd
 *color15:    #dddddd
 
-!------------------------------------------------------------------------------
+!---------------------------------------------------------------------------
 ! u r x v t
 URxvt*geometry:         80x21
-URxvt*font:             xft:ubuntu mono:size=8:antialias=true
+URxvt*font:             xft:Inconsolata for Powerline:size=10:antialias=true:autohint=true
 URxvt*scrollBar:        false
-URxvt*scrollBar_right:  true
-URxvt*scrollColor:      #000000
-URxvt*transparent:      false
-URxvt*shading:          40
 URxvt.urgentOnBell:     true
-URxvt*urlLauncher:      /usr/bin/firefox
-URxvt.matcher.button:   1
