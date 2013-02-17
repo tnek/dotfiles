@@ -9,24 +9,29 @@ runtime! archlinux.vim
     Bundle 'gmarik/vundle'
     Bundle 'Townk/vim-autoclose'
     Bundle 'scrooloose/nerdtree'
+    Bundle 'Lokaltog/vim-powerline'
     Bundle 'scrooloose/syntastic'
     Bundle 'ervandew/supertab'
-    Bundle 'Lokaltog/vim-powerline'
     " vim-scripts Repos
     Bundle 'jellybeans.vim'
+    Bundle 'TaskList.vim'
 
 " Nerdtree
     map <F3> :NERDTreeToggle<CR>
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Powerline
+    set guifont=Inconsolata\ for\ Powerline
+    let g:Powerline_symbols = 'fancy'
 
 " Supertab
     au FileType python set omnifunc=pythoncomplete#Complete
     let g:SuperTabDefaultCompletionType = "context"
     set completeopt=menuone,longest,preview
 
-" Powerline
-    set guifont=Inconsolata\ for\ Powerline
-    let g:Powerline_symbols = 'fancy'
+" Tasklist
+    map <leader>td <Plug>TaskList
+
 " }}}
 
 " General Settings {{{
@@ -44,6 +49,7 @@ runtime! archlinux.vim
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
     colorscheme jellybeans
+"    colorscheme default
     set gfn=inconsolata
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
