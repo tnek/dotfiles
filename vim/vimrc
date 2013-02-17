@@ -39,7 +39,7 @@ runtime! archlinux.vim
     filetype on
     filetype plugin indent on 
     set encoding=utf-8
-    set nocompatible               " Be improved
+    set nocompatible               " Use Vim defaults
     set mouse=a                    " Enable mouse
     set hidden                     " Quick buffer switching
     set ruler                      " Show cursor position
