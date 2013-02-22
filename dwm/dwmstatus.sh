@@ -1,7 +1,9 @@
+#!/bin/bash
 #: Seperator to divide each value on the statusbar.
-sep="|"
+sep="-"
 
-#: Gmail Mail Widget
+#: Gmail Mail Notifications
+#: Will display the number if unread emails if there are any.
 #: Set the directory for your login information for your email below:
 login_dir=$HOME/.backup/login
 #: At $login_dir, your information should be in the below format:
@@ -14,23 +16,23 @@ getEmail()
         curl -s https://"$username":"$password"@mail.google.com/mail/feed/atom &> ${HOME}/.mailcache
         fullcount=$(awk -F '</?fullcount>' 'NF>1{print $2}' $HOME/.mailcache)
         if [[ "$fullcount" == '0' ]]; then
-            echo -ne ""
+            echo -en ""
         else
-            echo -ne "$sep Emails: $fullcount "
+            echo -en "$sep Emails: $fullcount "
         fi
     fi
 }
 
 #: MPD Now Playing Widget
-#: If no song is playing, it will not appear. As such, this should be accounted
-#: for when setting your statusbar.
+#: If no song is playing, it will not display anything. As such, this should be 
+#: accounted for when setting your statusbar.
 getMpd()
 {
     if [ "`mpc | sed '2q;d' | grep playing | wc -l`" != 1 ]; then
-        echo -ne ""
+        echo -en ""
     else
         mpctime="`mpc | sed '2q;d' | grep playing | awk '{ print $3 }'`"
-        echo -ne "$sep `mpc | head -1 | cut -c 1-200` [$mpctime] "
+        echo -en "$sep `mpc | head -1 | cut -c 1-200` [$mpctime] "
     fi
 }
 
@@ -39,7 +41,7 @@ getMpd()
 #:     $DAY, $MONTH $DATE $TIME
 getDate()
 {
-    echo -ne $(date +"%a %b %d %r")
+    echo -en $(date +"%a %b %d %r")
 }
 
 #: DWM's statusbar is printed as the value of `xsetroot -name`
