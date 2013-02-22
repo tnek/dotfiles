@@ -19,6 +19,7 @@ static const Rule rules[] = {
 	/* class       instance   title       tags mask     isfloating   monitor */
     { "Firefox",      NULL,   NULL,       1 << 1,         False,       -1 },
     { "Transmission", NULL,   NULL,       1 << 4,         False,       -1 },
+    { "Gimp",         NULL,   NULL,       0,              True,        -1 }
 };
 
 /* layout(s) */
@@ -29,7 +30,7 @@ static const Bool resizehints = False; /* True means respect size hints in tiled
 static const Layout layouts[] = {
 	/* symbol     arrange function */
 	{ " ",       monocle },
-    { " ",       tile },
+    { "T",       tile },
 	{ "F",       NULL },    /* no layout function means floating behavior */
 };
 
