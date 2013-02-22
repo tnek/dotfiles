@@ -48,6 +48,7 @@ bindkey "^[[B" history-search-forward
 alias alsi='alsi -a'
 alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
+alias dc3='sudo su - dc3'
 alias ':q'='exit'
 
 # !! --color=auto
@@ -125,6 +126,10 @@ clock() {
         echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"
         sleep 1
     done &
+}
+portforward()
+{
+    sudo iptables -A FORWARD -p tcp -i INTERNET --dport $2 -d $1 -j ACCEPT
 }
 
 # Best text editor is best

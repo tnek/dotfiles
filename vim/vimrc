@@ -49,7 +49,7 @@ runtime! archlinux.vim
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
     colorscheme jellybeans
-"    colorscheme default
+"    colorscheme desert
     set gfn=inconsolata
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
