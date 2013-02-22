@@ -11,4 +11,5 @@ transmission-qt &
 firefox &
 
 #: Starting the Window Manager
-exec dbus-launch --sh-syntax --exit-with-session $HOME/.startdwm
+bash $HOME/.config/dwm/dwmstatus.sh
+exec dbus-launch --sh-syntax --exit-with-session startdwm
