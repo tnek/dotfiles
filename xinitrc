@@ -10,9 +10,5 @@ autocutsel &
 transmission-qt &
 firefox &
 
-#: dwm settings
-while true; do
-    xsetroot -name  "| $(date +"%a, %b %d %r |")"
-    sleep 1s    # Update time every second
-done &
-exec dbus-launch dwm
+#: Starting the Window Manager
+exec dbus-launch --sh-syntax --exit-with-session $HOME/.startdwm
