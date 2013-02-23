@@ -133,13 +133,6 @@ portforward()
     sudo iptables -A FORWARD -p tcp -i INTERNET --dport $2 -d $1 -j ACCEPT
 }
 
-beep()
-{
-    xset b
-    echo -en "\007"
-    xset -b
-}
-
 # Best text editor is best
 ed(){ while true; do; read; echo "?"; done }
 

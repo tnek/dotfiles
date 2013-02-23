@@ -15,10 +15,10 @@ getEmail()
         . $login_dir
         curl -s https://"$username":"$password"@mail.google.com/mail/feed/atom &> ${HOME}/.mailcache
         fullcount=$(awk -F '</?fullcount>' 'NF>1{print $2}' $HOME/.mailcache)
-        if [[ "$fullcount" == '0' ]]; then
-            echo -en ""
-        else
+        if [[ "$fullcount" > '0' ]]; then
             echo -en "$sep Emails: $fullcount "
+        else
+            echo -en ""
         fi
     fi
 }
@@ -47,6 +47,9 @@ getDate()
 #: DWM's statusbar is printed as the value of `xsetroot -name`
 #: This is somewhat a hackish way of making a statusbar.
 while true; do
-    xsetroot -name  "$(getEmail)$(getMpd)$sep $(getDate) $sep" 
-    sleep 1s
+    unread=$(getEmail)
+    for i in {1..300}; do  # Update every 300 seconds, or every 5 minutes
+        xsetroot -name  "${unread}$(getMpd)$sep $(getDate) $sep" 
+        sleep 1s
+    done
 done &
