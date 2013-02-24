@@ -1,4 +1,5 @@
 #!/bin/sh
+xrdb ~/.Xresources
 xsetroot -bg \#151515 -mod 3 3
 xset -b
 
