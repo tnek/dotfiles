@@ -46,10 +46,7 @@ bindkey "^[[B" history-search-forward
 
 # Aliases {{{
 alias alsi='alsi -a'
-alias dir="ls -lAhF"
 alias dashify='ssh erkin@dashify.me'
-alias dc3='sudo su - dc3'
-alias ':q'='exit'
 
 # !! --color=auto
 alias ls='ls --color=auto'
@@ -71,7 +68,12 @@ alias cp='cp -v'
 
 autoload -Uz compinit
 compinit
-PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
+
+if [[ $(whoami) == 'root' ]]; then
+    PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;31m%}#%{\e[0m%} '
+else
+    PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
+fi
 
 # Coloring man pages
 man() {
@@ -126,11 +128,6 @@ clock() {
         echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"
         sleep 1
     done &
-}
-
-portforward()
-{
-    sudo iptables -A FORWARD -p tcp -i INTERNET --dport $2 -d $1 -j ACCEPT
 }
 
 # Best text editor is best
