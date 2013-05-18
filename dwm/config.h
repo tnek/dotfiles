@@ -1,11 +1,12 @@
 #include "/home/tnek/.config/dwm/patches/push.c"
 static const char font[]                 = "-*-arial-medium-r-*-*-11-*-*-*-*-*-*-uni";
+//static const char font[]                 = "-*-cureicon-medium-*-*-*-11-*-*-*-*-*-*-*";
 static const char normbgcolor[]          = "#000000";
 static const char normfgcolor[]          = "#AAAAAA";
 static const char selbgcolor[]           = "#385E6B";
 static const char selfgcolor[]           = "#FFFFFF";
 static const char normbordercolor[]      = "#050505";
-static const char selbordercolor[]       = "#a2a2a2";
+static const char selbordercolor[]       = "#A2A2A2";
 static const unsigned int borderpx       = 1;
 static const unsigned int snap           = 32;
 static const Bool showbar                = True;
@@ -19,7 +20,7 @@ static const Rule rules[] = {
 	/* class       instance   title       tags mask     isfloating   monitor */
     { "Firefox",      NULL,   NULL,       1 << 1,         False,       -1 },
     { "Transmission", NULL,   NULL,       1 << 3,         False,       -1 },
-    { "Gimp",         NULL,   NULL,       0,              True,        -1 }
+    { "Gimp",         NULL,   NULL,       1,              True,        -1 }
 };
 
 /* layout(s) */
