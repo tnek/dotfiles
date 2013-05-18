@@ -21,8 +21,7 @@ getEmail()
 {
     if host mail.google.com &> /dev/null; then
         . $login_dir
-        curl -s https://"$username":"$password"@mail.google.com/mail/feed/atom &> ${HOME}/.mailcache
-        fullcount=$(awk -F '</?fullcount>' 'NF>1{print $2}' $HOME/.mailcache)
+        fullcount=$(curl -s https://"$username":"$password"@mail.google.com/mail/feed/atom | awk -F '</?fullcount>' 'NF>1{print $2}')
         if [[ "$fullcount" > '0' ]]; then
             echo -en "$sep Emails: $fullcount "
         fi
