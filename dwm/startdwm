@@ -1,8 +1,9 @@
 #!/bin/sh
 #: Allow for restarting dwm without closing out of programs.
-#: Add this to your /usr/local/bin
 #: To actually quit dwm, run $ killall startdwm or bind that to a convenient
 #: key.
 while true; do
+	killall dwmstatus.sh
+	bash $HOME/.config/dwm/dwmstatus.sh
     dwm || exit
 done
