@@ -3,7 +3,9 @@
 #: To actually quit dwm, run $ killall startdwm or bind that to a convenient
 #: key.
 while true; do
-	killall dwmstatus.sh
+	for pid in $(ps aux | grep dwmstatus\.sh | awk '{ print $2 }'); do
+		kill $pid
+	done
 	bash $HOME/.config/dwm/dwmstatus.sh
     dwm || exit
 done
