@@ -45,6 +45,8 @@ bindkey "^[[B" history-search-forward
 # }}}
 
 # Aliases {{{
+alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
+alias anime='mplayer -alang jp -font inconsolata'
 alias alsi='alsi -a'
 alias dashify='ssh erkin@dashify.me'
 
@@ -58,6 +60,7 @@ alias reboot='sudo reboot'
 alias halt='sudo halt'
 alias modprobe='sudo modprobe'
 alias 'rc.d'='sudo rc.d'
+alias dhcpcd='sudo dhcpcd'
 
 # Verbose Commands
 alias mkdir='mkdir -p -v'
@@ -76,7 +79,8 @@ else
 fi
 
 # Coloring man pages
-man() {
+man()
+{
 	env \
 		LESS_TERMCAP_mb=$(printf "\e[1;37m") \
 		LESS_TERMCAP_md=$(printf "\e[1;37m") \
@@ -89,7 +93,8 @@ man() {
 }
 
 # Extract script
-extr(){
+extr()
+{
     if [ -f $1 ] ; then
         case $1 in
             *.tar.xz)       tar xvJf $1   ;;
@@ -114,7 +119,8 @@ extr(){
 }
 
 # Recompiling dwm
-cdwm() {
+cdwm()
+{
     (
     cd ~/.config/dwm 
     makepkg -g >> PKGBUILD 
@@ -123,15 +129,14 @@ cdwm() {
 }
 
 # Clock on top right
-clock() {
+clock()
+{
     while true; do
         echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"
         sleep 1
     done &
 }
 
-# Best text editor is best
-ed(){ while true; do; read; echo "?"; done }
-
 # Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls }
+

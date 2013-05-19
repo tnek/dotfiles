@@ -16,7 +16,7 @@ sep="-"
 login_dir=$HOME/.backup/login
 
 #: Gmail Mail Notifications
-#: Will display the number if unread emails if there are any.
+#: Will display the number of unread emails if there are any.
 getEmail()
 {
     if host mail.google.com &> /dev/null; then
