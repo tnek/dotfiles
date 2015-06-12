@@ -9,6 +9,4 @@ hardstatus alwayslastline "%{.kw} %-w%{+b wB} %n %t %{-}%+w %41=${USER}@%H %-= %
 bind c screen 1
 bind ^c screen 1
 bind 0 select 10 
-screen -t "irssi" 1 irssi
-screen -t "code" 2
-screen -t "zsh" 3
+screen 1
