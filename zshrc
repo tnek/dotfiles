@@ -14,8 +14,6 @@ zstyle :compinstall filename '/home/tnek/.zshrc'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 bindkey -v
-export EDITOR='vim'
-export BROWSER='firefox'
 
 # Keybindings {{{
 bindkey "\e[1~" beginning-of-line # Home
@@ -46,25 +44,14 @@ bindkey "^[[B" history-search-forward
 
 # Aliases {{{
 alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
-alias anime='mplayer -alang jp -font inconsolata'
-alias alsi='alsi -a'
-alias dashify='ssh erkin@dashify.me'
 
 # !! --color=auto
-alias ls='ls --color=auto'
+alias ls='ls -G'
 alias grep='grep --color=auto'
-
-# Sudo !!
-alias shutdown='sudo shutdown'
-alias reboot='sudo reboot'
-alias halt='sudo halt'
-alias modprobe='sudo modprobe'
-alias 'rc.d'='sudo rc.d'
-alias dhcpcd='sudo dhcpcd'
 
 # Verbose Commands
 alias mkdir='mkdir -p -v'
-alias rm='rm -I'
+alias rm='rm -v'
 alias mv='mv -v'
 alias cp='cp -v'
 # }}}
@@ -137,6 +124,18 @@ clock()
     done &
 }
 
-# Automatically doing 'ls' after a cd
-cd() {builtin cd $@; ls }
+bssh()
+{
+    vagrant ssh
+    if [[ "$?" == "1" ]];
+    then
+        vagrant up
+        vagrant ssh
+        exit
+    fi 
+}
 
+# Automatically doing 'ls' after a cd
+cd() {builtin cd $@; ls -G}
+
+export GOPATH="$HOME/Documents/gopath"
