@@ -2,11 +2,10 @@ syntax on
 filetype plugin indent on 
 colorscheme jellybeans
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree' 
-call vundle#end()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
+"call vundle#end()
 
 set encoding=utf-8
 set nocompatible               " Use Vim defaults
@@ -14,11 +13,11 @@ set hidden                     " Quick buffer switching
 set ruler                      " Show cursor position 
 set laststatus=2               " Show statusline even when no window split 
 set number                     " Line numbers
-set cursorline                 " Highlights cursor line
+set cursorline
 set scrolloff=2                " Keep 2 scroll lines above/below cursor
 set fillchars=vert:\           " Remove ugly | in seperators 
 set noerrorbells               " Disable annoying beeps
-set visualbell                 " Visual bell instead of beeping 
+set visualbell
 set expandtab                  " Tab -> Space
 set tabstop=4                  " Tabs count for 4 columns
 set softtabstop=4              " Tab == 4 spaces
@@ -29,14 +28,10 @@ set nohlsearch
 set incsearch                  " Increment search
 set ignorecase                 " Case-insensitive search;
 set smartcase                  " Search becomes case sensitive if caps used
-set nobackup                   " Don't keep backups
-set noswapfile                 " Don't create a swap file
-set history=50                 " Keep 50 lines of command line history 
+set nobackup
+set noswapfile
+set history=50
 set shortmess+=I               " No startup message
-set nolazyredraw               " Turn off lazy redraw
+set nolazyredraw
 set mouse=a 
 set clipboard=unnamed
-
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR> 
