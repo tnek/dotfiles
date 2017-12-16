@@ -42,9 +42,6 @@ bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
 # }}}
 
-# Aliases {{{
-alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
-
 # !! --color=auto
 alias ls='ls -G'
 alias grep='grep --color=auto'
@@ -54,7 +51,6 @@ alias mkdir='mkdir -p -v'
 alias rm='rm -v'
 alias mv='mv -v'
 alias cp='cp -v'
-# }}}
 
 autoload -Uz compinit
 compinit
@@ -115,27 +111,11 @@ cdwm()
     )
 }
 
-# Clock on top right
-clock()
-{
-    while true; do
-        echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"
-        sleep 1
-    done &
-}
-
-bssh()
-{
-    vagrant ssh
-    if [[ "$?" == "1" ]];
-    then
-        vagrant up
-        vagrant ssh
-        exit
-    fi 
-}
-
 # Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls -G}
 
+alias ctf="mosh tnek@ctf-tools.osiris.cyber.nyu.edu"
+
 export GOPATH="$HOME/Documents/gopath"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
