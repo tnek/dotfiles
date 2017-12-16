@@ -1,11 +1,18 @@
 syntax on
 filetype plugin indent on 
 colorscheme jellybeans
+hi Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
 
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-"Plugin 'VundleVim/Vundle.vim'
-"call vundle#end()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'vim-airline/vim-airline'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline-themes'
+call vundle#end()
+
+let g:airline_theme='jellybeans'
 
 set encoding=utf-8
 set nocompatible               " Use Vim defaults
@@ -23,7 +30,7 @@ set tabstop=4                  " Tabs count for 4 columns
 set softtabstop=4              " Tab == 4 spaces
 set shiftwidth=4               " 4 Columns with reindent options
 set autoindent                 " Ignore case
-set smartindent                " Except with capitals 
+"set smartindent                " Except with capitals 
 set nohlsearch
 set incsearch                  " Increment search
 set ignorecase                 " Case-insensitive search;
