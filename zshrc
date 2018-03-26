@@ -11,7 +11,8 @@ setopt noclobber
 # }}}
 
 zstyle :compinstall filename '/home/tnek/.zshrc'
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 
+zstyle ':completion:*' menu select
 
 bindkey -v
 
@@ -117,5 +118,9 @@ cd() {builtin cd $@; ls -G}
 alias ctf="mosh tnek@ctf-tools.osiris.cyber.nyu.edu"
 
 export GOPATH="$HOME/Documents/gopath"
-
+export IDAPATH="/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export __EA64__=1
+export __MAC__=1
+export MACSDK=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
