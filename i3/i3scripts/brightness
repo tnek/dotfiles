@@ -11,10 +11,6 @@ setbright() {
     echo $1 | tee $backlight_dir
 }
 
-if [[ -z $1 || -z $2 ]]; then 
-    usage
-fi
-
 case "$1" in 
     "inc") 
         cur_bright=$(cat $backlight_dir)
@@ -30,5 +26,5 @@ case "$1" in
         setbright $2
         ;;
     *)
-        usage
+        echo "Current brightness: $(cat $backlight_dir)"
 esac
