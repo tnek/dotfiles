@@ -1,0 +1,34 @@
+#!/bin/bash
+backlight_dir=/sys/class/backlight/intel_backlight/brightness
+
+usage() {
+
+    echo "Usage: $0 {inc|dec} n"
+    exit 1
+}
+
+setbright() {
+    echo $1 | tee $backlight_dir
+}
+
+if [[ -z $1 || -z $2 ]]; then 
+    usage
+fi
+
+case "$1" in 
+    "inc") 
+        cur_bright=$(cat $backlight_dir)
+        add=$(($2 + $cur_bright))
+        setbright $add
+        ;;
+    "dec")
+        cur_bright=$(cat $backlight_dir)
+        add=$(($cur_bright - $2))
+        setbright $add
+        ;;
+    "set") 
+        setbright $2
+        ;;
+    *)
+        usage
+esac
