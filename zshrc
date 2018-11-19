@@ -2,13 +2,11 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1
 
-# Options {{{
 setopt appendhistory 
 setopt autocd
 setopt correct
 setopt completealiases
 setopt noclobber
-# }}}
 
 zstyle :compinstall filename '/home/tnek/.zshrc'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 
@@ -16,7 +14,6 @@ zstyle ':completion:*' menu select
 
 bindkey -v
 
-# Keybindings {{{
 bindkey "\e[1~" beginning-of-line # Home
 bindkey "\e[4~" end-of-line # End
 bindkey "\e[5~" beginning-of-history # PageUp
@@ -41,10 +38,9 @@ bindkey "\e[F" end-of-line
 
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
-# }}}
 
 # !! --color=auto
-alias ls='ls -G'
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 # Verbose Commands
@@ -76,7 +72,6 @@ man()
 			man "$@"
 }
 
-# Extract script
 extr()
 {
     if [ -f $1 ] ; then
@@ -102,25 +97,13 @@ extr()
     fi
 }
 
-# Recompiling dwm
-cdwm()
-{
-    (
-    cd ~/.config/dwm 
-    makepkg -g >> PKGBUILD 
-    makepkg -eif --noconfirm
-    )
-}
-
-# Automatically doing 'ls' after a cd
 cd() {builtin cd $@; ls -G}
 
-alias ctf="mosh tnek@ctf-tools.osiris.cyber.nyu.edu"
-
-export GOPATH="$HOME/Documents/gopath"
+export GOPATH="$HOME/doc/gopath"
 export IDAPATH="/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS"
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export PATH="${PATH}:${HOME}/.local/bin/"
 
-export __EA64__=1
-export __MAC__=1
-export MACSDK=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+export TERM=xterm-256color

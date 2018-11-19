@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'vim-airline/vim-airline'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/syntastic.git'
 call vundle#end()
 
 let g:airline_theme='raven'
@@ -24,7 +25,7 @@ set cursorline
 set scrolloff=2                " Keep 2 scroll lines above/below cursor
 set fillchars=vert:\           " Remove ugly | in seperators 
 set noerrorbells               " Disable annoying beeps
-set visualbell
+"set visualbell
 set expandtab                  " Tab -> Space
 set tabstop=4                  " Tabs count for 4 columns
 set softtabstop=4              " Tab == 4 spaces
@@ -40,5 +41,5 @@ set noswapfile
 set history=50
 set shortmess+=I               " No startup message
 set nolazyredraw
-"set mouse=a 
-set clipboard=unnamed
+set mouse=a 
+"set clipboard=unnamedplus
