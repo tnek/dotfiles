@@ -1,4 +1,6 @@
 #!/bin/sh
+autocutsel -fork 
+autocutsel -selection PRIMARY -fork
 xrdb ~/.Xresources
 nm-applet &
 redshift &
