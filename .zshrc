@@ -101,9 +101,11 @@ cd() {builtin cd $@; ls -G}
 
 export GOPATH="$HOME/doc/gopath"
 export IDAPATH="/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS"
-export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:${HOME}/.local/bin/:$GOPATH/bin"
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
 export TERM=xterm-256color
+alias gohome="cd $GOPATH"
+alias blaze='bazel'
