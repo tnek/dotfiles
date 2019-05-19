@@ -1,6 +1,9 @@
 syntax on
+syntax enable
 filetype plugin indent on 
 colorscheme jellybeans
+"set background=light
+"colorscheme solarized
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
@@ -10,10 +13,13 @@ call vundle#begin()
 Plugin 'vim-airline/vim-airline'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'scrooloose/syntastic.git'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'w0rp/ale'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 let g:airline_theme='raven'
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
 set encoding=utf-8
 set nocompatible               " Use Vim defaults
@@ -43,3 +49,14 @@ set shortmess+=I               " No startup message
 set nolazyredraw
 set mouse=a 
 "set clipboard=unnamedplus
+"
+autocmd BufNewFile,BufRead * let b:ale_linters = []
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+\    'c': ['clang-format'],
+\    'cpp': ['clang-format'],
+\    'python': ['black'],
+\    'go': ['gofmt'],
+\}
+
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
