@@ -1,9 +1,10 @@
 syntax on
 syntax enable
 filetype plugin indent on 
-colorscheme jellybeans
-"set background=light
-"colorscheme solarized
+
+let g:solarized_termcolors=256
+set background=light
+colorscheme solarized
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
@@ -15,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 let g:airline_theme='raven'
