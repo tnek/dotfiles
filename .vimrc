@@ -15,7 +15,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
-Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 let g:airline_theme='raven'
