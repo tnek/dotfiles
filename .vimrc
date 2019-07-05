@@ -19,7 +19,7 @@ Plugin 'w0rp/ale'
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
-let g:airline_theme='raven'
+let g:airline_theme='solarized'
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
 set encoding=utf-8
