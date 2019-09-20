@@ -12,33 +12,6 @@ zstyle :compinstall filename '/home/tnek/.zshrc'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 
 zstyle ':completion:*' menu select
 
-bindkey -v
-
-bindkey "\e[1~" beginning-of-line # Home
-bindkey "\e[4~" end-of-line # End
-bindkey "\e[5~" beginning-of-history # PageUp
-bindkey "\e[6~" end-of-history # PageDown
-bindkey "\e[2~" quoted-insert # Ins
-bindkey "\e[3~" delete-char # Del
-bindkey "\e[5C" forward-word
-bindkey "\eOc" emacs-forward-word
-bindkey "\e[5D" backward-word
-bindkey "\eOd" emacs-backward-word
-bindkey "\e\e[C" forward-word
-bindkey "\e\e[D" backward-word
-# for rxvt
-bindkey "\e[7~" beginning-of-line # Home
-bindkey "\e[8~" end-of-line # End
-# for non RH/Debian xterm, can't hurt for RH/Debian xterm
-bindkey "\eOH" beginning-of-line
-bindkey "\eOF" end-of-line
-# for freebsd console
-bindkey "\e[H" beginning-of-line
-bindkey "\e[F" end-of-line
-
-bindkey "^[[A" history-search-backward
-bindkey "^[[B" history-search-forward
-
 # !! --color=auto
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -57,20 +30,6 @@ if [[ $(whoami) == 'root' ]]; then
 else
     PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;39m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
 fi
-
-# Coloring man pages
-man()
-{
-	env \
-		LESS_TERMCAP_mb=$(printf "\e[1;37m") \
-		LESS_TERMCAP_md=$(printf "\e[1;37m") \
-		LESS_TERMCAP_me=$(printf "\e[0m") \
-		LESS_TERMCAP_se=$(printf "\e[0m") \
-		LESS_TERMCAP_so=$(printf "\e[1;47;30m") \
-		LESS_TERMCAP_ue=$(printf "\e[0m") \
-		LESS_TERMCAP_us=$(printf "\e[0;36m") \
-			man "$@"
-}
 
 extr()
 {
@@ -100,12 +59,14 @@ extr()
 cd() {builtin cd $@; ls -G}
 
 export GOPATH="$HOME/doc/gopath"
-export IDAPATH="/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS"
+export PATH="${PATH}:/snap/bin"
 export PATH="${PATH}:${HOME}/.local/bin/:$GOPATH/bin"
+alias gohome="cd $GOPATH/src"
+
+export PATH="${PATH}:${HOME}/.node_modules/bin"
+export npm_config_prefix="$HOME/.node_modules"
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
 export TERM=xterm-256color
-alias gohome="cd $GOPATH"
-alias blaze='bazel'
