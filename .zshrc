@@ -2,14 +2,14 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1
 
-setopt appendhistory 
+setopt appendhistory
 setopt autocd
 setopt correct
 setopt completealiases
 setopt noclobber
 
 zstyle :compinstall filename '/home/tnek/.zshrc'
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' menu select
 
 # !! --color=auto
@@ -61,7 +61,7 @@ cd() {builtin cd $@; ls -G}
 export GOPATH="$HOME/doc/gopath"
 export PATH="${PATH}:/snap/bin"
 export PATH="${PATH}:${HOME}/.local/bin/:$GOPATH/bin"
-alias gohome="cd $GOPATH/src"
+alias gh="cd $GOPATH/src"
 
 export PATH="${PATH}:${HOME}/.node_modules/bin"
 export npm_config_prefix="$HOME/.node_modules"
