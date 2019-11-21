@@ -68,6 +68,7 @@ autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
 nnoremap <silent> <2-LeftMouse> :TagbarToggle<CR>
 "nnoremap <silent> <2-LeftMouse> <C-]>
+let g:python_host_prog='/usr/bin/python'
 let g:tagbar_width = 40
 let g:tagbar_autofocus = 1
 let g:tagbar_compact = 1
