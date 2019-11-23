@@ -12,9 +12,9 @@ send_notification() {
     volume=`get_volume`
     # Make the bar with the special character ─ (it's not dash -)
     # https://en.wikipedia.org/wiki/Box-drawing_character
-    bar=$(seq -s "─" $(($volume / 3)) | sed 's/[0-9]//g')
+    bar=$(seq -s "─" $(($volume / 5)) | sed 's/[0-9]//g')
     # Send the notification
-    notify-send -i audio-volume-muted-blocking -t $1 -u normal "    $bar"
+    notify-send -i audio-volume-high-panel -t $1 -u normal "    $bar"
 }
 
 case $1 in
@@ -23,18 +23,18 @@ case $1 in
 	amixer -D pulse set Master on > /dev/null
 	# Up the volume (+ 5%)
 	amixer -D pulse sset Master 5%+ > /dev/null
-	send_notification 8
+	send_notification 150
 	;;
     down)
 	amixer -D pulse set Master on > /dev/null
 	amixer -D pulse sset Master 5%- > /dev/null
-	send_notification 8
+	send_notification 150
 	;;
     mute)
     	# Toggle mute
 	amixer -D pulse set Master 1+ toggle > /dev/null
 	if is_mute ; then
-	    notify-send -i audio-volume-muted -t 200 -u normal "Mute"
+	    notify-send -i audio-volume-muted-panel -t 200 -u normal "Mute"
 	else
 	    send_notification 200
 	fi
