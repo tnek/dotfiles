@@ -58,15 +58,10 @@ extr()
 
 cd() {builtin cd $@; ls -G}
 
-export GOPATH="$HOME/doc/gopath"
-export PATH="${PATH}:/snap/bin"
-export PATH="${PATH}:${HOME}/.local/bin/:$GOPATH/bin"
 alias gh="cd $GOPATH/src"
-
-export PATH="${PATH}:${HOME}/.node_modules/bin"
-export npm_config_prefix="$HOME/.node_modules"
-
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias ctf='ssh tnek@ctf-tools.osiris.cyber.nyu.edu'
+alias vpn='sudo openvpn ~/doc/osirislab/VPN/osiris.ovpn'
 
 export TERM=xterm-256color
