@@ -2,9 +2,9 @@ syntax on
 syntax enable
 filetype plugin indent on
 
-let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 set background=light
-colorscheme solarized
+colorscheme one
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
@@ -21,7 +21,7 @@ Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'majutsushi/tagbar'
 call vundle#end()
 
-let g:airline_theme='solarized'
+let g:airline_theme='one'
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
 set encoding=utf-8
