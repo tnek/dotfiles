@@ -62,9 +62,10 @@ format() {
 #------------------------------------------------------------------------
 
 case $BLOCK_BUTTON in
-  3) amixer -q -D $MIXER sset $SCONTROL $(capability) toggle ;;  # right click, mute/unmute
-  4) amixer -q -D $MIXER sset $SCONTROL $(capability) ${STEP}+ unmute ;; # scroll up, increase
-  5) amixer -q -D $MIXER sset $SCONTROL $(capability) ${STEP}- unmute ;; # scroll down, decrease
+    1) ~/.config/i3/volume.sh mute ;; # left click, toggle mute
+    3) ~/.config/i3/volume.sh mute ;; # right click, toggle mute
+    4) ~/.config/i3/volume.sh up ;; # scroll up
+    5) ~/.config/i3/volume.sh down ;;  # scroll down
 esac
 
 volume | format
