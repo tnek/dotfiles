@@ -16,7 +16,7 @@ bindsym $mod+Shift+c kill
 # Colors
 set $bg-color #212121
 set $inactive-bg-color #343434
-set $text-color #fcfcfc
+set $text-color #ffffff
 
 set $inactive-text-color #b3b3b3
 set $urgent-bg-color #e6b045
