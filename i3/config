@@ -36,20 +36,20 @@ bindsym $mod+Return exec urxvtc
 bindsym $mod+Shift+c kill
 
 # Colors
-set $bg-color            #232323
+set $bg-color            #212121
 set $inactive-bg-color   #343434
 set $text-color          #fcfcfc
 
 set $inactive-text-color #b3b3b3
 set $urgent-bg-color     #e6b045
-set $bar                 #232323
+set $bar                 #212121
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #232323
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #232323
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #232323
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #232323
+client.focused          $bg-color           $bg-color          $text-color          #212121
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #212121
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #212121
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #212121
 
 
 # start dmenu (a program launcher)
@@ -67,22 +67,14 @@ bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+bindsym $mod+Left workspace prev
+bindsym $mod+Right workspace next
 
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -200,7 +192,7 @@ bar {
 		background #222222
 		statusline #B1B1B1
 		separator #444444
-		focused_workspace #232323 #686868 #f1f1f1
+		focused_workspace #212121 #686868 #f1f1f1
 		active_workspace #333333 #333333 #888888
 		inactive_workspace #333333 #333333 #f1f1f1
 		urgent_workspace #eb709b #eb709b #ffffff
