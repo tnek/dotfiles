@@ -31,21 +31,3 @@ URxvt.keysym.Shift-Up: command:\033]720;1\007
 URxvt.keysym.Shift-Down: command:\033]721;1\007
 URxvt.keysym.Control-Right: \033[1;5C
 URxvt.keysym.Control-Left: \033[1;5D
-
-rofi.color-enabled: true
-
-rofi.color-window:    #212121 , #212121 , #212121 , #212121 , #4a4a4a
-rofi.color-normal:    #212121 , #4a4a4a , #212121 , #212121 , #ffffff
-rofi.color-active:    #4a4a4a , #ff2079 , #212121 , #13ca91 , #212121
-rofi.color-urgent:    #212121 , #4a4a4a , #212121 , #212121 , #4a4a4a
-
-rofi.font              : Pango 12
-rofi.columns           : 1
-rofi.separator-style   : none
-rofi.hide-scrollbar    : true
-rofi.location          : 1
-rofi.yoffset           : 20
-rofi.padding           : 32
-rofi.fullscreen        : false
-rofi.width             : 300
-rofi.lines             : 6
