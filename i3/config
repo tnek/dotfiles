@@ -128,6 +128,7 @@ bindsym $mod+Shift+q exec "i3-msg exit"
 bindsym $mod+x exec "betterlockscreen -l dim"
 
 # resize window (you can also use the mouse for that)
+bindsym $mod+d mode "resize"
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
@@ -152,24 +153,26 @@ mode "resize" {
 }
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.i3/volume.sh up
+bindsym XF86AudioRaiseVolume exec --no-startup-id "~/.i3/volume.sh up && pkill -RTMIN+2 i3blocks"
 
 #pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id ~/.i3/volume.sh down
+bindsym XF86AudioLowerVolume exec --no-startup-id "~/.i3/volume.sh down && pkill -RTMIN+2 i3blocks"
 
 #pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id  ~/.i3/volume.sh mute
+bindsym XF86AudioMute exec --no-startup-id  "~/.i3/volume.sh mute && pkill -RTMIN+2 i3blocks"
+
 #pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 1 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 1 # decrease screen brightness
 
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86AudioNext exec playerctl next
+# Audio buttons
+bindsym XF86AudioPlay exec "playerctl play-pause && pkill -RTMIN+10 i3blocks"
+bindsym XF86AudioPrev exec "playerctl previous && pkill -RTMIN+10 i3blocks"
 
-bindsym $mod+d mode "resize"
+bindsym XF86AudioNext exec "playerctl next && pkill -RTMIN+10 i3blocks"
+
 
 workspace 1 output primary
 workspace 2 output primary
