@@ -146,6 +146,11 @@ bindsym --release Print exec "scrot -s"
 # XPS13 has a key with a display icon that presses mod+p
 bindsym $mod+p exec "autorandr -c"
 
+# XPS13 has a key with an icon that presses mod+tab
+bindsym $mod+Tab scratchpad show
+bindsym $mod+Shift+Tab move scratchpad
+for_window [class="Spotify"] move to scratchpad
+
 workspace 1 output primary
 workspace 2 output primary
 workspace 3 output primary
