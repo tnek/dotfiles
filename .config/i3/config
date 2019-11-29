@@ -141,7 +141,8 @@ bindsym XF86AudioPrev exec "playerctl previous && pkill -RTMIN+10 i3blocks"
 bindsym XF86AudioNext exec "playerctl next && pkill -RTMIN+10 i3blocks"
 
 # PrtScr
-bindsym --release Print exec "scrot -s"
+bindsym --release Shift+Print exec "scrot -s"
+bindsym --release Print exec "scrot"
 
 # XPS13 has a key with a display icon that presses mod+p
 bindsym $mod+p exec "autorandr -c"
