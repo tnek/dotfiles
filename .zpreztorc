@@ -28,13 +28,11 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
-  'terminal' \
   'editor' \
   'history' \
   'directory' \
   'spectrum' \
   'utility' \
-  'completion' \
   'syntax-highlighting' \
   'prompt'
 
@@ -222,7 +220,7 @@ zstyle ':prezto:module:prompt' theme 'minimal'
 # Enabled safe options. This aliases cp, ln, mv and rm so that they prompt
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
-# zstyle ':prezto:module:utility' safe-ops 'yes'
+zstyle ':prezto:module:utility' safe-ops 'no'
 #
 #
 #
@@ -233,13 +231,3 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias ctf='ssh tnek@ctf-tools.osiris.cyber.nyu.edu'
 alias vpn='sudo openvpn ~/doc/osirislab/VPN/osiris.ovpn'
-
-# !! --color=auto
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-
-# Verbose Commands
-alias mkdir='mkdir -p -v'
-alias rm='rm -v'
-alias mv='mv -v'
-alias cp='cp -v'
