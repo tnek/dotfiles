@@ -1,0 +1,35 @@
+# zathurarc-light
+set notification-error-bg       "#d0d0d0"  # seem not work
+set notification-error-fg       "#dc322f" # red
+set notification-warning-bg     "#d0d0d0"
+set notification-warning-fg     "#dc322f" # red
+set notification-bg             "#d0d0d0"
+set notification-fg             "#368bd2" # blue
+
+set completion-bg               "#f9f9f9"
+set completion-fg               "#383a42"
+set completion-group-bg         "#d0d0d0"
+set completion-group-fg         "#f9f9f9"
+set completion-highlight-bg     "#d0d0d0"
+set completion-highlight-fg     "#073642" # base02
+
+# Define the color in index mode
+set index-bg                   "#f9f9f9"
+set index-fg                   "#383a42"
+set index-active-bg             "#d0d0d0"
+set index-active-fg             "#f9f9f9"
+
+set inputbar-bg                 "#d0d0d0"
+set inputbar-fg                 "#073642" # base02
+
+set statusbar-bg                "#f9f9f9"
+set statusbar-fg                "#383a42"
+
+set highlight-color             "#839496" # base0  # hightlight match when search keyword(vim's /)
+set highlight-active-color      "#d0d0d0" # orange
+
+set default-bg                  "#f9f9f9"
+set default-fg                  "#383a42"
+set render-loading              true
+# set render-loading-fg           "#f9f9f9"
+# set render-loading-bg           "#f9f9f9"
