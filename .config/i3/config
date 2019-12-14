@@ -13,25 +13,6 @@ bindsym $mod+Return exec urxvtc
 # kill focused window
 bindsym $mod+Shift+c kill
 
-# Colors
-set $bg-color #222222
-set $inactive-bg-color #333333
-set $text-color #f1f1f1
-set $inactive-text-color #b1b1b1
-set $urgent-bg-color #e6b045
-set $bar #454545
-set $indicator-color #212121
-
-# window colors
-# attribute             border              background          text                    indicator
-client.focused          $bg-color           $bg-color           $text-color             $indicator-color
-client.unfocused        $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $indicator-color
-client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $indicator-color
-client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color             $indicator-color
-
-default_border pixel 1
-hide_edge_borders both
-
 # start a program launcher
 set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -terminal urxvtc"
 bindsym $mod+r $run_cmd
@@ -173,6 +154,28 @@ for_window [class="Spotify"] move to scratchpad
 
 bindsym XF86Search $run_cmd
 
+# Colors
+set_from_resource $bar foreground #383a42
+set_from_resource $bg-color cursorColor #d0d0d0
+set_from_resource $text-color foreground #383a42
+
+set_from_resource $urgent-bg-color color1 #E45649
+set_from_resource $indicator-color foreground #383a42
+
+# i3 doesn't let you use variables to assign other variables
+set_from_resource $inverted-bg-color foreground #83a42
+set_from_resource $inverted-text-color cursorColor #83a42
+
+# window colors
+# attribute             border              background          text                    indicator
+client.focused          $bar                $bar                $text-color             $indicator-color
+client.unfocused        $inverted-bg-color  $inverted-bg-color  $inverted-text-color    $indicator-color
+client.focused_inactive $inverted-bg-color  $inverted-bg-color  $inverted-text-color    $indicator-color
+client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color             $indicator-color
+
+default_border pixel 1
+hide_edge_borders both
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
@@ -183,10 +186,10 @@ bar {
 
   colors {
     background $bar
-    statusline $inactive-text-color
+    statusline $inverted-text-color
     focused_workspace $bg-color $bg-color $text-color
     active_workspace $bg-color $bg-color $text-color
-    inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+    inactive_workspace $bar $bar $inverted-text-color
     urgent_workspace $urgent-bg-color $urgent-bg-color $text-color
   }
 }
