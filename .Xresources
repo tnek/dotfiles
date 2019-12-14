@@ -1,30 +1,35 @@
 
 ! Atom One Light theme
-urxvt*background: #f9f9f9
-urxvt*foreground: #383a42
-urxvt*cursorColor: #d0d0d0
-urxvt*color0: #000000
-urxvt*color1: #E45649
-urxvt*color2: #50A14F
-urxvt*color3: #986801
-urxvt*color4: #4078F2
-urxvt*color5: #A626A4
-urxvt*color6: #0184BC
-urxvt*color7: #A0A1A7
-urxvt*color8: #5c6370
-urxvt*color9: #e06c75
-urxvt*color10: #50A14F
-urxvt*color11: #986801
-urxvt*color12: #4078F2
-urxvt*color13: #A626A4
-urxvt*color14: #0184BC
-urxvt*color15: #ffffff
+*background: #f9f9f9
+*foreground: #383a42
+
+*cursorColor: #d0d0d0
+*color0: #000000
+*color1: #E45649
+*color2: #50A14F
+*color3: #986801
+*color4: #4078F2
+*color5: #A626A4
+*color6: #0184BC
+*color7: #A0A1A7
+*color8: #5c6370
+*color9: #e06c75
+*color10: #50A14F
+*color11: #986801
+*color12: #4078F2
+*color13: #A626A4
+*color14: #0184BC
+*color15: #ffffff
 !------------------------------------------------------------------------------
 ! URxvt Settings
 urxvt*geometry:         80x21
-urxvt*font:             xft:inconsolata:size=14:antialias=true:autohint=true
+!urxvt*font:             xft:inconsolata:style=Regular:size=14:antialias=true:autohint=true
+urxvt*font: xft:Hack:size=14:antialias=true:autohint=true
+urxvt*boldFont: xft:Hack-Bold:size=14:antialias=true:autohint=true
 urxvt*scrollBar:        false
 urxvt.urgentOnBell:     true
+
+URxvt*termName: xterm-256color
 URxvt.perl-ext:
 URxvt.perl-ext-common:
 URxvt.keysym.Shift-Up: command:\033]720;1\007
