@@ -155,23 +155,25 @@ for_window [class="Spotify"] move to scratchpad
 bindsym XF86Search $run_cmd
 
 # Colors
-set_from_resource $bar foreground #383a42
-set_from_resource $bg-color cursorColor #d0d0d0
-set_from_resource $text-color foreground #383a42
 
-set_from_resource $urgent-bg-color color1 #E45649
+# Nonintuitively flipped here because I use a light theme and want a dark bar :^)
+# s/foreground/background/ and vice versa for a dark Xresources
+set_from_resource $bg foreground #383a42
+set_from_resource $fg background #f9f9f9
 set_from_resource $indicator-color foreground #383a42
 
-# i3 doesn't let you use variables to assign other variables
-set_from_resource $inverted-bg-color foreground #83a42
-set_from_resource $inverted-text-color cursorColor #83a42
+# This should be a little dimmer than $fg
+set_from_resource $cur cursorColor #d0d0d0
+
+# color1 is red
+set_from_resource $alert color1 #e45649
 
 # window colors
-# attribute             border              background          text                    indicator
-client.focused          $bar                $bar                $text-color             $indicator-color
-client.unfocused        $inverted-bg-color  $inverted-bg-color  $inverted-text-color    $indicator-color
-client.focused_inactive $inverted-bg-color  $inverted-bg-color  $inverted-text-color    $indicator-color
-client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color             $indicator-color
+# attribute             border  background  text    indicator
+client.focused          $bg     $bg         $fg     $indicator-color
+client.unfocused        $bg     $bg         $cur    $indicator-color
+client.focused_inactive $bg     $bg         $cur    $indicator-color
+client.urgent           $alert  $alert      $bg     $indicator-color
 
 default_border pixel 1
 hide_edge_borders both
@@ -185,11 +187,13 @@ bar {
   strip_workspace_name yes
 
   colors {
-    background $bar
-    statusline $inverted-text-color
-    focused_workspace $bg-color $bg-color $text-color
-    active_workspace $bg-color $bg-color $text-color
-    inactive_workspace $bar $bar $inverted-text-color
-    urgent_workspace $urgent-bg-color $urgent-bg-color $text-color
+    background          $bg
+    statusline          $cur
+
+    # Class             Border  Background  Text
+    focused_workspace   $cur    $cur        $bg
+    active_workspace    $cur    $cur        $bg
+    inactive_workspace  $bg     $bg         $cur
+    urgent_workspace    $alert  $alert      $bg
   }
 }
