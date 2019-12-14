@@ -14,21 +14,23 @@ bindsym $mod+Return exec urxvtc
 bindsym $mod+Shift+c kill
 
 # Colors
-set $bg-color #212121
-set $inactive-bg-color #343434
-set $text-color #ffffff
-
-set $inactive-text-color #b3b3b3
+set $bg-color #222222
+set $inactive-bg-color #333333
+set $text-color #f1f1f1
+set $inactive-text-color #b1b1b1
 set $urgent-bg-color #e6b045
-set $bar #212121
+set $bar #454545
 set $indicator-color #212121
 
 # window colors
-# border background text indicator
+# attribute             border              background          text                    indicator
 client.focused          $bg-color           $bg-color           $text-color             $indicator-color
 client.unfocused        $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $indicator-color
 client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $indicator-color
 client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color             $indicator-color
+
+default_border pixel 1
+hide_edge_borders both
 
 # start a program launcher
 set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -terminal urxvtc"
@@ -70,16 +72,16 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
 
-set $ws1 "1:"
-set $ws2 "2:"
-set $ws3 "3:"
-set $ws4 "4:"
-set $ws5 "5:"
-set $ws6 "6:"
-set $ws7 "7:"
-set $ws8 "8:"
-set $ws9 "9:"
-set $ws10 "10:"
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -179,17 +181,12 @@ bar {
   strip_workspace_numbers no
   strip_workspace_name yes
 
-  colors{
-    background #222222
-    statusline #B1B1B1
-    separator #444444
-    focused_workspace #212121 #686868 #f1f1f1
-    active_workspace #333333 #333333 #888888
-    inactive_workspace #333333 #333333 #f1f1f1
-    urgent_workspace #eb709b #eb709b #ffffff
-
+  colors {
+    background $bar
+    statusline $inactive-text-color
+    focused_workspace $bg-color $bg-color $text-color
+    active_workspace $bg-color $bg-color $text-color
+    inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+    urgent_workspace $urgent-bg-color $urgent-bg-color $text-color
   }
 }
-
-# Disable titlebars on windows
-new_window 1pixel
