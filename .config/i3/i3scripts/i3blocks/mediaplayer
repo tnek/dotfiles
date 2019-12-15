@@ -25,6 +25,7 @@
 use Time::HiRes qw(usleep);
 use Env qw(BLOCK_INSTANCE);
 use Env qw(BLOCK_BUTTON);
+use HTML::Entities;
 
 use constant DELAY => 50; # Delay in ms to let network-based players (spotify) reflect new data.
 use constant SPOTIFY_STR => 'spotify';
@@ -39,6 +40,7 @@ if ($BLOCK_INSTANCE) {
 sub playerctl {
     my $artist = qx(playerctl $player_arg metadata artist);
     chomp $artist;
+
     # exit status will be nonzero when playerctl cannot find your player
     exit(0) if $? || $artist eq '(null)';
 
@@ -47,12 +49,19 @@ sub playerctl {
         print("♫ Paused");
         return;
     }
-    push(@metadata, $artist) if $artist;
+
+    if ($artist) {
+        $artist = encode_entities($artist);
+        push(@metadata, $artist) if $artist;
+    }
 
     my $title = qx(playerctl $player_arg metadata title);
     exit(0) if $? || $title eq '(null)';
 
-    push(@metadata, $title) if $title;
+    if ($title) {
+        $title = encode_entities($title);
+        push(@metadata, $title) if $title;
+    }
 
     print("♫ " . join(" - ", @metadata)) if @metadata;
 }
