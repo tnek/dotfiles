@@ -50,18 +50,12 @@ sub playerctl {
         return;
     }
 
-    if ($artist) {
-        $artist = encode_entities($artist);
-        push(@metadata, $artist) if $artist;
-    }
+    push(@metadata, encode_entities($artist)) if $artist;
 
     my $title = qx(playerctl $player_arg metadata title);
     exit(0) if $? || $title eq '(null)';
 
-    if ($title) {
-        $title = encode_entities($title);
-        push(@metadata, $title) if $title;
-    }
+    push(@metadata, encode_entities($title)) if $title;
 
     print("♫ " . join(" - ", @metadata)) if @metadata;
 }
