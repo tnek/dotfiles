@@ -19,12 +19,18 @@
 *color13: #A626A4
 *color14: #0184BC
 *color15: #ffffff
-!------------------------------------------------------------------------------
-! URxvt Settings
+
+Xft.autohint: 1
+Xft.hintstyle: hindslight
+Xft.lcdfilter: lcddefault
+Xft.hinting: 1
+Xft.antialias: 1
+
 urxvt*geometry:         80x21
-!urxvt*font:             xft:inconsolata:style=Regular:size=14:antialias=true:autohint=true
-urxvt*font: xft:Hack:size=14:antialias=true:autohint=true
-urxvt*boldFont: xft:Hack-Bold:size=14:antialias=true:autohint=true
+urxvt*font: xft:Hack-Regular:pixelsize=18
+urxvt*boldFont: xft:Hack-Bold:pixelsize=18:weight=bold
+URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=18:slant=italic
+
 urxvt*scrollBar:        false
 urxvt.urgentOnBell:     true
 
