@@ -3,6 +3,7 @@ export GOPATH="$HOME/doc/gopath"
 export EDITOR='vim'
 export PATH="${PATH}:${HOME}/.local/bin/:$GOPATH/bin"
 export PATH="${PATH}:${HOME}/.node_modules/bin"
+export PATH="${PATH}:${HOME}/.gem/ruby/2.6.0/bin"
 export npm_config_prefix="$HOME/.node_modules"
 
 # Pretty tty colors
