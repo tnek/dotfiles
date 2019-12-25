@@ -34,7 +34,6 @@ URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=18:slant=italic
 urxvt*scrollBar:        false
 urxvt.urgentOnBell:     true
 
-URxvt*termName: xterm-256color
 URxvt.perl-ext:
 URxvt.perl-ext-common:
 URxvt.keysym.Shift-Up: command:\033]720;1\007
