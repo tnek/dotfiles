@@ -189,17 +189,17 @@ bindsym $mod+Shift+Tab move scratchpad
 for_window [class="Spotify"] move to scratchpad
 
 # i3blocks.conf has signal=2 for audio status
-bindsym XF86AudioRaiseVolume exec --no-startup-id "~/.config/i3/volume.sh up && pkill -RTMIN+2 i3blocks"
-bindsym XF86AudioLowerVolume exec --no-startup-id "~/.config/i3/volume.sh down && pkill -RTMIN+2 i3blocks"
-bindsym XF86AudioMute exec --no-startup-id  "~/.config/i3/volume.sh mute && pkill -RTMIN+2 i3blocks"
+bindsym XF86AudioRaiseVolume exec --no-startup-id "~/.config/i3/i3scripts/volume.sh up && pkill -RTMIN+2 i3blocks"
+bindsym XF86AudioLowerVolume exec --no-startup-id "~/.config/i3/i3scripts/volume.sh down && pkill -RTMIN+2 i3blocks"
+bindsym XF86AudioMute exec --no-startup-id  "~/.config/i3/i3scripts/volume.sh mute && pkill -RTMIN+2 i3blocks"
 # i3blocks.conf has signal=10 for mediaplayer
 bindsym XF86AudioPlay exec "playerctl play-pause && pkill -RTMIN+10 i3blocks"
 bindsym XF86AudioPrev exec "playerctl previous && pkill -RTMIN+10 i3blocks"
 bindsym XF86AudioNext exec "playerctl next && pkill -RTMIN+10 i3blocks"
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 1 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 1 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
 
 # PrtScr
 bindsym --release Shift+Print exec "scrot -s"
