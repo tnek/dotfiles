@@ -187,6 +187,7 @@ bindsym XF86Search $run_cmd
 bindsym $mod+Tab scratchpad show
 bindsym $mod+Shift+Tab move scratchpad
 for_window [class="Spotify"] move to scratchpad
+for_window [class="^Steam$"] floating enable
 
 # i3blocks.conf has signal=2 for audio status
 bindsym XF86AudioRaiseVolume exec --no-startup-id "~/.config/i3/i3scripts/volume.sh up && pkill -RTMIN+2 i3blocks"
