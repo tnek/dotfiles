@@ -1,0 +1,21 @@
+{
+    "window.menuBarVisibility": "default",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "Google",
+    "go.formatTool": "gofmt",
+    "workbench.colorTheme": "Atom One Light",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Hack,Consolas, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "vim.easymotionMarkerFontSize": "16",
+    "python.insidersChannel": "daily",
+    "terminal.integrated.rendererType": "dom",
+    "python.formatting.provider": "black"
+}
