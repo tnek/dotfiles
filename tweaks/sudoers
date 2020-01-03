@@ -1,0 +1,1 @@
+tnek ALL=(ALL) NOPASSWD:/usr/local/bin/brightness

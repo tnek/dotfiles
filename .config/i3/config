@@ -6,11 +6,15 @@ font pango:Ubuntu 12
 
 # Nonintuitively flipped here because I use a light theme and want a dark bar :^)
 # s/foreground/background/ and vice versa for a dark Xresources
-set_from_resource $bg foreground #383a42
-set_from_resource $fg background #f9f9f9
+#set_from_resource $bg foreground #383a42
+#set_from_resource $fg background #f9f9f9
+
+set $bg #383a42
+set $fg #f9f9f9
 
 # This should be a little dimmer than $fg
-set_from_resource $cur cursorColor #d0d0d0
+#set_from_resource $cur cursorColor #d0d0d0
+set $cur #d0d0d0
 
 # color1 is red
 set_from_resource $alert color1 #e45649
@@ -199,8 +203,8 @@ bindsym XF86AudioPrev exec "playerctl previous && pkill -RTMIN+10 i3blocks"
 bindsym XF86AudioNext exec "playerctl next && pkill -RTMIN+10 i3blocks"
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec sudo brightness inc 1000 # increase screen brightness
+bindsym XF86MonBrightnessDown exec sudo brightness dec 1000 # decrease screen brightness
 
 # PrtScr
 bindsym --release Shift+Print exec "scrot -s"
