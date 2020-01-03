@@ -1,0 +1,32 @@
+#!/bin/bash
+# Necessary because of https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=824987
+# When/if Xorg devs ever decide to fix this, we can switch back to xbacklight
+backlight_dir=/sys/class/backlight/intel_backlight/brightness
+
+usage() {
+
+    echo "Usage: $0 {inc|dec} n"
+    exit 1
+}
+
+setbright() {
+    echo $1 | tee $backlight_dir
+}
+
+case "$1" in
+    "inc")
+        cur_bright=$(cat $backlight_dir)
+        add=$(($2 + $cur_bright))
+        setbright $add
+        ;;
+    "dec")
+        cur_bright=$(cat $backlight_dir)
+        add=$(($cur_bright - $2))
+        setbright $add
+        ;;
+    "set")
+        setbright $2
+        ;;
+    *)
+        echo "Current brightness: $(cat $backlight_dir)"
+esac
