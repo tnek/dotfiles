@@ -49,7 +49,11 @@ set history=50
 set shortmess+=I
 set nolazyredraw
 set mouse=a
-"set clipboard=unnamed
+" For windows or OSX
+"set clipboard=unnamedplus
+
+" For Linux
+set clipboard=unnamedplus
 
 autocmd BufNewFile,BufRead * let b:ale_linters = []
 let g:ale_fix_on_save = 1
