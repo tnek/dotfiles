@@ -60,6 +60,10 @@ bar {
 # Winkey
 set $mod Mod4
 
+# start a program launcher
+set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -disable-history -terminal urxvtc"
+bindsym $mod+r $run_cmd
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -68,10 +72,6 @@ bindsym $mod+Return exec urxvtc
 
 # kill focused window
 bindsym $mod+Shift+c kill
-
-# start a program launcher
-set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -terminal urxvtc"
-bindsym $mod+r $run_cmd
 
 # change focus
 bindsym $mod+j focus left
