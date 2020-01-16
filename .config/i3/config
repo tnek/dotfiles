@@ -39,8 +39,8 @@ default_border pixel 1
 bar {
   position top
   status_command i3blocks
-  strip_workspace_numbers no
-  strip_workspace_name yes
+  strip_workspace_numbers yes
+  strip_workspace_name no
 
   colors {
     background          $bg
@@ -61,14 +61,14 @@ bar {
 set $mod Mod4
 
 # start a program launcher
-set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -disable-history -terminal urxvtc"
+set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -disable-history -terminal termite"
 bindsym $mod+r $run_cmd
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvtc
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+c kill
