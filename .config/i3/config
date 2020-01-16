@@ -16,8 +16,13 @@ set $fg #f9f9f9
 #set_from_resource $cur cursorColor #d0d0d0
 set $cur #d0d0d0
 
+# This should be a lot dimmer than $fg
+#set_from_resource $ws_fg color8 #a0a1a7
+set $ws_fg #a0a1a7
+
 # color1 is red
 set_from_resource $alert color1 #e45649
+
 
 # window colors
 # attribute             border  background  text    indicator
@@ -47,9 +52,9 @@ bar {
     statusline          $cur
 
     # Class             Border  Background  Text
-    focused_workspace   $cur    $cur        $bg
-    active_workspace    $cur    $cur        $bg
-    inactive_workspace  $bg     $bg         $cur
+    focused_workspace   $bg     $bg         $fg
+    active_workspace    $bg     $bg         $cur
+    inactive_workspace  $bg     $bg         $ws_fg
     urgent_workspace    $alert  $alert      $bg
   }
 }
@@ -218,7 +223,6 @@ bindsym --release Print exec "scrot"
 #
 # TODO: Figure out the best way to fix that to make this unnecessary.
 bindsym $mod+p exec "/home/tnek/.fehbg; autorandr -c"
-
 
 # Gaps?
 gaps inner 8
