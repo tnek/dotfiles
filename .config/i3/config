@@ -225,4 +225,4 @@ bindsym $mod+p exec "/home/tnek/.fehbg; autorandr -c"
 hide_edge_borders both
 
 # Gaps?
-gaps inner 7
+gaps inner 5
