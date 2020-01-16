@@ -31,8 +31,6 @@ client.unfocused        $cur    $cur        $bg     $cur
 client.focused_inactive $cur    $cur        $bg     $cur
 client.urgent           $alert  $alert      $bg     $cur
 
-# Don't draw borders on the edges of the screen
-hide_edge_borders both
 
 # No titlebars
 default_border pixel 1
@@ -187,7 +185,6 @@ mode "resize" {
   bindsym Escape mode "default"
 }
 
-
 # XPS13 special keys
 
 bindsym XF86Search $run_cmd
@@ -224,5 +221,8 @@ bindsym --release Print exec "scrot"
 # TODO: Figure out the best way to fix that to make this unnecessary.
 bindsym $mod+p exec "/home/tnek/.fehbg; autorandr -c"
 
+# Don't draw borders on the edges of the screen
+hide_edge_borders both
+
 # Gaps?
-gaps inner 8
+gaps inner 7
