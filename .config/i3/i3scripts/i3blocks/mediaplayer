@@ -25,6 +25,9 @@
 use Time::HiRes qw(usleep);
 use Env qw(BLOCK_INSTANCE);
 use Env qw(BLOCK_BUTTON);
+
+# On arch, install perl-html-parser:
+#   # pacman -S perl-html-parser
 use HTML::Entities;
 
 use constant DELAY => 50; # Delay in ms to let network-based players (spotify) reflect new data.
