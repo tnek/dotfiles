@@ -14,7 +14,7 @@ send_notification() {
     # https://en.wikipedia.org/wiki/Box-drawing_character
     bar=$(seq -s "─" $(($volume / 5)) | sed 's/[0-9]//g')
     # Send the notification
-    notify-send -i audio-volume-high-panel -t $1 -u normal "    $bar"
+    dunstify -r 2593 -i audio-volume-high-panel -t $1 -u normal "    $bar"
 }
 
 case $1 in
@@ -23,12 +23,12 @@ case $1 in
 	amixer -D pulse set Master on > /dev/null
 	# Up the volume (+ 5%)
 	amixer -D pulse sset Master 5%+ > /dev/null
-	send_notification 150
+	send_notification 250
 	;;
     down)
 	amixer -D pulse set Master on > /dev/null
 	amixer -D pulse sset Master 5%- > /dev/null
-	send_notification 150
+	send_notification 250
 	;;
     mute)
     	# Toggle mute
@@ -36,7 +36,7 @@ case $1 in
 	if is_mute ; then
 	    notify-send -i audio-volume-muted-panel -t 200 -u normal "Mute"
 	else
-	    send_notification 200
+	    send_notification 250
 	fi
 	;;
 esac
