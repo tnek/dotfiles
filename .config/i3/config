@@ -10,6 +10,7 @@ font pango:Ubuntu 14
 #set_from_resource $fg background #f9f9f9
 
 set $bg #383a42
+set $focusedbg #494b53
 set $fg #f9f9f9
 
 # This should be a little dimmer than $fg
@@ -50,7 +51,7 @@ bar {
     statusline          $cur
 
     # Class             Border  Background  Text
-    focused_workspace   $bg     $bg         $fg
+    focused_workspace   $bg     $focusedbg  $fg
     active_workspace    $bg     $bg         $cur
     inactive_workspace  $bg     $bg         $ws_fg
     urgent_workspace    $alert  $alert      $bg
