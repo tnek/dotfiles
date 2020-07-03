@@ -8,17 +8,28 @@ hi Normal ctermbg=none
 highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-    Plugin 'vim-airline/vim-airline'
-    Plugin 'VundleVim/Vundle.vim'
-    Plugin 'vim-airline/vim-airline-themes'
-    "Plugin 'leafgarland/typescript-vim'
-    Plugin 'w0rp/ale'
-    Plugin 'Valloric/YouCompleteMe'
-    Plugin 'ludovicchabant/vim-gutentags'
-    Plugin 'majutsushi/tagbar'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'dense-analysis/ale'
+call plug#end()
+
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
 
 let g:airline_theme='one'
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
@@ -49,11 +60,12 @@ set history=50
 set shortmess+=I
 set nolazyredraw
 set mouse=a
-" For windows or OSX
+
+" For Windows or Linux
 "set clipboard=unnamedplus
 
-" For Linux
-set clipboard=unnamedplus
+" For OSX
+set clipboard=unnamed
 
 autocmd BufNewFile,BufRead * let b:ale_linters = []
 let g:ale_fix_on_save = 1
@@ -65,41 +77,5 @@ let g:ale_fixers = {
 \    'go': ['gofmt']
 \}
 
-autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
-
-nnoremap <silent> <Leader>b :TagbarToggle<CR>
-"nnoremap <silent> <2-LeftMouse> :TagbarToggle<CR>
 nnoremap <silent> <2-LeftMouse> <C-]>
-let g:python_host_prog='/usr/bin/python'
-let g:tagbar_width = 40
-let g:tagbar_autofocus = 1
-let g:tagbar_compact = 1
-let g:tagbar_indent = 1
-
-let g:tagbar_type_go = {
-	\ 'ctagstype' : 'go',
-	\ 'kinds'     : [
-		\ 'p:package',
-		\ 'i:imports:1',
-		\ 'c:constants',
-		\ 'v:variables',
-		\ 't:types',
-		\ 'n:interfaces',
-		\ 'w:fields',
-		\ 'e:embedded',
-		\ 'm:methods',
-		\ 'r:constructor',
-		\ 'f:functions'
-	\ ],
-	\ 'sro' : '.',
-	\ 'kind2scope' : {
-		\ 't' : 'ctype',
-		\ 'n' : 'ntype'
-	\ },
-	\ 'scope2kind' : {
-		\ 'ctype' : 't',
-		\ 'ntype' : 'n'
-	\ },
-	\ 'ctagsbin'  : 'gotags',
-	\ 'ctagsargs' : '-sort -silent'
-    \ }
+"let g:python_host_prog='/usr/bin/python'
