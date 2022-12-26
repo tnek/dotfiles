@@ -22,7 +22,7 @@ set $cur #d0d0d0
 set $ws_fg #a0a1a7
 
 # color1 is red
-set_from_resource $alert color1 #e45649
+set $alert #E45649
 
 
 # window colors
@@ -40,24 +40,27 @@ default_border pixel 1
 # finds out, if available)
 # It seems like i3 won't render the bar properly if
 #
+#bar {
+#  position top
+#  status_command i3blocks
+#  strip_workspace_numbers yes
+#
+#  colors {
+#    background          $bg
+#    statusline          $cur
+#
+#    # Class             Border  Background  Text
+#    focused_workspace   $bg     $focusedbg  $fg
+#    active_workspace    $bg     $bg         $cur
+#    inactive_workspace  $bg     $bg         $ws_fg
+#    urgent_workspace    $alert  $alert      $bg
+#  }
+#}
+
 bar {
-  position top
-  status_command i3blocks
-  strip_workspace_numbers yes
-  strip_workspace_name no
-
-  colors {
-    background          $bg
-    statusline          $cur
-
-    # Class             Border  Background  Text
-    focused_workspace   $bg     $focusedbg  $fg
-    active_workspace    $bg     $bg         $cur
-    inactive_workspace  $bg     $bg         $ws_fg
-    urgent_workspace    $alert  $alert      $bg
-  }
+    swaybar_command waybar
+    position top
 }
-
 
 #Keybinds
 
@@ -65,14 +68,14 @@ bar {
 set $mod Mod4
 
 # start a program launcher
-set $run_cmd exec "rofi -show run -modi run,window -show-icons -sidebar-mode -disable-history -terminal termite"
+set $run_cmd exec "wofi --show run"
 bindsym $mod+r $run_cmd
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec "alacritty msg create-window || alacritty"
 
 # kill focused window
 bindsym $mod+Shift+c kill
@@ -158,7 +161,7 @@ workspace $ws5 output secondary
 workspace $ws6 output secondary
 
 # Kills the xsession
-bindsym $mod+Shift+q exec "i3-msg exit"
+bindsym $mod+Shift+q exec "swaymsg exit"
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
@@ -226,4 +229,8 @@ bindsym $mod+p exec "/home/tnek/.fehbg; autorandr -c"
 hide_edge_borders both
 
 # Gaps?
-gaps inner 5
+# gaps inner 5
+output "*" bg ~/pic/cur_wallpaper fill
+
+exec wl-paste -t text --watch clipman store --no-persist
+exec wlsunset -l 40 -L -74 -t 5700:3700

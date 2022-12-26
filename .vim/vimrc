@@ -79,10 +79,10 @@ set nolazyredraw
 set mouse=a
 
 " For Windows or Linux
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 
 " For OSX
-set clipboard=unnamed
+"set clipboard=unnamed
 
 nnoremap <silent> <2-LeftMouse> <C-]>
 "let g:python_host_prog='/usr/bin/python'
