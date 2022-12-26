@@ -234,3 +234,4 @@ output "*" bg ~/pic/cur_wallpaper fill
 
 exec wl-paste -t text --watch clipman store --no-persist
 exec wlsunset -l 40 -L -74 -t 5700:3700
+exec dunst
