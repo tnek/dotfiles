@@ -28,5 +28,5 @@ if [ "$TERM" = "linux" ]; then
 fi
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-   startx
+   sway
 fi
