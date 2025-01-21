@@ -2,21 +2,23 @@ syntax on
 syntax enable
 filetype plugin indent on
 
-"set background=light
-colorscheme one
-hi Normal ctermbg=none
-highlight NonText ctermbg=none
-highlight LineNr ctermbg=none
 
 call plug#begin('~/.vim/plugged')
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'vim-airline/vim-airline'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+Plug 'neovim/nvim-lspconfig'
+Plug 'rakr/vim-one'
 call plug#end()
 call glaive#Install()
+
+set background=light
+colorscheme one
+hi Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
+let g:airline_theme='one'
 
 Glaive codefmt plugin[mappings]
 
