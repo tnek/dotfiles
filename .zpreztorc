@@ -224,7 +224,14 @@ zstyle ':prezto:module:utility' safe-ops 'no'
 
 cd() {builtin cd $@; ls -G }
 
-export EDITOR='/opt/homebrew/bin/nvim'
-alias vim='/opt/homebrew/bin/nvim'
+if command -v nvim &>/dev/null; then
+  export EDITOR="$(command -v nvim)"
+  alias vim=nvim
+fi
+
+# LSP binaries from Homebrew llvm / go install (bootstrap)
+[[ -d /opt/homebrew/opt/llvm/bin ]] && path=(/opt/homebrew/opt/llvm/bin $path)
+[[ -d "$HOME/go/bin" ]] && path=($HOME/go/bin $path)
+
 #alias pbcopy='xclip -selection clipboard'
 #alias pbpaste='xclip -selection clipboard -o'
