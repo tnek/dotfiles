@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Runs automatically after `yadm clone`. Add machine-specific setup here.
+
+set -euo pipefail
+
+echo "==> yadm bootstrap starting"
+
+# macOS-specific setup
+if [[ "$(uname)" == "Darwin" ]]; then
+    if ! command -v brew &>/dev/null; then
+        echo "==> Installing Homebrew"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    fi
+    echo "==> Bootstrap complete (macOS)"
+fi
+
+# zprezto
+if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+    echo "==> Installing zprezto"
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+else
+    echo "==> Updating zprezto"
+    git -C "${ZDOTDIR:-$HOME}/.zprezto" pull --recurse-submodules
+fi
+
+# vim-plug
+PLUG_PATH="$HOME/.vim/autoload/plug.vim"
+if [[ ! -f "$PLUG_PATH" ]]; then
+    echo "==> Installing vim-plug"
+    curl -fLo "$PLUG_PATH" --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
+
+if [[ -f "$HOME/.vim/vimrc" ]]; then
+    if command -v nvim &>/dev/null; then
+        echo "==> Installing vim plugins (nvim)"
+        nvim +PlugInstall +qall
+    elif command -v vim &>/dev/null; then
+        echo "==> Installing vim plugins (vim)"
+        vim +PlugInstall +qall
+    fi
+fi
+
+echo "==> Done. You may need to restart your shell."

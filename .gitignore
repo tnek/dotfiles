@@ -1,1 +1,38 @@
+# Ignore everything under $HOME by default (yadm worktree)
+*
+
+# Dotfiles to track
+!/.gitignore
+!/.zpreztorc
+!/.tmux.conf
+!/.screenrc
+!/.vim/
+/.vim/*
+!/.vim/vimrc
+!/.vim/.ycm_extra_conf.py
+!/.vim/ftplugin/
+!/.vim/ftplugin/python.vim
+!/.config/
+/.config/*
+!/.config/nvim/
+/.config/nvim/*
+!/.config/nvim/init.vim
+!/.config/yadm/
+/.config/yadm/*
+!/.config/yadm/bootstrap
+!/osx/
+/osx/*
+!/osx/atom-one-light.terminal
+!/README.md
+
+# Dependencies installed by bootstrap (not versioned)
+/.vim/plugged/
+/.vim/autoload/plug.vim
+/.zprezto/
+
+# Local / machine-specific
+.DS_Store
+/.claude/
+/dotfiles/
+
 tags/
