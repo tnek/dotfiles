@@ -18,6 +18,9 @@ local on_attach = function(_, bufnr)
   map("n", "K", vim.lsp.buf.hover, vim.tbl_extend("force", opts, { desc = "Hover documentation" }))
   map("n", "<leader>rn", vim.lsp.buf.rename, vim.tbl_extend("force", opts, { desc = "Rename symbol" }))
   map("n", "<leader>ca", vim.lsp.buf.code_action, vim.tbl_extend("force", opts, { desc = "Code action" }))
+  map("n", "<leader>f", function()
+    vim.lsp.buf.format({ async = true, bufnr = bufnr })
+  end, vim.tbl_extend("force", opts, { desc = "Format buffer" }))
   map("n", "[d", vim.diagnostic.goto_prev, vim.tbl_extend("force", opts, { desc = "Previous diagnostic" }))
   map("n", "]d", vim.diagnostic.goto_next, vim.tbl_extend("force", opts, { desc = "Next diagnostic" }))
 end
@@ -28,6 +31,15 @@ local setup = function(server, opts)
   opts.on_attach = opts.on_attach or on_attach
   lspconfig[server].setup(opts)
 end
+
+setup("lua_ls", {
+  settings = {
+    Lua = {
+      diagnostics = { globals = { "vim" } },
+      workspace = { checkThirdParty = false },
+    },
+  },
+})
 
 setup("pyright", {
   settings = {
@@ -46,4 +58,18 @@ setup("gopls", {
       staticcheck = true,
     },
   },
+})
+
+-- Format on save via LSP (Go uses vim-go instead)
+vim.api.nvim_create_autocmd("BufWritePre", {
+  group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = true }),
+  callback = function(args)
+    if vim.bo[args.buf].filetype == "go" then
+      return
+    end
+    if #vim.lsp.get_clients({ bufnr = args.buf }) == 0 then
+      return
+    end
+    vim.lsp.buf.format({ bufnr = args.buf, timeout_ms = 3000, async = false })
+  end,
 })

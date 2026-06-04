@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Runs automatically after `yadm clone` on macOS.
+# Re-run manually: ~/.config/yadm/bootstrap
 
 set -euo pipefail
 
@@ -15,6 +16,15 @@ setup_homebrew_path() {
         eval "$(/opt/homebrew/bin/brew shellenv)"
     elif [[ -x /usr/local/bin/brew ]]; then
         eval "$(/usr/local/bin/brew shellenv)"
+    fi
+}
+
+run_optional() {
+    local desc="$1"
+    shift
+    echo "==> $desc"
+    if ! "$@"; then
+        echo "==> WARNING: $desc failed" >&2
     fi
 }
 
@@ -34,22 +44,37 @@ fi
 echo "==> brew bundle install --file=$HOME/Brewfile"
 brew bundle install --file="$HOME/Brewfile"
 
+# PATH for remainder of this script
+[[ -s "$HOME/.config/zsh/paths.zsh" ]] && source "$HOME/.config/zsh/paths.zsh"
+
 install_terminal_theme() {
     local profile_path="$HOME/osx/atom-one-light.terminal"
     local plist="$HOME/Library/Preferences/com.apple.Terminal.plist"
+    local hash_file="$HOME/.config/yadm/terminal-profile.sha256"
 
     if [[ ! -f "$profile_path" ]]; then
         echo "==> Skipping Terminal theme: $profile_path not found" >&2
         return 0
     fi
 
-    local name
+    local name current_hash stored_hash
     name=$(/usr/libexec/PlistBuddy -c 'Print :name' "$profile_path")
+    current_hash=$(shasum -a 256 "$profile_path" | awk '{print $1}')
+    stored_hash=""
+    [[ -f "$hash_file" ]] && stored_hash=$(<"$hash_file")
+
+    if [[ "$current_hash" == "$stored_hash" ]] \
+        && /usr/libexec/PlistBuddy -c "Print ':Window Settings:${name}'" "$plist" &>/dev/null; then
+        echo "==> Terminal profile $name unchanged"
+        defaults write com.apple.Terminal "Default Window Settings" -string "$name"
+        defaults write com.apple.Terminal "Startup Window Settings" -string "$name"
+        return 0
+    fi
 
     echo "==> Installing Terminal.app profile: $name"
+    mkdir -p "$(dirname "$hash_file")"
 
     /usr/libexec/PlistBuddy -c 'Add :Window Settings dict' "$plist" 2>/dev/null || true
-
     if /usr/libexec/PlistBuddy -c "Print ':Window Settings:${name}'" "$plist" &>/dev/null; then
         /usr/libexec/PlistBuddy -c "Delete ':Window Settings:${name}'" "$plist"
     fi
@@ -58,44 +83,42 @@ install_terminal_theme() {
 
     defaults write com.apple.Terminal "Default Window Settings" -string "$name"
     defaults write com.apple.Terminal "Startup Window Settings" -string "$name"
+    echo "$current_hash" >"$hash_file"
 
     echo "==> Terminal default profile: $name (open a new Terminal window to apply)"
 }
 
-install_terminal_theme
+run_optional "Terminal.app theme" install_terminal_theme
 
-# Keg-only bins for the rest of this script (shell PATH is set in .zpreztorc)
-for dir in \
-    /opt/homebrew/opt/llvm/bin /usr/local/opt/llvm/bin \
-    /opt/homebrew/opt/fzf/bin /usr/local/opt/fzf/bin \
-    "$HOME/go/bin"
-do
-    [[ -d "$dir" ]] && export PATH="$dir:$PATH"
-done
+run_optional "zprezto" bash -c '
+    if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+    else
+        git -C "${ZDOTDIR:-$HOME}/.zprezto" pull --recurse-submodules
+    fi
+'
 
-if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
-    echo "==> Installing zprezto"
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-else
-    echo "==> Updating zprezto"
-    git -C "${ZDOTDIR:-$HOME}/.zprezto" pull --recurse-submodules
-fi
+run_optional "vim-plug" bash -c '
+    PLUG_PATH="$HOME/.vim/autoload/plug.vim"
+    if [[ ! -f "$PLUG_PATH" ]]; then
+        curl -fLo "$PLUG_PATH" --create-dirs \
+            https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    fi
+'
 
-PLUG_PATH="$HOME/.vim/autoload/plug.vim"
-if [[ ! -f "$PLUG_PATH" ]]; then
-    echo "==> Installing vim-plug"
-    curl -fLo "$PLUG_PATH" --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-fi
+run_optional "nvim plugins" bash -c '
+    if [[ -f "$HOME/.vim/vimrc" ]] && command -v nvim &>/dev/null; then
+        nvim --headless "+PlugInstall --sync" +qa 2>/dev/null || nvim +PlugInstall +qall
+    fi
+'
 
-if [[ -f "$HOME/.vim/vimrc" ]] && command -v nvim &>/dev/null; then
-    echo "==> Installing vim plugins (nvim)"
-    nvim --headless "+PlugInstall --sync" +qa 2>/dev/null || nvim +PlugInstall +qall
-
-    echo "==> Building blink.cmp"
-    nvim --headless "+BlinkCmp build" +qa 2>/dev/null \
-        || nvim --headless "+lua require('blink.cmp.fuzzy.build').build()" +qa 2>/dev/null \
-        || true
-fi
+run_optional "blink.cmp build" bash -c '
+    if command -v nvim &>/dev/null; then
+        nvim --headless "+BlinkCmp build" +qa 2>/dev/null \
+            || nvim --headless "+lua require('\''blink.cmp.fuzzy.build'\'').build()" +qa 2>/dev/null \
+            || true
+    fi
+'
 
 echo "==> Done. Restart your shell."
+echo "    Re-run bootstrap: ~/.config/yadm/bootstrap"

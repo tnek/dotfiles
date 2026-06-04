@@ -36,21 +36,14 @@ if has('nvim')
   Plug 'rafamadriz/friendly-snippets'
 endif
 
-Plug 'google/vim-maktaba'
-Plug 'google/vim-codefmt'
-Plug 'google/vim-glaive'
 Plug 'fatih/vim-go'
 
 call plug#end()
 
-" vim-go: fmt on save; gopls comes from nvim-lspconfig / Brewfile
+" vim-go: fmt on save; gopls via nvim-lspconfig
 let g:go_gopls_enabled = 0
 let g:go_fmt_autosave = 1
 let g:go_fmt_command = 'goimports'
-
-if exists('*glaive#Install')
-  call glaive#Install()
-endif
 
 " ----- Appearance -----
 syntax enable
@@ -61,24 +54,6 @@ let g:airline_theme = 'one'
 hi Normal guibg=NONE ctermbg=NONE
 hi NonText guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
-
-" ----- Code formatting (vim-codefmt / glaive) -----
-if exists(':Glaive')
-  Glaive codefmt plugin[mappings]
-
-  augroup autoformat_settings
-    autocmd!
-    autocmd FileType bzl AutoFormatBuffer buildifier
-    autocmd FileType c,cpp,proto,javascript,arduino,objc AutoFormatBuffer clang-format
-    autocmd FileType dart AutoFormatBuffer dartfmt
-    autocmd FileType gn AutoFormatBuffer gn
-    autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
-    autocmd FileType java AutoFormatBuffer google-java-format
-    autocmd FileType python AutoFormatBuffer yapf
-    autocmd FileType rust AutoFormatBuffer rustfmt
-    autocmd FileType vue AutoFormatBuffer prettier
-  augroup END
-endif
 
 " ----- Mappings -----
 nnoremap <silent> <2-LeftMouse> <C-]>

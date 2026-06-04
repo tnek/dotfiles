@@ -3,7 +3,12 @@
 
 # Dotfiles to track
 !/.gitignore
+!/.zshrc
 !/.zpreztorc
+!/.config/zsh/
+/.config/zsh/*
+!/.config/zsh/post.zsh
+!/.config/zsh/paths.zsh
 !/.tmux.conf
 !/.screenrc
 !/.vim/
@@ -27,6 +32,7 @@
 /osx/*
 !/osx/atom-one-light.terminal
 !/README.md
+!/Brewfile
 
 # Dependencies installed by bootstrap (not versioned)
 /.vim/plugged/

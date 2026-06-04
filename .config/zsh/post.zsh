@@ -1,14 +1,6 @@
 # Sourced from ~/.zshrc after Prezto (macOS only)
-# Homebrew packages (fzf, fd, …) come from ~/Brewfile via yadm bootstrap.
 
-if [[ -x /opt/homebrew/bin/brew ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-elif [[ -x /usr/local/bin/brew ]]; then
-  eval "$(/usr/local/bin/brew shellenv)"
-fi
-
-[[ -d /opt/homebrew/opt/fzf/bin ]] && path=(/opt/homebrew/opt/fzf/bin $path)
-[[ -d /usr/local/opt/fzf/bin ]] && path=(/usr/local/opt/fzf/bin $path)
+[[ -s "${ZDOTDIR:-$HOME}/.config/zsh/paths.zsh" ]] && source "${ZDOTDIR:-$HOME}/.config/zsh/paths.zsh"
 
 if ! command -v fzf &>/dev/null; then
   return

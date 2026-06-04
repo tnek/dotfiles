@@ -1,29 +1,22 @@
-# macOS only — installed once by `.config/yadm/bootstrap` via:
+# macOS only — installed by `.config/yadm/bootstrap` via:
 #   brew bundle install --file=~/Brewfile
 #
 # Install yadm before first clone: brew install yadm
 
 brew "yadm"
 
-# Terminal multiplexer (.tmux.conf)
+# Terminal multiplexers
 brew "tmux"
 
-# Shell — fzf integration (.config/zsh/post.zsh)
+# Shell — fzf (.config/zsh/post.zsh)
 brew "fzf"
 brew "fd"
 
 # Editor + language servers (.config/nvim/lua/lsp.lua)
 brew "neovim"
 brew "pyright"
-brew "llvm"   # clangd, clang-format
+brew "llvm"                 # clangd
 brew "go"
 brew "gopls"
-brew "goimports"         # vim-go format on save
-
-# vim-codefmt formatters (.vim/vimrc AutoFormatBuffer)
-brew "yapf"
-brew "rust"              # rustfmt
-brew "prettier"
-brew "buildifier"
-brew "google-java-format"
-brew "js-beautify"
+brew "goimports"            # vim-go format on save
+brew "lua-language-server"  # Neovim config (lua_ls)
