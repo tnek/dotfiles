@@ -226,8 +226,5 @@ cd() {builtin cd $@; ls -G }
 
 export EDITOR='/opt/homebrew/bin/nvim'
 alias vim='/opt/homebrew/bin/nvim'
-alias gh="cd $GOPATH/src"
 #alias pbcopy='xclip -selection clipboard'
 #alias pbpaste='xclip -selection clipboard -o'
-alias ctf='ssh tnek@ctf-tools.osiris.cyber.nyu.edu'
-alias vpn='sudo openvpn ~/doc/osirislab/VPN/osiris.ovpn'
