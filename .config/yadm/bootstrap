@@ -34,6 +34,36 @@ fi
 echo "==> brew bundle install --file=$HOME/Brewfile"
 brew bundle install --file="$HOME/Brewfile"
 
+install_terminal_theme() {
+    local profile_path="$HOME/osx/atom-one-light.terminal"
+    local plist="$HOME/Library/Preferences/com.apple.Terminal.plist"
+
+    if [[ ! -f "$profile_path" ]]; then
+        echo "==> Skipping Terminal theme: $profile_path not found" >&2
+        return 0
+    fi
+
+    local name
+    name=$(/usr/libexec/PlistBuddy -c 'Print :name' "$profile_path")
+
+    echo "==> Installing Terminal.app profile: $name"
+
+    /usr/libexec/PlistBuddy -c 'Add :Window Settings dict' "$plist" 2>/dev/null || true
+
+    if /usr/libexec/PlistBuddy -c "Print ':Window Settings:${name}'" "$plist" &>/dev/null; then
+        /usr/libexec/PlistBuddy -c "Delete ':Window Settings:${name}'" "$plist"
+    fi
+    /usr/libexec/PlistBuddy -c "Add ':Window Settings:${name}' dict" "$plist"
+    /usr/libexec/PlistBuddy -c "Merge '${profile_path}' ':Window Settings:${name}'" "$plist"
+
+    defaults write com.apple.Terminal "Default Window Settings" -string "$name"
+    defaults write com.apple.Terminal "Startup Window Settings" -string "$name"
+
+    echo "==> Terminal default profile: $name (open a new Terminal window to apply)"
+}
+
+install_terminal_theme
+
 # Keg-only bins for the rest of this script (shell PATH is set in .zpreztorc)
 for dir in \
     /opt/homebrew/opt/llvm/bin /usr/local/opt/llvm/bin \

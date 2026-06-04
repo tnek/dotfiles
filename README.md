@@ -12,6 +12,7 @@ yadm clone git@github.com:tnek/dotfiles.git
 yadm checks out tracked files into `$HOME` and runs `.config/yadm/bootstrap`:
 
 - Installs [Homebrew](https://brew.sh) if missing, then `brew bundle install --file=~/Brewfile` (all CLI deps)
+- Terminal.app profile from `osx/atom-one-light.terminal` (import + set as default)
 - zprezto, vim-plug, blink.cmp build (not in Brewfile)
 
 Bootstrap exits with an error on non-macOS systems.
@@ -41,7 +42,7 @@ To track a new dotfile, add it to `.gitignore` (un-ignore the path), then `yadm 
 | `.config/nvim/` | Neovim (`init.lua`, blink.cmp, lspconfig) |
 | `.config/yadm/bootstrap` | Post-clone macOS setup |
 | `Brewfile` | Homebrew dependencies |
-| `osx/atom-one-light.terminal` | Terminal.app color profile (import manually) |
+| `osx/atom-one-light.terminal` | Terminal.app theme (installed by bootstrap) |
 | `README.md` | This file |
 
 Shell login files (`.zprofile`, `.zshrc`) use [zprezto](https://github.com/sorin-ionescu/prezto), installed by bootstrap.
