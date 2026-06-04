@@ -1,5 +1,4 @@
-local ok, lspconfig = pcall(require, "lspconfig")
-if not ok then
+if vim.fn.has("nvim-0.11") ~= 1 then
   return
 end
 
@@ -29,7 +28,8 @@ local setup = function(server, opts)
   opts = opts or {}
   opts.capabilities = capabilities
   opts.on_attach = opts.on_attach or on_attach
-  lspconfig[server].setup(opts)
+  vim.lsp.config(server, opts)
+  vim.lsp.enable(server)
 end
 
 setup("lua_ls", {
