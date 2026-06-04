@@ -1,42 +1,21 @@
 # Ignore everything under $HOME by default (yadm worktree)
 *
 
-# Dotfiles to track
+# yadm metadata + dotfiles store (not littered at $HOME root)
 !/.gitignore
-!/.zshrc
-!/.zpreztorc
-!/.config/zsh/
-/.config/zsh/*
-!/.config/zsh/post.zsh
-!/.config/zsh/paths.zsh
-!/.tmux.conf
-!/.screenrc
-!/.vim/
-/.vim/*
-!/.vim/vimrc
-!/.vim/ftplugin/
-!/.vim/ftplugin/python.vim
-!/.config/
-/.config/*
-!/.config/nvim/
-/.config/nvim/*
-!/.config/nvim/init.lua
-!/.config/nvim/lua/
-/.config/nvim/lua/*
-!/.config/nvim/lua/lsp.lua
-!/.config/nvim/lua/blink.lua
+!/.dotfiles/
+/.dotfiles/*
+!/.dotfiles/**
 !/.config/yadm/
 /.config/yadm/*
 !/.config/yadm/bootstrap
-!/osx/
-/osx/*
-!/osx/atom-one-light.terminal
-!/README.md
-!/Brewfile
 
 # Dependencies installed by bootstrap (not versioned)
 /.vim/plugged/
 /.vim/autoload/plug.vim
+/.dotfiles/.vim/plugged/
+/.dotfiles/.vim/autoload/plug.vim
+/.dotfiles/.vim/.netrwhist
 /.zprezto/
 
 # Local / machine-specific

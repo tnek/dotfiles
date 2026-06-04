@@ -1,5 +1,5 @@
 # macOS only — installed by `.config/yadm/bootstrap` via:
-#   brew bundle install --file=~/Brewfile
+#   brew bundle install --file=~/.dotfiles/Brewfile
 #
 # Install yadm before first clone: brew install yadm
 
