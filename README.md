@@ -37,7 +37,7 @@ To track a new dotfile, add it to `.gitignore` (un-ignore the path), then `yadm 
 | `.config/zsh/post.zsh` | fzf keybindings (after Prezto) |
 | `.tmux.conf` | tmux |
 | `.screenrc` | GNU screen |
-| `.vim/` | Shared Vim config (vim-plug, airline, codefmt) |
+| `.vim/` | Shared Vim config (vim-plug, airline, vim-go, codefmt) |
 | `.config/nvim/` | Neovim (`init.lua`, blink.cmp, lspconfig) |
 | `.config/yadm/bootstrap` | Post-clone macOS setup |
 | `Brewfile` | Homebrew dependencies |
@@ -77,11 +77,11 @@ Shell login files (`.zprofile`, `.zshrc`) use [zprezto](https://github.com/sorin
 | `<C-n>` / `<C-p>` | Next / prev item |
 | `<C-e>` | Close menu |
 
-Format-on-save (vim-codefmt) uses tools from `Brewfile`:
+Format-on-save uses **vim-go** for Go (`goimports`) and vim-codefmt for other file types (see `Brewfile`):
 
-| Formatter | File types | Homebrew |
-|-----------|------------|----------|
-| `gofmt` | Go | `go` |
+| Tool | File types | Homebrew |
+|------|------------|----------|
+| `goimports` (vim-go) | Go | `goimports` |
 | `yapf` | Python | `yapf` |
 | `clang-format` | C, C++, etc. | `llvm` |
 | `rustfmt` | Rust | `rust` |

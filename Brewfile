@@ -16,8 +16,9 @@ brew "fd"
 brew "neovim"
 brew "pyright"
 brew "llvm"   # clangd, clang-format
-brew "go"     # gofmt
+brew "go"
 brew "gopls"
+brew "goimports"         # vim-go format on save
 
 # vim-codefmt formatters (.vim/vimrc AutoFormatBuffer)
 brew "yapf"

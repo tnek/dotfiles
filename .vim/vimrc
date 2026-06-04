@@ -39,8 +39,14 @@ endif
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+Plug 'fatih/vim-go'
 
 call plug#end()
+
+" vim-go: fmt on save; gopls comes from nvim-lspconfig / Brewfile
+let g:go_gopls_enabled = 0
+let g:go_fmt_autosave = 1
+let g:go_fmt_command = 'goimports'
 
 if exists('*glaive#Install')
   call glaive#Install()
@@ -65,7 +71,6 @@ if exists(':Glaive')
     autocmd FileType bzl AutoFormatBuffer buildifier
     autocmd FileType c,cpp,proto,javascript,arduino,objc AutoFormatBuffer clang-format
     autocmd FileType dart AutoFormatBuffer dartfmt
-    " Go: gofmt on save — see .vim/ftplugin/go.vim
     autocmd FileType gn AutoFormatBuffer gn
     autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
     autocmd FileType java AutoFormatBuffer google-java-format
