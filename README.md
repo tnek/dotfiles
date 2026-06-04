@@ -2,7 +2,7 @@
 
 Personal dotfiles for **macOS**, managed with [yadm](https://yadm.io).
 
-Tracked config lives under **`~/.dotfiles/`** so `yadm clone` does not drop `Brewfile`, `README.md`, or other files in `$HOME`. Bootstrap symlinks shell/editor config into the usual paths.
+Tracked config lives under **`~/.dotfiles/`** so `yadm clone` does not drop `Brewfile` or other dotfiles in `$HOME`. **`README.md`** stays at `$HOME` root for GitHub. Bootstrap symlinks shell/editor config into the usual paths.
 
 ## New machine
 
@@ -11,7 +11,7 @@ brew install yadm
 yadm clone git@github.com:tnek/dotfiles.git
 ```
 
-yadm checks out into `$HOME` (only `.gitignore`, `.dotfiles/`, and `.config/yadm/bootstrap`), then runs bootstrap:
+yadm checks out into `$HOME` (`.gitignore`, `README.md`, `.dotfiles/`, and `.config/yadm/bootstrap`), then runs bootstrap:
 
 - Symlinks `~/.zshrc`, `~/.vim/`, `~/.config/nvim/`, etc. from `~/.dotfiles/`
 - Installs [Homebrew](https://brew.sh) if missing, then `brew bundle install --file=~/.dotfiles/Brewfile`
@@ -46,6 +46,7 @@ Optional local overrides: `~/.zshrc.local` (sourced from `.zshrc`, not tracked).
 
 | Path | Purpose |
 |------|---------|
+| `~/README.md` | Repo docs (GitHub renders this path) |
 | `~/.dotfiles/` | Versioned config store (see below) |
 | `~/.config/yadm/bootstrap` | Post-clone macOS setup + symlinks |
 | `~/.gitignore` | yadm worktree ignore rules |
@@ -62,7 +63,6 @@ Optional local overrides: `~/.zshrc.local` (sourced from `.zshrc`, not tracked).
 | `.config/nvim/` | Neovim (blink.cmp, lspconfig) |
 | `Brewfile` | Homebrew dependencies (not symlinked to `$HOME`) |
 | `osx/atom-one-light.terminal` | Terminal.app theme |
-| `README.md` | This file |
 
 - **`.zprofile`** is a prezto symlink (not tracked); **`.zshrc`** is managed here.
 - Remove redundant `~/dotfiles` clone if present — use yadm only.

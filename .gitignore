@@ -3,6 +3,7 @@
 
 # yadm metadata + dotfiles store (not littered at $HOME root)
 !/.gitignore
+!/README.md
 !/.dotfiles/
 /.dotfiles/*
 !/.dotfiles/**
