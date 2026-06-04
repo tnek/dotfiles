@@ -1,25 +1,22 @@
 # dotfiles
 
-Personal dotfiles managed with [yadm](https://yadm.io).
+Personal dotfiles for **macOS**, managed with [yadm](https://yadm.io).
 
 ## New machine
 
-Install yadm, then clone:
-
 ```sh
-brew install yadm   # macOS
-yadm clone https://github.com/tnek/dotfiles.git
+brew install yadm
+yadm clone git@github.com:tnek/dotfiles.git
 ```
 
 yadm checks out tracked files into `$HOME` and runs `.config/yadm/bootstrap`:
 
-- **LSP servers:** `clangd`, `gopls`, `pyright` (plus `neovim`)
-- **Shell:** zprezto, fzf + fd (`source <(fzf --zsh)`; installed by bootstrap)
-- **Editor:** vim-plug plugins, blink.cmp build
+- Installs [Homebrew](https://brew.sh) if missing, then `brew bundle install --file=~/Brewfile` (all CLI deps)
+- zprezto, vim-plug, blink.cmp build (not in Brewfile)
+
+Bootstrap exits with an error on non-macOS systems.
 
 ## Day-to-day usage
-
-yadm wraps git:
 
 ```sh
 yadm status
@@ -36,22 +33,25 @@ To track a new dotfile, add it to `.gitignore` (un-ignore the path), then `yadm 
 | Path | Purpose |
 |------|---------|
 | `.zpreztorc` | Prezto / zsh options |
+| `.zshrc` | Sources Prezto, then `.config/zsh/post.zsh` |
+| `.config/zsh/post.zsh` | fzf keybindings (after Prezto) |
 | `.tmux.conf` | tmux |
 | `.screenrc` | GNU screen |
 | `.vim/` | Shared Vim config (vim-plug, airline, codefmt) |
 | `.config/nvim/` | Neovim (`init.lua`, blink.cmp, lspconfig) |
-| `.config/yadm/bootstrap` | Post-clone setup |
+| `.config/yadm/bootstrap` | Post-clone macOS setup |
+| `Brewfile` | Homebrew dependencies |
 | `osx/atom-one-light.terminal` | Terminal.app color profile (import manually) |
 | `README.md` | This file |
 
-Shell login files (`.zprofile`, `.zshrc`) come from [zprezto](https://github.com/sorin-ionescu/prezto), installed by bootstrap.
+Shell login files (`.zprofile`, `.zshrc`) use [zprezto](https://github.com/sorin-ionescu/prezto), installed by bootstrap.
 
 ### Neovim LSP + completion
 
-**Language servers** (installed by bootstrap):
+**Language servers** (from `Brewfile`):
 
-| Server | Languages | macOS (Homebrew) |
-|--------|-----------|------------------|
+| Server | Languages | Homebrew |
+|--------|-----------|----------|
 | `clangd` | C, C++ | `llvm` |
 | `gopls` | Go | `gopls`, `go` |
 | `pyright` | Python | `pyright` |
@@ -77,12 +77,27 @@ Shell login files (`.zprofile`, `.zshrc`) come from [zprezto](https://github.com
 | `<C-n>` / `<C-p>` | Next / prev item |
 | `<C-e>` | Close menu |
 
-Format-on-save tools (`yapf`, `clang-format`, etc.) are used by vim-codefmt when installed separately.
+Format-on-save (vim-codefmt) uses tools from `Brewfile`:
+
+| Formatter | File types | Homebrew |
+|-----------|------------|----------|
+| `gofmt` | Go | `go` |
+| `yapf` | Python | `yapf` |
+| `clang-format` | C, C++, etc. | `llvm` |
+| `rustfmt` | Rust | `rust` |
+| `prettier` | Vue | `prettier` |
+| `buildifier` | Bazel | `buildifier` |
+| `google-java-format` | Java | `google-java-format` |
+| `js-beautify` | HTML, CSS, JSON, … | `js-beautify` |
+
+Add a formula to `Brewfile`, then:
+
+```sh
+brew bundle install --file=~/Brewfile
+```
 
 ## Installing yadm
 
-| Platform | Command |
-|----------|---------|
-| macOS | `brew install yadm` |
-| Arch Linux | `sudo pacman -S yadm` |
-| Debian/Ubuntu | `sudo apt install yadm` |
+```sh
+brew install yadm
+```

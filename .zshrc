@@ -1,5 +1,5 @@
 #
-# Zsh startup (yadm) — sources Prezto, then ~/.config/zsh/post.zsh
+# Zsh startup (yadm, macOS) — sources Prezto, then ~/.config/zsh/post.zsh
 #
 
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then

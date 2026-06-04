@@ -22,11 +22,7 @@ set noerrorbells
 set mouse=a
 set laststatus=2
 
-if has('macunix')
-  set clipboard=unnamed
-elseif has('unix')
-  set clipboard=unnamedplus
-endif
+set clipboard=unnamed
 
 " ----- Plugins -----
 call plug#begin('~/.vim/plugged')
@@ -69,7 +65,7 @@ if exists(':Glaive')
     autocmd FileType bzl AutoFormatBuffer buildifier
     autocmd FileType c,cpp,proto,javascript,arduino,objc AutoFormatBuffer clang-format
     autocmd FileType dart AutoFormatBuffer dartfmt
-    autocmd FileType go AutoFormatBuffer gofmt
+    " Go: gofmt on save — see .vim/ftplugin/go.vim
     autocmd FileType gn AutoFormatBuffer gn
     autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
     autocmd FileType java AutoFormatBuffer google-java-format

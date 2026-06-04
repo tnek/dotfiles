@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
-# Runs automatically after `yadm clone`. Add machine-specific setup here.
+# Runs automatically after `yadm clone` on macOS.
 
 set -euo pipefail
 
-echo "==> yadm bootstrap starting"
+if [[ "$(uname)" != "Darwin" ]]; then
+    echo "Error: These dotfiles support macOS only." >&2
+    exit 1
+fi
 
-brew_install() {
-    brew list "$1" &>/dev/null 2>&1 || brew install "$1"
-}
+echo "==> yadm bootstrap (macOS)"
 
-# Homebrew installs to a path that is not in PATH until shellenv is evaluated.
 setup_homebrew_path() {
-    if [[ "$(uname)" != "Darwin" ]]; then
-        return
-    fi
     if [[ -x /opt/homebrew/bin/brew ]]; then
         eval "$(/opt/homebrew/bin/brew shellenv)"
     elif [[ -x /usr/local/bin/brew ]]; then
@@ -21,116 +18,31 @@ setup_homebrew_path() {
     fi
 }
 
-install_fzf_tools() {
-    echo "==> Installing fzf and fd"
+setup_homebrew_path
 
-    if [[ "$(uname)" == "Darwin" ]]; then
-        setup_homebrew_path
-        if ! command -v brew &>/dev/null; then
-            echo "==> Skipping fzf: Homebrew not available" >&2
-            return 1
-        fi
-        brew_install fzf
-        brew_install fd
-        return 0
-    fi
-
-    if command -v pacman &>/dev/null; then
-        if command -v sudo &>/dev/null; then
-            sudo pacman -S --needed --noconfirm fzf fd
-        else
-            pacman -S --needed --noconfirm fzf fd
-        fi
-        return 0
-    fi
-
-    if command -v apt-get &>/dev/null && command -v sudo &>/dev/null; then
-        sudo apt-get update -qq
-        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y fzf fd-find
-        return 0
-    fi
-
-    echo "==> Could not install fzf automatically on this OS" >&2
-    return 1
-}
-
-install_lsp_servers() {
-    echo "==> Installing LSP servers (clangd, gopls, pyright)"
-
-    if [[ "$(uname)" == "Darwin" ]]; then
-        setup_homebrew_path
-        if ! command -v brew &>/dev/null; then
-            echo "==> Skipping LSP brew installs: Homebrew not available" >&2
-            return 1
-        fi
-        brew_install neovim
-        brew_install pyright
-        brew_install llvm      # clangd
-        brew_install go
-        brew_install gopls
-        return 0
-    fi
-
-    if command -v pacman &>/dev/null; then
-        local pkgs=(neovim clang go gopls)
-        pacman -Si pyright &>/dev/null && pkgs+=(pyright)
-        if command -v sudo &>/dev/null; then
-            sudo pacman -S --needed --noconfirm "${pkgs[@]}"
-        else
-            pacman -S --needed --noconfirm "${pkgs[@]}"
-        fi
-        if ! command -v pyright &>/dev/null; then
-            echo "==> pyright not in repos; install via: pip install pyright"
-        fi
-        return 0
-    fi
-
-    if command -v apt-get &>/dev/null && command -v sudo &>/dev/null; then
-        sudo apt-get update -qq
-        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
-            neovim clangd golang-go
-        if ! command -v pyright &>/dev/null; then
-            if command -v npm &>/dev/null; then
-                sudo npm install -g pyright
-            else
-                echo "==> Install pyright: sudo apt install npm && sudo npm install -g pyright"
-            fi
-        fi
-    fi
-
-    if command -v go &>/dev/null && ! command -v gopls &>/dev/null; then
-        echo "==> Installing gopls via go install"
-        go install golang.org/x/tools/gopls@latest
-    fi
-}
-
-# macOS: Homebrew first
-if [[ "$(uname)" == "Darwin" ]]; then
-    if ! command -v brew &>/dev/null && [[ ! -x /opt/homebrew/bin/brew ]] && [[ ! -x /usr/local/bin/brew ]]; then
-        echo "==> Installing Homebrew"
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    fi
+if ! command -v brew &>/dev/null; then
+    echo "==> Installing Homebrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     setup_homebrew_path
 fi
 
-# fzf first — do not abort bootstrap if LSP installs fail later
-install_fzf_tools || echo "==> fzf install failed; see messages above" >&2
-
-install_lsp_servers || echo "==> Some LSP installs failed; see messages above" >&2
-
-# Ensure common paths for brew bins
-setup_homebrew_path
-if [[ "$(uname)" == "Darwin" ]] && [[ -d /opt/homebrew/opt/llvm/bin ]]; then
-    export PATH="/opt/homebrew/opt/llvm/bin:${PATH}"
-fi
-if [[ "$(uname)" == "Darwin" ]] && [[ -d /opt/homebrew/opt/fzf/bin ]]; then
-    export PATH="/opt/homebrew/opt/fzf/bin:${PATH}"
-fi
-if [[ -d "$HOME/go/bin" ]]; then
-    export PATH="$HOME/go/bin:${PATH}"
+if [[ ! -f "$HOME/Brewfile" ]]; then
+    echo "Error: Brewfile not found at $HOME/Brewfile" >&2
+    exit 1
 fi
 
-# zprezto
+echo "==> brew bundle install --file=$HOME/Brewfile"
+brew bundle install --file="$HOME/Brewfile"
+
+# Keg-only bins for the rest of this script (shell PATH is set in .zpreztorc)
+for dir in \
+    /opt/homebrew/opt/llvm/bin /usr/local/opt/llvm/bin \
+    /opt/homebrew/opt/fzf/bin /usr/local/opt/fzf/bin \
+    "$HOME/go/bin"
+do
+    [[ -d "$dir" ]] && export PATH="$dir:$PATH"
+done
+
 if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
     echo "==> Installing zprezto"
     git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
@@ -139,7 +51,6 @@ else
     git -C "${ZDOTDIR:-$HOME}/.zprezto" pull --recurse-submodules
 fi
 
-# vim-plug
 PLUG_PATH="$HOME/.vim/autoload/plug.vim"
 if [[ ! -f "$PLUG_PATH" ]]; then
     echo "==> Installing vim-plug"
@@ -151,16 +62,10 @@ if [[ -f "$HOME/.vim/vimrc" ]] && command -v nvim &>/dev/null; then
     echo "==> Installing vim plugins (nvim)"
     nvim --headless "+PlugInstall --sync" +qa 2>/dev/null || nvim +PlugInstall +qall
 
-    echo "==> Building blink.cmp fuzzy matcher (may download prebuilt binary)"
+    echo "==> Building blink.cmp"
     nvim --headless "+BlinkCmp build" +qa 2>/dev/null \
         || nvim --headless "+lua require('blink.cmp.fuzzy.build').build()" +qa 2>/dev/null \
         || true
-fi
-
-if command -v fzf &>/dev/null; then
-    echo "==> fzf $(command -v fzf)"
-else
-    echo "==> WARNING: fzf not on PATH — open a new terminal or run: brew install fzf fd" >&2
 fi
 
 echo "==> Done. Restart your shell."
