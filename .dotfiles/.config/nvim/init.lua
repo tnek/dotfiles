@@ -11,3 +11,4 @@ vim.opt.updatetime = 250
 
 require("blink")
 require("lsp")
+require("run")

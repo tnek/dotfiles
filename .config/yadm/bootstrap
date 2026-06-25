@@ -20,10 +20,10 @@ DOTFILE_LINKS=(
     .tmux.conf
     .screenrc
     .vim/vimrc
-    .vim/ftplugin/python.vim
     .config/nvim/init.lua
     .config/nvim/lua/lsp.lua
     .config/nvim/lua/blink.lua
+    .config/nvim/lua/run.lua
     .config/zsh/paths.zsh
     .config/zsh/post.zsh
 )
