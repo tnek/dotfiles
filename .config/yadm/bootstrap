@@ -12,6 +12,7 @@ fi
 echo "==> yadm bootstrap (macOS)"
 
 DOTFILES_ROOT="$HOME/.dotfiles"
+UPDATE_DOTFILE_DEPS="${UPDATE_DOTFILE_DEPS:-0}"
 
 # Paths symlinked from ~/.dotfiles into $HOME (Brewfile/README stay in store only)
 DOTFILE_LINKS=(
@@ -157,7 +158,9 @@ for dir in \
     /opt/homebrew/opt/fzf/bin /usr/local/opt/fzf/bin \
     "$HOME/go/bin"
 do
-    [[ -d "$dir" ]] && export PATH="$dir:${PATH:-}"
+    if [[ -d "$dir" ]] && [[ ":${PATH:-}:" != *":$dir:"* ]]; then
+        export PATH="$dir:${PATH:-}"
+    fi
 done
 
 install_terminal_theme() {
@@ -206,8 +209,10 @@ run_optional "Terminal.app theme" install_terminal_theme
 run_optional "zprezto" bash -c '
     if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
         git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-    else
+    elif [[ "${UPDATE_DOTFILE_DEPS:-0}" == "1" ]]; then
         git -C "${ZDOTDIR:-$HOME}/.zprezto" pull --recurse-submodules
+    else
+        echo "==> zprezto already installed (set UPDATE_DOTFILE_DEPS=1 to update)"
     fi
 '
 
@@ -221,7 +226,7 @@ run_optional "vim-plug" bash -c '
 
 run_optional "nvim plugins" bash -c '
     if [[ -f "$HOME/.vim/vimrc" ]] && command -v nvim &>/dev/null; then
-        nvim --headless "+PlugInstall --sync" +qa 2>/dev/null || nvim +PlugInstall +qall
+        nvim --headless "+PlugInstall --sync" +qa
     fi
 '
 

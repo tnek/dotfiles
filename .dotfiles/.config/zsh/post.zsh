@@ -13,6 +13,8 @@ if command -v fd &>/dev/null; then
 fi
 export FZF_CTRL_T_COMMAND="${FZF_DEFAULT_COMMAND:-}"
 
+[[ -o interactive && -t 0 && -t 1 ]] || return 0
+
 source <(fzf --zsh)
 bindkey '^T' fzf-file-widget
 bindkey '^R' fzf-history-widget

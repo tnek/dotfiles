@@ -11,6 +11,8 @@ brew "tmux"
 # Shell — fzf (.config/zsh/post.zsh)
 brew "fzf"
 brew "fd"
+brew "shellcheck"
+brew "shfmt"
 
 # Editor + language servers (.config/nvim/lua/lsp.lua)
 brew "neovim"

@@ -22,7 +22,7 @@ set noerrorbells
 set mouse=a
 set laststatus=2
 
-set clipboard=unnamed
+set clipboard=unnamed,unnamedplus
 
 " ----- Plugins -----
 call plug#begin('~/.vim/plugged')

@@ -4,6 +4,7 @@
 
 typeset -ga path
 (( ${#path[@]} )) || path=("${(s.:.)PATH}")
+typeset -U path PATH
 
 if [[ -x /opt/homebrew/bin/brew ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -12,7 +13,9 @@ elif [[ -x /usr/local/bin/brew ]]; then
 fi
 
 _prepend_path() {
-  [[ -d "$1" ]] && path=("$1" ${path[@]})
+  [[ -d "$1" ]] || return
+  path=("${(@)path:#$1}")
+  path=("$1" ${path[@]})
 }
 
 _prepend_path /opt/homebrew/opt/llvm/bin
