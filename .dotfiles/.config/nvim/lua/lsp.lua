@@ -10,6 +10,18 @@ end
 
 local map = vim.keymap.set
 
+local clangd_cmd = function()
+  if vim.fn.executable("clangd") == 1 then
+    return vim.fn.exepath("clangd")
+  end
+  for _, path in ipairs({ "/opt/homebrew/opt/llvm/bin/clangd", "/usr/local/opt/llvm/bin/clangd" }) do
+    if vim.fn.executable(path) == 1 then
+      return path
+    end
+  end
+  return "clangd"
+end
+
 local on_attach = function(_, bufnr)
   local opts = { buffer = bufnr, silent = true }
 
@@ -49,7 +61,15 @@ setup("pyright", {
   },
 })
 
-setup("clangd")
+setup("clangd", {
+  cmd = {
+    clangd_cmd(),
+    "--background-index",
+    "--clang-tidy",
+  },
+  filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
+  root_markers = { ".clangd", "compile_commands.json", "compile_flags.txt", ".git" },
+})
 
 setup("gopls", {
   settings = {
