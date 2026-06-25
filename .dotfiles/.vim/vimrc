@@ -31,16 +31,14 @@ Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
 
 if has('nvim')
-  Plug 'neovim/nvim-lspconfig'
   Plug 'Saghen/blink.cmp', {'tag': 'v1.*'}
-  Plug 'rafamadriz/friendly-snippets'
 endif
 
 Plug 'fatih/vim-go'
 
 call plug#end()
 
-" vim-go: fmt on save; gopls via nvim-lspconfig
+" vim-go: fmt on save; gopls via native vim.lsp (lsp.lua)
 let g:go_gopls_enabled = 0
 let g:go_fmt_autosave = 1
 let g:go_fmt_command = 'goimports'

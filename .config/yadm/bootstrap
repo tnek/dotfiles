@@ -28,6 +28,62 @@ DOTFILE_LINKS=(
     .config/zsh/post.zsh
 )
 
+is_dotfile_link() {
+    local rel="$1" r
+    for r in "${DOTFILE_LINKS[@]}"; do
+        [[ "$r" == "$rel" ]] && return 0
+    done
+    return 1
+}
+
+symlink_points_to_dotfiles() {
+    local target
+    target=$(readlink "$1") || return 1
+    [[ "$target" == "${DOTFILES_ROOT}/"* ]] || [[ "$target" == "${HOME}/.dotfiles/"* ]]
+}
+
+prune_stale_symlinks() {
+    local link rel seen="" dir
+
+    echo "==> Pruning stale dotfile symlinks"
+
+    while IFS= read -r link; do
+        symlink_points_to_dotfiles "$link" || continue
+        rel="${link#"$HOME/"}"
+        is_dotfile_link "$rel" && continue
+        echo "==> Removing stale symlink $rel"
+        rm "$link"
+    done < <(find "$HOME" -maxdepth 1 -type l 2>/dev/null)
+
+    for rel in "${DOTFILE_LINKS[@]}"; do
+        dir=$(dirname "$rel")
+        [[ "$dir" == "." ]] && continue
+        [[ "$seen" == *"|$dir|"* ]] && continue
+        seen+="|$dir|"
+        [[ -d "$HOME/$dir" ]] || continue
+        while IFS= read -r link; do
+            symlink_points_to_dotfiles "$link" || continue
+            rel="${link#"$HOME/"}"
+            is_dotfile_link "$rel" && continue
+            echo "==> Removing stale symlink $rel"
+            rm "$link"
+        done < <(find "$HOME/$dir" -maxdepth 1 -type l 2>/dev/null)
+    done
+
+    # Historical bootstrap paths (may be empty after prune)
+    for dir in .vim/ftplugin; do
+        [[ -d "$HOME/$dir" ]] || continue
+        while IFS= read -r link; do
+            symlink_points_to_dotfiles "$link" || continue
+            rel="${link#"$HOME/"}"
+            is_dotfile_link "$rel" && continue
+            echo "==> Removing stale symlink $rel"
+            rm "$link"
+        done < <(find "$HOME/$dir" -maxdepth 1 -type l 2>/dev/null)
+        rmdir "$HOME/$dir" 2>/dev/null || true
+    done
+}
+
 link_into_home() {
     local rel="$1"
     local src="$DOTFILES_ROOT/$rel"
@@ -57,6 +113,7 @@ link_dotfiles() {
     done
 }
 
+prune_stale_symlinks
 link_dotfiles
 
 setup_homebrew_path() {
