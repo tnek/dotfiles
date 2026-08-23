@@ -206,6 +206,50 @@ install_terminal_theme() {
 
 run_optional "Terminal.app theme" install_terminal_theme
 
+install_window_management_shortcuts() {
+    local shortcuts_path="$DOTFILES_ROOT/osx/window-management-shortcuts.plist"
+    local current_plist id value
+    local shortcut_ids=(
+        233 235 237 238 239 240 241 242 243 244
+        245 246 247 248 249 250 251 256 257 258
+    )
+
+    if [[ ! -f "$shortcuts_path" ]]; then
+        echo "==> Skipping window management shortcuts: $shortcuts_path not found" >&2
+        return 0
+    fi
+
+    plutil -lint "$shortcuts_path" >/dev/null || return 1
+    current_plist=$(mktemp "${TMPDIR:-/tmp}/com.apple.symbolichotkeys.plist.XXXXXX") || return 1
+
+    if ! defaults export com.apple.symbolichotkeys "$current_plist" >/dev/null 2>&1; then
+        plutil -create xml1 "$current_plist" \
+            && plutil -insert AppleSymbolicHotKeys -dictionary "$current_plist" \
+            || { rm -f "$current_plist"; return 1; }
+    elif ! plutil -extract AppleSymbolicHotKeys xml1 -o /dev/null "$current_plist" 2>/dev/null; then
+        plutil -insert AppleSymbolicHotKeys -dictionary "$current_plist" \
+            || { rm -f "$current_plist"; return 1; }
+    fi
+
+    for id in "${shortcut_ids[@]}"; do
+        value=$(plutil -extract "AppleSymbolicHotKeys.$id" json -o - "$shortcuts_path") \
+            || { rm -f "$current_plist"; return 1; }
+        plutil -remove "AppleSymbolicHotKeys.$id" "$current_plist" 2>/dev/null || true
+        plutil -insert "AppleSymbolicHotKeys.$id" -json "$value" "$current_plist" \
+            || { rm -f "$current_plist"; return 1; }
+    done
+
+    defaults import com.apple.symbolichotkeys "$current_plist" \
+        || { rm -f "$current_plist"; return 1; }
+    rm -f "$current_plist"
+
+    # Restart the per-user preferences daemon so new processes see the import.
+    killall cfprefsd 2>/dev/null || true
+    echo "==> Window management shortcuts imported (log out and back in if needed)"
+}
+
+run_optional "macOS window management shortcuts" install_window_management_shortcuts
+
 run_optional "zprezto" bash -c '
     if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
         git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
